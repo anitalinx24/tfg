@@ -1,0 +1,90 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tfg.aux
+Reallocating 'name_of_file' (item size: 1) to 66 items.
+A level-1 auxiliary file: ./portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: ./hoja_aprobacion/hoja_aprobacion.aux
+Reallocating 'name_of_file' (item size: 1) to 30 items.
+A level-1 auxiliary file: ./dedicatoria/dedicatoria.aux
+Reallocating 'name_of_file' (item size: 1) to 38 items.
+A level-1 auxiliary file: ./agradecimientos/agradecimientos.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: ./epigrafe/epigrafe.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: ./resumen/resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: ./abstract/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: ./capitulo_01/introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 32 items.
+A level-1 auxiliary file: ./capitulo_02/marco_teorico.aux
+Reallocating 'name_of_file' (item size: 1) to 41 items.
+A level-1 auxiliary file: ./capitulo_03/tecnologias_utilizadas.aux
+Reallocating 'name_of_file' (item size: 1) to 43 items.
+A level-1 auxiliary file: ./capitulo_04/metodologia_y_desarrollo.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: ./capitulo_05/resultados.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: ./capitulo_06/discusion.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: ./anexos/anexo.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+The style file: IEEEtran-castellano.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: bibliography.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in martinez2019red
+Warning--empty journal in fombona2017posibilidades
+Warning--empty journal in benavides2021implementacion
+
+Done.
+You've used 71 entries,
+            4087 wiz_defined-function locations,
+            1214 strings with 21253 characters,
+and the built_in function-call counts, 34240 in all, are:
+= -- 2757
+> -- 659
+< -- 116
++ -- 346
+- -- 133
+* -- 1390
+:= -- 5777
+add.period$ -- 146
+call.type$ -- 71
+change.case$ -- 98
+chr.to.int$ -- 264
+cite$ -- 74
+duplicate$ -- 2694
+empty$ -- 3012
+format.name$ -- 156
+if$ -- 7771
+int.to.chr$ -- 0
+int.to.str$ -- 71
+missing$ -- 568
+newline$ -- 312
+num.names$ -- 55
+pop$ -- 1562
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2667
+stack$ -- 0
+substring$ -- 744
+swap$ -- 1812
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 71
+warning$ -- 3
+while$ -- 101
+width$ -- 73
+write$ -- 701
+(There were 3 warnings)

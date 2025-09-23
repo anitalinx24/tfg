@@ -1,0 +1,15 @@
+\glossaryentry{Chirp Spread Spectrum?\glossentry{css}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Media Access Control?\glossentry{mac}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Backhaul?\glossentry{backhaul-glossary}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{Network Session Key?\glossentry{nwkskey-glossary}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Application Session Key?\glossentry{appskey-glossary}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Advanced Encryption Standard?\glossentry{aes}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{Cipher-based Message Authentication Code?\glossentry{cmac}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{Adaptive Data Rate?\glossentry{adr-glossary}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{Time on Air?\glossentry{toa-glossary}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{Time Difference of Arrival?\glossentry{tdoa}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{Industrial, Scientific, and Medical?\glossentry{ism-glossary}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{Bluetooth Low Energy?\glossentry{ble-glossary}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{LoRaWAN Network Server?\glossentry{lns-glossary}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{FreeRTOS?\glossentry{rtos}|setentrycounter[]{page}"\glsnumberformat}{49}
+\glossaryentry{Over-The-Air Activation?\glossentry{otaa-glossary}|setentrycounter[]{page}"\glsnumberformat}{56}

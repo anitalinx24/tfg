@@ -1,0 +1,191 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{array}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\usepackage{datatool}
+\usepackage[acronym]{glossaries}
+%\usepackage[style=glossary,backend=bibtex]{biblatex}
+% acronyms
+%\usepackage{acronym} 
+
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{colortbl}
+\usepackage{cite}
+\usepackage{float}
+ \usepackage{comment} 
+
+\makeindex
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot[C]{\thepage} % Center the page number at the bottom
+
+%\addbibresource{glosario.bib}
+
+\makeglossaries % este comando debe estar en el preámbulo
+
+\input{./glosario/glosario}
+
+\begin{document}
+\renewcommand{\glossaryname}{Glosario}
+\renewcommand\listtablename{Índice de Tablas}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\acronymname}{Acrónimos y símbolos}
+\renewcommand{\bibname}{Referencias bibliográficas}
+
+\frontmatter
+\pagenumbering{roman}
+\pagestyle{plain} % Número de páginas estilo plain para el frontmatter
+%%desdeaca
+%\frontmatter
+\vspace*{-3cm}
+\begin{figure}[h]
+\leavevmode
+\begin{minipage}{\textwidth}
+\begin{center}
+%\includegraphics[scale=0.5]{./logofpune}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\thispagestyle{empty}
+
+{\bf
+\begin{center}
+\large
+\vspace*{-1 cm}\Large \textsc{Universidad Nacional del Este.} \\
+\Large \textsc{Facultad Politécnica.} \\
+\vspace*{0.5 cm}\hrule
+\end{center}
+}
+
+\vspace*{-0.5 cm}
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[scale = 0.6]{./portada_y_ficha_catalografica/logo.png}
+
+\end{center}
+\end{figure}
+
+
+\vspace{3 cm}
+{
+\noindent
+\begin{center}
+\huge \bf Sistema de rastreo e
+identificación para motocicletas
+empleando tecnología IoT.
+\end{center}
+}
+
+
+\vspace{5 cm}
+
+\begin{center}
+{\textbf{\Large José Mario Barreto Jara.}\\[5mm]
+\textbf{\Large Mackey Ryuto Sugawara Mochinaga.}\\[5mm]
+\vspace{1 cm}
+\textbf{Año \the\year.}}
+\end{center}
+%%cierre
+
+
+\include{./portada_y_ficha_catalografica/portada_y_ficha_catalografica}
+\include{./hoja_aprobacion/hoja_aprobacion}
+\include{./dedicatoria/dedicatoria}
+\include{./agradecimientos/agradecimientos}
+\include{./epigrafe/epigrafe}
+
+\include{./resumen/resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+\cleardoublepage
+
+\include{./abstract/abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\cleardoublepage
+
+\tableofcontents
+
+\cleardoublepage
+
+\listoffigures
+\addcontentsline{toc}{chapter}{Índice de Figuras}
+\cleardoublepage
+
+\listoftables
+\addcontentsline{toc}{chapter}{Índice de Tablas}
+
+% \printglossary[type=\acronymtype]
+% \addcontentsline{toc}{chapter}{Acrónimos y símbolos}
+% %\include{./acronimo/acronimo}
+% %\input{acro}
+% \cleardoublepage
+
+
+
+%\cleardoublepage
+\addcontentsline{toc}{chapter}{Acrónimos y símbolos}
+\printglossary[type=\acronymtype] % imprime solo la lista de acrÃ³nimos
+
+\mainmatter
+\pagenumbering{arabic} % Numeración árabe para el mainmatter
+
+\include{./capitulo_01/introduccion}
+\include{./capitulo_02/marco_teorico}
+\include{./capitulo_03/tecnologias_utilizadas}
+\include{./capitulo_04/metodologia_y_desarrollo}
+\include{./capitulo_05/resultados}
+\include{./capitulo_06/discusion}
+
+\backmatter
+
+% \cleardoublepage
+% \addcontentsline{toc}{chapter}{Glosario}
+% %\include{./glosario/glosario}
+% \include{./acro}
+% \printglossary
+
+
+% \cleardoublepage
+% \addcontentsline{toc}{chapter}{Anexos}
+% \include{./anexos/anexo}
+
+% \cleardoublepage
+% %addcontentsline{toc}{chapter}{Glosario}
+% %\include{./glosario/glosario}
+% %\input{glosario/glosario}
+
+% \printglossary
+
+% Lista del glosario
+\addcontentsline{toc}{chapter}{Glosario}
+%\include{./glosario/glosario}
+\printglossary
+
+
+
+
+\cleardoublepage
+%\addcontentsline{toc}{chapter}{Anexos}
+\include{./anexos/anexo}
+
+
+
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Referencias bibliográficas}
+
+\bibliographystyle{IEEEtran-castellano}
+\bibliography{bibliography}
+
+\end{document}
+

@@ -1,0 +1,137 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Método}{44}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Fases principales del sistema.}}{44}{figure.4.1}\protected@file@percent }
+\newlabel{modulo}{{4.1}{44}{Fases principales del sistema}{figure.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Definición de arquitectura}{44}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Requisitos clave}{45}{subsection.4.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Estructura interna del prototipo}{45}{subsection.4.1.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Estructura del prototipo. }}{45}{figure.4.2}\protected@file@percent }
+\newlabel{fig:diagrama1}{{4.2}{45}{Estructura del prototipo}{figure.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Arquitectura de comunicación externa}{46}{subsection.4.1.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Arquitectura de comunicación y monitoreo. }}{46}{figure.4.3}\protected@file@percent }
+\newlabel{fig:diagrama2}{{4.3}{46}{Arquitectura de comunicación y monitoreo}{figure.4.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Módulo de autenticación y control}{47}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Requisitos del sistema}{47}{subsection.4.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Diagrama de flujo de autenticación y control.}}{47}{figure.4.4}\protected@file@percent }
+\newlabel{fig:rfid1}{{4.4}{47}{Diagrama de flujo de autenticación y control}{figure.4.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Conexión del módulo \textit  {RFID}}{48}{subsection.4.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Diagrama de conexiones entre WiFi LoRa 32 V3 y RFID RC522. }}{48}{figure.4.5}\protected@file@percent }
+\newlabel{fig:conexionrfid}{{4.5}{48}{Diagrama de conexiones entre WiFi LoRa 32 V3 y RFID RC522}{figure.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Primera versión del código: implementación básica en el bucle principal}{48}{subsection.4.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Autenticación del \textit  {tag}}{49}{section*.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Verificación de presencia del \textit  {tag}}{49}{section*.19}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Segunda versión del código: integración de FreeRTOS y modularización}{49}{subsection.4.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Tareas implementadas con FreeRTOS}{50}{section*.20}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Tarea 1: \texttt  {tareaDeteccionTag}}{50}{section*.21}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Tarea 2: \texttt  {tareaVerificarTiempo}}{50}{section*.22}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Módulo de captura y transmisión de datos}{50}{section.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de conexiones entre \textit  {WiFi LoRa 32 V3} y \textit  {\acrshort {gnss-acronym}}. }}{51}{figure.4.6}\protected@file@percent }
+\newlabel{fig:conexionGNSS}{{4.6}{51}{Diagrama de conexiones entre \textit {WiFi LoRa 32 V3} y \textit {\acrshort {gnss-acronym}}}{figure.4.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Implementación básica para obtención de datos de las coordenadas en tiempo real}{51}{subsection.4.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Función \texttt  {setup()}}{51}{section*.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Proceso de captura de datos en la función \texttt  {loop()}}{52}{section*.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Recepción y decodificación de datos:}{52}{section*.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Verificación de la validez de los datos:}{52}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Función \texttt  {displayInfo()}}{52}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Visualización de la ubicación (latitud y longitud):}{52}{section*.28}\protected@file@percent }
+\citation{Helium_Console}
+\@writefile{toc}{\contentsline {paragraph}{Visualización de la fecha:}{53}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Visualización de la hora:}{53}{section*.30}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Implementación y configuración del módulo \acrshort {loraw} para la transmisión de datos}{53}{subsection.4.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Uso de la consola \textit  {Helium}}{53}{section*.31}\protected@file@percent }
+\citation{heltec}
+\citation{heliumDocs1}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Entorno para crear dispositivo y configuración de las credenciales necesarias para el nodo. }}{54}{figure.4.7}\protected@file@percent }
+\newlabel{fig:helium}{{4.7}{54}{Entorno para crear dispositivo y configuración de las credenciales necesarias para el nodo}{figure.4.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Configuración del dispositivo Heltec WiFi LoRa 32 V3}{54}{section*.32}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Ajuste de los parámetros necesarios en el dispositivo para la comunicación con el servidor \textit  {\acrshort {loraw}}. }}{55}{figure.4.8}\protected@file@percent }
+\newlabel{fig:dispositivo}{{4.8}{55}{Ajuste de los parámetros necesarios en el dispositivo para la comunicación con el servidor \textit {\acrshort {loraw}}}{figure.4.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Implementación de la comunicación entre los módulos\textit  {\acrshort {gnss-acronym}} y \textit  {\acrshort {loraw}}}{55}{subsection.4.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Diagrama de flujo de transmisión de datos por \textit  {\acrshort {loraw}}. }}{55}{figure.4.9}\protected@file@percent }
+\newlabel{fig:flujo}{{4.9}{55}{Diagrama de flujo de transmisión de datos por \textit {\acrshort {loraw}}}{figure.4.9}{}}
+\citation{ThingsBoard_docs}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Módulo de interfaz gráfica y monitoreo}{57}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Configuración de \textit  {ThingsBoard}}{57}{subsection.4.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Creación de dispositivos y configuración de conectividad\\}{57}{section*.33}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Detalles del dispositivo ThingsBoard. }}{58}{figure.4.10}\protected@file@percent }
+\newlabel{fig:tbdisp}{{4.10}{58}{Detalles del dispositivo ThingsBoard}{figure.4.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Perfil de dispositivo ThingsBoard. }}{59}{figure.4.11}\protected@file@percent }
+\newlabel{fig:tbperfil}{{4.11}{59}{Perfil de dispositivo ThingsBoard}{figure.4.11}{}}
+\@writefile{toc}{\contentsline {paragraph}{Gestión de Usuarios y Roles de Acceso\\}{59}{section*.34}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Cliente con usuario creado en ThingsBoard. }}{59}{figure.4.12}\protected@file@percent }
+\newlabel{fig:tbclient}{{4.12}{59}{Cliente con usuario creado en ThingsBoard}{figure.4.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Asignación de dispositivos a clientes en ThingsBoard. }}{60}{figure.4.13}\protected@file@percent }
+\newlabel{fig:tbclient_disp}{{4.13}{60}{Asignación de dispositivos a clientes en ThingsBoard}{figure.4.13}{}}
+\@writefile{toc}{\contentsline {paragraph}{Diseño del Tablero Interactivo\\}{60}{section*.35}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces \textit  {Widgets} disponibles en \textit  {ThingsBoard}. }}{61}{figure.4.14}\protected@file@percent }
+\newlabel{fig:tbpanelelec}{{4.14}{61}{\textit {Widgets} disponibles en \textit {ThingsBoard}}{figure.4.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces \textit  {Widgets} utilizados en \textit  {ThingsBoard}. }}{62}{figure.4.15}\protected@file@percent }
+\newlabel{fig:tbdahsboards}{{4.15}{62}{\textit {Widgets} utilizados en \textit {ThingsBoard}}{figure.4.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.16}{\ignorespaces Configuraciones en \textit  {Widgets} de Mapa. }}{63}{figure.4.16}\protected@file@percent }
+\newlabel{fig:tbpanelconf}{{4.16}{63}{Configuraciones en \textit {Widgets} de Mapa}{figure.4.16}{}}
+\@writefile{toc}{\contentsline {paragraph}{Definición de las \textit  {Rule Chains} en el Motor de Reglas\\}{63}{section*.36}\protected@file@percent }
+\citation{ThingsBoard_docs2}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.17}{\ignorespaces Diagrama del motor de reglas \textit  {MQTT} en \textit  {ThingsBoard}. }}{64}{figure.4.17}\protected@file@percent }
+\newlabel{fig:tbruls}{{4.17}{64}{Diagrama del motor de reglas \textit {MQTT} en \textit {ThingsBoard}}{figure.4.17}{}}
+\@writefile{toc}{\contentsline {paragraph}{Configuración de Alarmas y Notificaciones\\}{64}{section*.37}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Integración de \textit  {ThingsBoard} con \textit  {Helium}}{64}{subsection.4.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.18}{\ignorespaces Menú de integraciones en la consola de \textit  {Helium}. }}{65}{figure.4.18}\protected@file@percent }
+\newlabel{fig:integra_hel}{{4.18}{65}{Menú de integraciones en la consola de \textit {Helium}}{figure.4.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.19}{\ignorespaces Detalles de conexión \textit  {MQTT} configurados en la consola de \textit  {Helium}. }}{66}{figure.4.19}\protected@file@percent }
+\newlabel{fig:mqt_helsl}{{4.19}{66}{Detalles de conexión \textit {MQTT} configurados en la consola de \textit {Helium}}{figure.4.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.20}{\ignorespaces Flujo de integración entre el dispositivo PruebaHeltec y \textit  {MQTT\_TB}. }}{66}{figure.4.20}\protected@file@percent }
+\newlabel{fig:flow}{{4.20}{66}{Flujo de integración entre el dispositivo PruebaHeltec y \textit {MQTT\_TB}}{figure.4.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.21}{\ignorespaces Configuraciones en el \textit  {router} de la red local. }}{67}{figure.4.21}\protected@file@percent }
+\newlabel{fig:routconf}{{4.21}{67}{Configuraciones en el \textit {router} de la red local}{figure.4.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Integración de componentes y encapsulamiento}{68}{section.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.1}Implementación Básica con Integración Inicial de los Módulos \acrshort {rfid-acronym} y \acrshort {loraw}}{68}{subsection.4.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.2}Implementación alternativa con la Integración ajustada entre los Módulos.}{68}{subsection.4.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.22}{\ignorespaces Diagrama de conexiones entre \acrshort {rfid-acronym} RC522, ESP-WROOM-32, WiFi LoRa 32 V3 y \acrshort {gnss-acronym}.}}{69}{figure.4.22}\protected@file@percent }
+\newlabel{fig:diagramadeconexion}{{4.22}{69}{Diagrama de conexiones entre \acrshort {rfid-acronym} RC522, ESP-WROOM-32, WiFi LoRa 32 V3 y \acrshort {gnss-acronym}}{figure.4.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.3} Incorporación de Corte de Energía y de Arranque}{71}{subsection.4.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.23}{\ignorespaces Diagrama de conexiones de todos los módulos.}}{72}{figure.4.23}\protected@file@percent }
+\newlabel{fig:diagramacompleto}{{4.23}{72}{Diagrama de conexiones de todos los módulos}{figure.4.23}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5.4} Modelado y Diseño de Encapsulado 3D.}{72}{subsection.4.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.24}{\ignorespaces Disposición estructural de los componentes.}}{73}{figure.4.24}\protected@file@percent }
+\newlabel{fig:diseño}{{4.24}{73}{Disposición estructural de los componentes}{figure.4.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.25}{\ignorespaces Base del encapsulado.}}{74}{figure.4.25}\protected@file@percent }
+\newlabel{fig:case}{{4.25}{74}{Base del encapsulado}{figure.4.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.26}{\ignorespaces Parte superior del encapsulado.}}{74}{figure.4.26}\protected@file@percent }
+\newlabel{fig:tapa}{{4.26}{74}{Parte superior del encapsulado}{figure.4.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.27}{\ignorespaces Modelado 3D del encapsulado para el módulo \acrshort {rfid-acronym}.}}{75}{figure.4.27}\protected@file@percent }
+\newlabel{fig:orificio}{{4.27}{75}{Modelado 3D del encapsulado para el módulo \acrshort {rfid-acronym}}{figure.4.27}{}}
+\@setckpt{./capitulo_04/metodologia_y_desarrollo}{
+\setcounter{page}{76}
+\setcounter{equation}{0}
+\setcounter{enumi}{4}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{4}
+\setcounter{section}{5}
+\setcounter{subsection}{4}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{27}
+\setcounter{table}{0}
+\setcounter{parentequation}{0}
+\setcounter{section@level}{2}
+\setcounter{Item}{16}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{64}
+\setcounter{DTLrow}{0}
+\setcounter{DTLrowi}{0}
+\setcounter{DTLrowii}{0}
+\setcounter{DTLrowiii}{0}
+\setcounter{LT@tables}{0}
+\setcounter{LT@chunks}{0}
+\setcounter{float@type}{4}
+\setcounter{teorema}{0}
+}

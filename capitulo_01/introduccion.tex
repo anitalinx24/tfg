@@ -1,0 +1,81 @@
+\fancyhead{}
+\fancyfoot{}
+\lhead{Introducción}
+
+\chapter{Introducción}
+En los últimos años, el robo de motocicletas ha aumentado de manera alarmante en Paraguay, afectando especialmente a los trabajadores de entrega que dependen de este medio de transporte para su sustento diario. Este problema no solo representa una pérdida económica significativa, sino también un riesgo para la seguridad personal y la estabilidad laboral de los afectados. Frente a esta situación, surge la necesidad de desarrollar soluciones innovadoras y accesibles que permitan mejorar la seguridad y facilitar la recuperación de motocicletas robadas.
+La presente trabajo se centra en el desarrollo de un sistema de seguridad antirrobo para motocicletas, empleando tecnologías como \gls{rfid-acronym},\gls{loraw} , integradas en el contexto del \gls{iot-acronym}. 
+El \acrshort{iot-acronym} ha revolucionado la manera en que los dispositivos se comunican e interactúan entre sí, permitiendo la creación de redes inteligentes y eficientes. Las redes de \gls{rf} están experimentando un crecimiento significativo en su uso debido a su capacidad para conectar una amplia variedad de dispositivos a largas distancias con bajo consumo de energía \cite{8550722}.
+Dentro del marco del \acrshort{iot-acronym}, la tecnología \acrshort{rfid-acronym} juega un papel crucial en la identificación y autenticación de usuarios. \acrshort{rfid-acronym} es una tecnología de identificación por radiofrecuencia que permite el reconocimiento de objetos y personas mediante el uso de etiquetas y lectores \acrshort{rfid-acronym}. Esta tecnología se caracteriza por su capacidad para almacenar información en un microchip conectado a una antena, que puede ser leído por un dispositivo lector, permitiendo la identificación automática sin intervención humana y minimizando errores \cite{RFidtech}.
+Para la comunicación y transmisión de datos en el sistema, se utiliza la tecnología \acrshort{loraw}. \acrshort{loraw} es una red de área amplia de baja potencia que utiliza la modulación \gls{lora-acronym} para la transmisión de datos a largas distancias con un bajo consumo de energía. Esta tecnología es ideal para aplicaciones \acrshort{iot-acronym} debido a su capacidad para conectar dispositivos en áreas urbanas y rurales con una excelente cobertura y eficiencia energética \cite{doc_whatislorawan}.
+Complementando este sistema, la red Helium proporciona una infraestructura de red global distribuida, diseñada para la conectividad de dispositivos \acrshort{iot-acronym}. Helium utiliza Hotspots \acrshort{loraw} para crear una cobertura inalámbrica pública de largo alcance, incentivando a los usuarios a desplegar y mantener la infraestructura de red mediante la compensación en criptomoneda Helium \cite{heliumDocs}.
+Este trabajo se estructura en varios capítulos que abordan diferentes aspectos del desarrollo y la implementación del sistema de seguridad. Se inicia con una introducción al problema del robo de motocicletas y la necesidad de soluciones innovadoras. Luego, se profundiza en el marco teórico, explicando detalladamente las tecnologías utilizadas: \acrshort{rfid-acronym}, \acrshort{loraw} y otras relevantes. Además, se presentan los antecedentes y la metodología del proyecto, describiendo el diseño y las especificaciones del sistema, así como los resultados y análisis obtenidos durante la implementación. Finalmente, se concluye con una evaluación de los logros del proyecto y las recomendaciones para futuros trabajos en esta área.
+
+
+\section{Motivación}
+La motivación para la realización de este Trabajo Final de Grado no solo tiene un propósito práctico y social, sino también un componente académico y personal significativo.
+En primer lugar, el desarrollo de este sistema de seguridad antirrobo permite explorar y aplicar tecnologías emergentes en el ámbito del (\acrshort{iot-acronym}), como \acrshort{loraw} y \acrshort{rfid-acronym}, que están transformando la forma en que se gestionan y aseguran los recursos en diversas industrias. La implementación de estas tecnologías en un contexto real ofrece la oportunidad de expandir el conocimiento y habilidades técnicas en áreas clave de la ingeniería.
+Además, este proyecto sirve como un medio para alcanzar el objetivo académico de culminar la carrera de ingeniería, demostrando la capacidad para integrar conocimientos teóricos y prácticos adquiridos a lo largo de la formación universitaria. La realización de un proyecto de esta envergadura no solo contribuye al crecimiento profesional, sino que también fortalece la preparación para enfrentar desafíos futuros en el campo de la ingeniería.
+Finalmente, la motivación personal se ve impulsada por el deseo de ayudar a un amigo que enfrenta problemas de seguridad con su motocicleta. Este componente humanitario añade un valor adicional al proyecto, haciendo que el esfuerzo invertido tenga un impacto tangible y positivo en la vida de otros.
+
+
+
+\section{Definición del problema}
+Las motocicletas se han convertido en un componente esencial para la dinámica cotidiana, especialmente entre los trabajadores de entrega a domicilio. Sin embargo, la creciente incidencia de robos de motocicletas en Paraguay representa una amenaza para la seguridad y el sustento de los trabajadores que dependen de estas ágiles máquinas de dos ruedas para sus operaciones diarias. Según datos del Registro de Automotores, el número de motocicletas registradas ha experimentado un aumento constante en los últimos años, pasando de 855,797 en 2019 a 1,090,633 en 2023 \cite{registro-automotores}. Además, estadísticas de delitos registrados en comisarías revelan un incremento en los casos de robo de motocicletas. En 2019, se reportaron 3,270 casos de robo de motocicletas \cite{anuario-estadistico-2019}, mientras que en 2021, los números aumentaron a 3,551 casos \cite{informeAnual2021}. Es importante destacar que, a pesar de estos alarmantes números, la tasa de esclarecimiento de estos delitos ha sido significativamente baja \cite{anuario-estadistico-2019}.
+
+Estos datos representan un desafío significativo que requiere medidas para salvaguardar la vida y el sustento de quienes dependen de este medio de transporte.
+
+\textit{Definición del problema de investigación}
+
+¿Cómo desarrollar un sistema de seguridad y rastreo de motocicletas, a través de la combinación de tecnologías \textit{\acrshort{rfid-acronym}, \acrshort{loraw}}, como una alternativa a los sistemas de seguridad con rastreo disponibles?
+
+\section{Objetivos}
+\subsection{Objetivo General}
+Desarrollar un prototipo de seguridad destinado a motocicletas utilizadas en servicios de entrega.
+
+\subsection{Objetivos Específico}
+\begin{enumerate}
+\item Definir la estructura para el sistema de seguridad, considerando factores como integración entre tecnologías y cobertura.
+\item Desarrollar un firmware para el microcontrolador que facilite la interacción entre los dispositivos de comunicación y control. 
+\item Desarrollar una interfaz para usuario.  
+\item Ensamblar un prototipo hardware incluyendo la integración de sensores, actuadores y sistema de alimentación.
+\item Desarrollar un encapsulado 3D a medida para el prototipo. 
+\item Evaluar el rendimiento del sistema mediante pruebas en entornos controlados y en campo.
+\end{enumerate}
+
+\section{Hipótesis}
+La integración de tecnologías \textit{\acrshort{rfid-acronym}} con la red \textit{\acrshort{loraw}} representa una alternativa ventajosa a los sistemas de seguridad vehicular actuales para combatir el robo de motocicletas en entornos urbanos.
+
+
+\section{Justificación}
+En el mundo de hoy, donde la movilidad es esencial y las motocicletas desempeñan un papel fundamental en el transporte y la entrega de bienes, la seguridad de estos vehículos se ha vuelto más crítica que nunca \cite{Rana, Sathiyanarayanan2018}. Para abordar eficazmente el diseño de soluciones en un contexto que abarca seguridad vehicular y tecnologías de \acrshort{iot-acronym}, es esencial sumergirse en el estado actual del conocimiento. Esta inmersión implica una exploración de la literatura existente con el fin de identificar las mejores prácticas y enfoques que puedan informar y enriquecer el desarrollo del sistema propuesto.
+
+Este trabajo se basa en la necesidad de abordar la problemática de los robos de motocicletas en Paraguay, como lo demuestran los informes de la Agencia Nacional de Tránsito y Seguridad Vial (ANTSV) \cite{informeAnual2020, informeAnual2021}. La propuesta de investigación se centra en la implementación de identificadores \acrshort{rfid-acronym} y su conexión a la red \textit{Helium} mediante la tecnología \textit{\acrshort{loraw}}, dado que esta red ofrece un bajo costo y está en potencial crecimiento, aprovechando el alcance y las capacidades para proporcionar una alternativa efectiva para el rastreo y la vigilancia, como se evidencia en \cite{proyectoRFID}, con el objetivo de evaluar su viabilidad en el contexto paraguayo.
+
+Este enfoque busca no solo generar conocimiento académico relevante, sino también tener un impacto positivo en la sociedad paraguaya. Se espera que la implementación de este sistema contribuya a mejorar la seguridad ciudadana y proteger los medios de subsistencia de trabajadores y empresas que dependen de motocicletas. Además, se anticipa que ayudará a reducir la tasa de robos y aumentar la tasa de recuperación, lo que resultaría en un entorno más seguro y confiable para la movilidad urbana y los servicios de entrega \cite{informeAnual2021}.
+
+Desde una perspectiva personal, la motivación para llevar a cabo este proyecto surge de la convicción de abordar una problemática significativa en la sociedad paraguaya. La oportunidad de aplicar conocimientos y habilidades para contribuir al bienestar social y mejorar los servicios de entrega representa una motivación intrínseca. En síntesis, este proyecto busca integrar la generación de conocimiento académico con la solución de problemas sociales, con el objetivo de ofrecer soluciones tecnológicas significativas para la comunidad.
+
+
+
+\section{Delimitación del alcance del trabajo}
+La investigación se centró en el desarrollo de un prototipo de seguridad para motocicletas, con un enfoque particular en la integración de tecnologías de identificación mediante \acrshort{rfid-acronym} y la conectividad a la red \acrshort{lora-acronym} a través de \acrshort{loraw}. El estudio se llevó a cabo en un entorno controlado, lo que permitió una evaluación detallada del funcionamiento del prototipo bajo condiciones específicas.
+
+El trabajo incluyó la implementación de un sistema que asegura el acceso y uso de las motocicletas únicamente por usuarios autorizados, además de la capacidad de monitorear la ubicación de la motocicleta, facilitando así la recuperación en caso de robo. Esta investigación estableció una base sólida para futuras exploraciones y desarrollos en el ámbito de la seguridad de motocicletas. 
+
+
+\section{\mbox{Descripción de los contenidos por capítulo.}}
+A continuación, se muestran los distintos capítulos abarcados:
+\begin{itemize}
+    \item En el capítulo 1 se plantea el inicio de la parte textual del informe del trabajo, como la motivación, la problemática, los objetivos trazados, la hipótesis, la justificación y el alcance del trabajo.
+    
+    \item En el capítulo 2 se presenta el marco teórico con los conceptos más importantes, frecuentemente mencionados y discutidos a lo largo del libro. También se hace mención a los trabajos similares que anteceden a la realización de este, que sirvieron como inspiración y soporte.
+    
+    \item En el capítulo 3 se describen las herramientas, y otros tipos de tecnologías utilizadas para el desarrollo de la aplicación.
+    
+    \item En el capítulo 4 se detalla la metodología que permitió alcanzar los resultados, incluyendo aspectos del funcionamiento de la aplicación, la metodología del desarrollo y las partes más importantes del código.
+    
+    \item En el capítulo 5 se expone el producto del análisis y pruebas llevadas a cabo, de forma a evaluar en resultado la aplicación.
+    
+    \item En el capítulo 6 se interpreta y sintetizan los resultados expuestos previamente, además de evaluar la validez de la hipótesis, el logro de los objetivos y realizar recomendaciones para futuros estudios.
+\end{itemize}

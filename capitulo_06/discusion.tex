@@ -1,0 +1,45 @@
+\fancyhead{}
+\fancyfoot{}
+\pagestyle{plain}
+
+\lhead{Conclusión}
+
+\chapter{Conclusión}
+
+En este capítulo se interpretan y sintetizan los resultados expuestos previamente, además de evaluar la validez de la hipótesis, el logro de los objetivos y realizar recomendaciones para futuros estudios.\\ 
+
+\section{Discusión}
+Se ha desarrollado un sistema de seguridad para motocicletas basado en tecnologías de autenticación \textit{RFID} y transmisión de datos mediante \textit{LoRaWAN}. Este sistema, tras varias etapas de desarrollo e investigación en el ámbito \textit{IoT}, ha sido capaz de autenticar usuarios y rastrear la ubicación de la motocicleta en tiempo real.
+
+Durante el proceso de desarrollo, se lograron integrar exitosamente los módulos de autenticación, comunicación y control, permitiendo una funcionalidad de seguridad que restringe el uso de la motocicleta solo a usuarios autenticados y proporciona un monitoreo continuo en caso de situaciones de riesgo.
+
+Además, se tuvieron en cuenta aspectos como la alimentación del sistema en entornos de prueba y la integración de sensores que permitieran tanto la autenticación mediante \textit{RFID} como la recolección de datos de ubicación a través del módulo \textit{GNSS}. Esto aseguró que el prototipo respondiera adecuadamente en condiciones reales de uso en motocicletas.
+
+Las pruebas realizadas arrojaron resultados favorables, evidenciando la efectividad del sistema en el control de acceso y el rastreo de ubicación. Comparado con métodos de seguridad vehicular que solo emplean bloqueos mecánicos o electrónicos, este sistema proporciona una capa adicional de seguridad, permitiendo la autenticación continua del usuario y la desconexión automática en caso de que el usuario se aleje del vehículo. Esta solución, probada en entornos urbanos simulados, ha mostrado un grado de efectividad del 95.56\% en las situaciones de prueba.
+
+En comparación con otros estudios y tecnologías de seguridad, como los sistemas de rastreo \textit{GPS} convencionales o las aplicaciones de bloqueo remoto, nuestro sistema destaca por su integración de una red de baja potencia (\textit{LoRaWAN}) que permite un monitoreo constante sin afectar significativamente la autonomía de la batería del vehículo. De este modo, el sistema propuesto ofrece un enfoque novedoso y efectivo en términos de seguridad y rastreo.
+
+\section{Análisis de la hipótesis}
+
+A partir de los resultados obtenidos, la hipótesis planteada inicialmente, que sugiere que la integración de tecnologías \textit{RFID} y \textit{LoRaWAN} para la seguridad y rastreo de motocicletas puede ofrecer una alternativa eficaz a los sistemas actuales, ha sido validada. Los datos recopilados durante las pruebas en entornos controlados y en campo confirman que el sistema desarrollado proporciona una capa adicional de seguridad y monitoreo en tiempo real.
+
+\section{Principales logros alcanzados}
+En consecuencia al cumplimiento de los objetivos también presentados en el primer capítulo, han sido alcanzados los siguientes logros:
+
+\begin{itemize}
+    \item Se definió una estructura para el sistema de seguridad, integrando tecnologías de comunicación y control.
+    \item Se desarrolló un \textit{firmware} eficiente para el microcontrolador que permite la interacción fluida entre los dispositivos de seguridad y comunicación.
+    \item Se adaptó y aprovechó el uso de \textit{ThingsBoard} como interfaz de usuario, permitiendo la visualización clara de alertas y datos en tiempo real.
+    \item Se logró ensamblar un prototipo de \textit{hardware} que integra sensores, actuadores y un sistema de alimentación adecuado, garantizando su funcionalidad en el entorno de prueba.
+    \item Se logró diseñar y fabricar un encapsulado \textit{3D} personalizado que asegura la protección eficaz de los componentes del sistema.
+    \item Se llevaron a cabo pruebas de laboratorio y de campo que confirmaron el rendimiento esperado del sistema, validando su efectividad en escenarios reales y obteniendo datos clave para futuros desarrollos.
+\end{itemize}
+
+\section{Sugerencias para futuras investigaciones}
+Con base en este trabajo, se sugieren las siguientes áreas de mejora y futuras investigaciones:
+\begin{itemize}
+    \item Optimizar el sistema de energía mediante algoritmos de bajo consumo para prolongar la vida útil de la batería de respaldo en periodos de inactividad.
+    \item Desarrollar una aplicación móvil que permita monitorear el estado del vehículo en tiempo real y recibir alertas inmediatas.
+    \item Evaluar la cobertura de la red \textit{Helium} en distintos entornos geográficos y analizar su rendimiento en áreas rurales y urbanas para validar la robustez del sistema.
+\end{itemize}
+

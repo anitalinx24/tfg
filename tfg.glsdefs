@@ -1,0 +1,210 @@
+\ifglsentryexists{electrolito}{}%
+{%
+\gls@defglossaryentry{electrolito}%
+{%
+name={electrolito},%
+sort={electrolito},%
+type={main},%
+first={electrolito},%
+firstplural={electrolitos},%
+text={electrolito},%
+plural={electrolitos},%
+description={solución capaz de conducir corriente eléctrica},%
+descriptionplural={solución capaz de conducir corriente eléctrica},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{linus}{}%
+{%
+\gls@defglossaryentry{linus}%
+{%
+name={Linux},%
+sort={Linux},%
+type={main},%
+first={Linu (de su creador Linus Torvald) + x: (Linux)},%
+firstplural={Linu (de su creador Linus Torvald) + x: (Linux)s},%
+text={Linux},%
+plural={Linuces},%
+description={es un nombre genérico que refiere a una familia de sistemas operativos semejantes al Unix y que usa un kernel (núcleo) común},%
+descriptionplural={es un nombre genérico que refiere a una familia de sistemas operativos semejantes al Unix y que usa un kernel (núcleo) común},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mat}{}%
+{%
+\gls@defglossaryentry{mat}%
+{%
+name={matriz},%
+sort={matriz},%
+type={main},%
+first={matriz},%
+firstplural={matrices},%
+text={matriz},%
+plural={matrices},%
+description={una tabla rectangular de elementos},%
+descriptionplural={una tabla rectangular de elementos},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{svm}{}%
+{%
+\gls@defglossaryentry{svm}%
+{%
+name={SVM},%
+sort={SVM},%
+type={acronym},%
+first={Support Vector Machine (SVM)},%
+firstplural={Support Vector Machines(SVMs)},%
+text={SVM},%
+plural={SVMs},%
+description={Support Vector Machine},%
+descriptionplural={Support Vector Machine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Support Vector Machine},%
+longplural={Support Vector Machines},%
+short={SVM},%
+shortplural={SVMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{PI}{}%
+{%
+\gls@defglossaryentry{PI}%
+{%
+name={\ensuremath {\pi }},%
+sort={\ensuremath {\pi }},%
+type={acronym},%
+first={raz\'on de la circunferencia del c\IeC {\'\i }rculo a su di\'ametro (\protect \ensuremath {\pi })},%
+firstplural={raz\'on de la circunferencia del c\IeC {\'\i }rculo a su di\'ametros(\protect \ensuremath {\pi }s)},%
+text={\protect \ensuremath {\pi }},%
+plural={\protect \ensuremath {\pi }s},%
+description={razón de la circunferencia del círculo a su diámetro},%
+descriptionplural={razón de la circunferencia del círculo a su diámetro\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={raz\'on de la circunferencia del c\IeC {\'\i }rculo a su di\'ametro},%
+longplural={raz\'on de la circunferencia del c\IeC {\'\i }rculo a su di\'ametros},%
+short={\protect \ensuremath {\pi }},%
+shortplural={\protect \ensuremath {\pi }s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lan}{}%
+{%
+\gls@defglossaryentry{lan}%
+{%
+name={LAN},%
+sort={LAN},%
+type={acronym},%
+first={Local Area Network (LAN)},%
+firstplural={Local Area Networks(LANs)},%
+text={LAN},%
+plural={LANs},%
+description={Local Area Network},%
+descriptionplural={Local Area Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Local Area Network},%
+longplural={Local Area Networks},%
+short={LAN},%
+shortplural={LANs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sored}{}%
+{%
+\gls@defglossaryentry{sored}%
+{%
+name={SOR},%
+sort={SOR},%
+type={acronym},%
+first={Sistema Operativo de Red (SOR)},%
+firstplural={Sistema Operativo de Reds(SORs)},%
+text={SOR},%
+plural={SORs},%
+description={Sistema Operativo de Red},%
+descriptionplural={Sistema Operativo de Red\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sistema Operativo de Red},%
+longplural={Sistema Operativo de Reds},%
+short={SOR},%
+shortplural={SORs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
