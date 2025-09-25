@@ -38,33 +38,4 @@
 \contentsline {figure}{\numberline {4.26}{\ignorespaces Parte superior del encapsulado.}}{66}{figure.4.26}%
 \contentsline {figure}{\numberline {4.27}{\ignorespaces Modelado 3D del encapsulado para el módulo \acrshort {rfid-acronym}.}}{67}{figure.4.27}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Prueba del módulo RFID.}}{70}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Pruebas del módulo GNSS.}}{71}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Comprobación de las coordenadas del módulo GNSS.}}{72}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Comprobación con teléfono convencional.}}{73}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Medición de distancias con Google Earth - Coordenadas específicas.}}{74}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Distancia calculada con Omni Calculator.}}{74}{figure.5.6}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Pruebas de ubicación en Google Earth con múltiples puntos adquiridos.}}{75}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Visualización en la consola helium, mensaje de conexión y subida.}}{75}{figure.5.8}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Visualización en la consola helium.}}{76}{figure.5.9}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Visualización de cobertura en la consola helium.}}{76}{figure.5.10}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Visualización en la página helium maps.}}{77}{figure.5.11}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Estructura del Mensaje enviado, donde payload serían las coordenadas en Base64.}}{78}{figure.5.12}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Interpretación de Base64 a Hexadecimal.}}{79}{figure.5.13}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Interpretación de las coordenadas de latitud y longitud transmitidas.}}{79}{figure.5.14}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Visualización de la ubicación en el mapa \textit {OpenStreet} con trayectoria.}}{80}{figure.5.15}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Series temporales de telemetría.}}{81}{figure.5.16}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Prueba de decodificación de mensajes en formato \textit {Base64} a valores hexadecimales.}}{82}{figure.5.17}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Prueba de interpretación de valores hexadecimales según su tamaño.}}{83}{figure.5.18}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Uso de \textit {Mosquitto} para simular mensajes durante las pruebas.}}{83}{figure.5.19}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Integración Helium-ThingsBoards.}}{84}{figure.5.20}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Visualización en la consola Helium de los paquetes de datos recibidos del UID.}}{86}{figure.5.21}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Visualización en la consola Helium de los paquetes de datos recibidos de las coordenadas.}}{87}{figure.5.22}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Diagrama esquemático de conexiones.}}{88}{figure.5.23}%
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Trayectoria registrada durante las pruebas de campo.}}{89}{figure.5.24}%
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Disposición estructural.}}{92}{figure.5.25}%
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Encapsulado 3D.}}{93}{figure.5.26}%
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Encapsulado 3D para el módulo \textit {RFID}.}}{93}{figure.5.27}%
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Prototipo Final.}}{94}{figure.5.28}%
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Visualización de datos en tiempo real.}}{95}{figure.5.29}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Curvas de entrenamiento y validación para ResNet50.}}{71}{figure.5.1}%

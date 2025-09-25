@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Índice de Figuras}{\es@scroman {x}}{chapter*.2}%
-\contentsline {chapter}{Índice de Tablas}{\es@scroman {xi}}{chapter*.3}%
-\contentsline {chapter}{Acrónimos y símbolos}{\es@scroman {xi}}{chapter*.3}%
+\contentsline {chapter}{Índice de Figuras}{\es@scroman {viii}}{chapter*.2}%
+\contentsline {chapter}{Índice de Tablas}{\es@scroman {ix}}{chapter*.3}%
+\contentsline {chapter}{Acrónimos y símbolos}{\es@scroman {ix}}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{3}{section.1.2}%
@@ -103,38 +103,13 @@
 \contentsline {subsection}{\numberline {4.5.3} Incorporación de Corte de Energía y de Arranque}{63}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4} Modelado y Diseño de Encapsulado 3D.}{64}{subsection.4.5.4}%
 \contentsline {chapter}{\numberline {5}Pruebas y resultados}{68}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Pruebas en entornos controlado}{68}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Pruebas del Módulo de autentificación y control}{69}{subsection.5.1.1}%
-\contentsline {subsubsection}{Lectura del UID de la tarjeta/llavero}{69}{section*.29}%
-\contentsline {subsubsection}{Comparación de UID y control de acceso}{69}{section*.30}%
-\contentsline {subsubsection}{Combinación de lectura y comparación constante}{69}{section*.31}%
-\contentsline {subsection}{\numberline {5.1.2}Pruebas del Módulo de captura y transmisión de datos}{71}{subsection.5.1.2}%
-\contentsline {subsubsection}{Prueba del módulo GNSS}{71}{section*.32}%
-\contentsline {subsubsection}{Prueba del módulo LoRa}{75}{section*.33}%
-\contentsline {subsubsection}{Prueba de captura y transmisión de datos de localización}{77}{section*.34}%
-\contentsline {subsection}{\numberline {5.1.3}Pruebas del Módulo de Interfaz Gráfica y Monitoreo}{79}{subsection.5.1.3}%
-\contentsline {subsubsection}{Transmisión y visualización de datos}{79}{section*.35}%
-\contentsline {subsubsection}{Almacenamiento en tablas de series temporales}{80}{section*.36}%
-\contentsline {subsubsection}{Pruebas de decodificación y transformación de datos}{81}{section*.37}%
-\contentsline {subsubsection}{Resultados de la integración entre ThingsBoard y Helium }{84}{section*.38}%
-\contentsline {subsection}{\numberline {5.1.4}Integración del sistema completo}{84}{subsection.5.1.4}%
-\contentsline {subsubsection}{Primera Prueba: Comunicación entre las placas de desarrollo (ESP-WROOM-32 y Heltec WiFi LoRa 32 V3)}{85}{section*.39}%
-\contentsline {subsubsection}{Segunda Prueba: Integración del Módulo GNSS}{85}{section*.40}%
-\contentsline {subsubsection}{Tercera Prueba: Evaluación de las Funciones de Envío de Datos Completos}{85}{section*.41}%
-\contentsline {section}{\numberline {5.2}Pruebas de Campo}{87}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Evaluación Inicial}{87}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Pruebas en Movimiento}{88}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Resultados Cuantitativos}{89}{subsection.5.2.3}%
-\contentsline {subsubsection}{Porcentajes de Éxito y Fallo}{90}{section*.42}%
-\contentsline {subsection}{\numberline {5.2.4}Interpretación de los Resultados}{91}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Prototipo del sistema desarrollado}{91}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}\textit {Hardware} del prototipo}{91}{subsection.5.3.1}%
-\contentsline {subsubsection}{Modelado y Diseño de Encapsulado 3D}{92}{section*.43}%
-\contentsline {subsubsection}{\textit {Software} del prototipo}{94}{section*.44}%
-\contentsline {chapter}{\numberline {6}Conclusión}{96}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Discusión}{96}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Análisis de la hipótesis}{97}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Principales logros alcanzados}{97}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Sugerencias para futuras investigaciones}{98}{section.6.4}%
-\contentsline {chapter}{Glosario}{99}{section.6.4}%
-\contentsline {chapter}{Referencias bibliográficas}{100}{section.6.4}%
+\contentsline {section}{\numberline {5.1}Entorno de pruebas}{68}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Pruebas de los modelos individuales}{69}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Configuración experimental uniforme}{69}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Evaluación de ResNet50}{70}{subsection.5.2.2}%
+\contentsline {subsubsection}{Configuración del entrenamiento}{70}{section*.29}%
+\contentsline {subsubsection}{Resultados del entrenamiento}{70}{section*.30}%
+\contentsline {subsection}{\numberline {5.2.3}Evaluación de EfficientNetB3}{72}{subsection.5.2.3}%
+\contentsline {subsubsection}{Configuración específica}{72}{section*.31}%
+\contentsline {subsubsection}{Resultados obtenidos}{72}{section*.32}%
+\contentsline {subsection}{\numberline {5.2.4}Evaluación de Vision Transformer (ViT)}{72}{subsection.5.2.4}%

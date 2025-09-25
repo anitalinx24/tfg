@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.9.25)  25 SEP 2025 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.9.25)  25 SEP 2025 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -730,9 +730,8 @@ LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
 
 (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux)
-No file ./epigrafe/epigrafe.aux.
-(capitulo_01/introduccion.aux) (capitulo_02/marco_teorico.aux)
-(capitulo_03/tecnologias_utilizadas.aux)
+(epigrafe/epigrafe.aux) (capitulo_01/introduccion.aux)
+(capitulo_02/marco_teorico.aux) (capitulo_03/tecnologias_utilizadas.aux)
 (capitulo_04/metodologia_y_desarrollo.aux) (capitulo_05/resultados.aux)
 (capitulo_06/discusion.aux) (anexos/anexo.aux))
 \openout1 = `tfg.aux'.
@@ -805,7 +804,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 66.
 
-<./portada_y_ficha_catalografica/logo.png, id=424, 216.0873pt x 216.0873pt>
+<./portada_y_ficha_catalografica/logo.png, id=342, 216.0873pt x 216.0873pt>
 File: ./portada_y_ficha_catalografica/logo.png Graphic file (type png)
 <use ./portada_y_ficha_catalografica/logo.png>
 Package pdftex.def Info: ./portada_y_ficha_catalografica/logo.png  used on inpu
@@ -836,10 +835,7 @@ Type  H <return>  for immediate help.
 l.49 T
       rabajo final de grado presentado a la Facultad Polit茅cnica de la Univ...
 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 )
 
 [3
@@ -876,43 +872,33 @@ Package spanish Warning: Replacing `OT1/cmr/bx/sc' by
 
 ]
 
-[5]
-
-[6])
+[5])
 \tf@toc=\write9
 \openout9 = `tfg.toc'.
 
 
 
-[7] (tfg.lof
+[6] (tfg.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 
 
-[8
+[7
 
 
 ]
-Overfull \hbox (25.34056pt too wide) in paragraph at lines 39--39
+Overfull \hbox (25.34056pt too wide) in paragraph at lines 32--32
  [][] [][]\OT1/cmr/m/n/12 Flujo de in-te-gra-ci^^Son en-tre el dis-po-si-ti-vo 
 Prue-baHel-tec y \OT1/cmr/m/it/12 MQTT[]TB\OT1/cmr/m/n/12 . 
  []
 
-
-Overfull \hbox (0.64594pt too wide) in paragraph at lines 59--59
- [][] [][]\OT1/cmr/m/n/12 Estructura del Men-sa-je en-via-do, don-de pay-load s
-er^^S^^Pan las coor- 
- []
-
-
-
-[9])
+)
 \tf@lof=\write10
 \openout10 = `tfg.lof'.
 
 
 
-[10] (tfg.lot
+[8] (tfg.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -921,7 +907,7 @@ LaTeX Info: Redefining \% on input line 1.
 
  (tfg.acr
 
-[11
+[9
 
 
 ]
@@ -934,12 +920,7 @@ Type  H <return>  for immediate help.
                                                   
 l.5 ...etentrycounter[]{page}\glsnumberformat{5}}}
                                                   \glsgroupskip
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
+? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (韗c).
 
@@ -949,12 +930,7 @@ Type  H <return>  for immediate help.
                                                   
 l.5 ...etentrycounter[]{page}\glsnumberformat{5}}}
                                                   \glsgroupskip
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
+? 
 
 ! LaTeX Error: Invalid UTF-8 byte sequence (醡e).
 
@@ -964,15 +940,10 @@ Type  H <return>  for immediate help.
                                                   
 l.5 ...etentrycounter[]{page}\glsnumberformat{5}}}
                                                   \glsgroupskip
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
+? 
 )
 
-[12
+[10
 
 
 ]
@@ -1076,7 +1047,7 @@ Overfull \hbox (6.3752pt too wide) in paragraph at lines 51--52
 
 
 [10]
-<./capitulo_02/figures/yolo11.png, id=862, 1165.35374pt x 596.2275pt>
+<./capitulo_02/figures/yolo11.png, id=658, 1165.35374pt x 596.2275pt>
 File: ./capitulo_02/figures/yolo11.png Graphic file (type png)
 <use ./capitulo_02/figures/yolo11.png>
 Package pdftex.def Info: ./capitulo_02/figures/yolo11.png  used on input line 6
@@ -1099,7 +1070,7 @@ l.84     \item G
  <./capitulo_02/figures/yolo11.png>]
 
 [12]
-<./capitulo_02/figures/yolo12.png, id=869, 903.375pt x 451.6875pt>
+<./capitulo_02/figures/yolo12.png, id=665, 903.375pt x 451.6875pt>
 File: ./capitulo_02/figures/yolo12.png Graphic file (type png)
 <use ./capitulo_02/figures/yolo12.png>
 Package pdftex.def Info: ./capitulo_02/figures/yolo12.png  used on input line 1
@@ -1196,7 +1167,7 @@ LaTeX Warning: Citation `mattoon2021digital' on page 17 undefined on input line
 LaTeX Warning: Citation `dyce2012anatomia' on page 17 undefined on input line 1
 89.
 
-<./capitulo_02/figures/Tipos_de_Huesos.jpg, id=889, 692.5875pt x 325.215pt>
+<./capitulo_02/figures/Tipos_de_Huesos.jpg, id=685, 692.5875pt x 325.215pt>
 File: ./capitulo_02/figures/Tipos_de_Huesos.jpg Graphic file (type jpg)
 <use ./capitulo_02/figures/Tipos_de_Huesos.jpg>
 Package pdftex.def Info: ./capitulo_02/figures/Tipos_de_Huesos.jpg  used on inp
@@ -1246,7 +1217,7 @@ ne 215.
 
 LaTeX Warning: Citation `unger2024ao' on page 18 undefined on input line 219.
 
-<./capitulo_02/figures/Tipos_de_Fracturas.jpg, id=894, 711.65875pt x 251.94125p
+<./capitulo_02/figures/Tipos_de_Fracturas.jpg, id=690, 711.65875pt x 251.94125p
 t>
 File: ./capitulo_02/figures/Tipos_de_Fracturas.jpg Graphic file (type jpg)
 <use ./capitulo_02/figures/Tipos_de_Fracturas.jpg>
@@ -1295,7 +1266,7 @@ l.250
 LaTeX Warning: Citation `markel2019biomechanics' on page 20 undefined on input 
 line 253.
 
-<./capitulo_02/figures/Ubicacion_de_la_Fractura.jpg, id=904, 740.7675pt x 290.0
+<./capitulo_02/figures/Ubicacion_de_la_Fractura.jpg, id=699, 740.7675pt x 290.0
 8376pt>
 File: ./capitulo_02/figures/Ubicacion_de_la_Fractura.jpg Graphic file (type jpg
 )
@@ -1404,8 +1375,7 @@ Type  H <return>  for immediate help.
 l.17 ... gr谩fico (\textit{\acrshort{gpu-acronym}}
                                                   ) de alta gama dise帽ada e...
 
-You need to define a glossary entry before you can use it.
-
+? 
 
 LaTeX Warning: Citation `NVIDIA2024RTX5090' on page 28 undefined on input line 
 19.
@@ -1432,9 +1402,7 @@ Type  H <return>  for immediate help.
                                                   
 l.25 ...0.3]{./capitulo_03/figures/HW/RTX5090.jpg}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 
 ! Package glossaries Error: Glossary entry `gpu-acronym' has not been defined.
 
@@ -1445,8 +1413,7 @@ Type  H <return>  for immediate help.
 l.31 ...as de esta \textit{\acrshort{gpu-acronym}}
                                                    es su amplia memoria \tex...
 
-You need to define a glossary entry before you can use it.
-
+? 
 
 ! Package glossaries Error: Glossary entry `gpu-acronym' has not been defined.
 
@@ -1457,8 +1424,7 @@ Type  H <return>  for immediate help.
 l.33 ...mputaci贸n \textit{\acrshort{gpu-acronym}}
                                                    de alto rendimiento para ...
 
-You need to define a glossary entry before you can use it.
-
+? 
 
 ! Package glossaries Error: Glossary entry `gpu-acronym' has not been defined.
 
@@ -1469,8 +1435,7 @@ Type  H <return>  for immediate help.
 l.35 ...硁 de esta \textit{\acrshort{gpu-acronym}}
                                                    se fundament贸 en un an谩...
 
-You need to define a glossary entry before you can use it.
-
+? 
 
 Overfull \hbox (0.48274pt too wide) in paragraph at lines 44--45
 []\OT1/cmr/bx/sc/12 Disponibilidad: \OT1/cmr/m/n/12 Ac-ce-si-bi-li-dad a trav^^
@@ -1565,9 +1530,7 @@ Type  H <return>  for immediate help.
                                                   
 l.172 ...4]{./capitulo_03/figures/SW/roboflow.png}
                                                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+? 
 
 Overfull \hbox (4.21143pt too wide) in paragraph at lines 180--181
 []\OT1/cmr/bx/sc/12 Gesti^^Son de Da-tos: \OT1/cmr/m/it/12 Ro-bo-flow \OT1/cmr/
@@ -1606,7 +1569,7 @@ l.142 ...ude{./capitulo_03/tecnologias_utilizadas}
 
 (capitulo_04/metodologia_y_desarrollo.tex
 Cap\'{\i }tulo 4.
-<./capitulo_04/imagen/modulos.drawio.png, id=991, 885.3075pt x 126.4725pt>
+<./capitulo_04/imagen/modulos.drawio.png, id=782, 885.3075pt x 126.4725pt>
 File: ./capitulo_04/imagen/modulos.drawio.png Graphic file (type png)
 <use ./capitulo_04/imagen/modulos.drawio.png>
 Package pdftex.def Info: ./capitulo_04/imagen/modulos.drawio.png  used on input
@@ -1626,7 +1589,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.22 \subsection
                 {Requisitos clave} <./capitulo_04/imagen/modulos.drawio.png>]
-<./capitulo_04/imagen/diagrama1.png, id=1004, 723.70375pt x 477.785pt>
+<./capitulo_04/imagen/diagrama1.png, id=795, 723.70375pt x 477.785pt>
 File: ./capitulo_04/imagen/diagrama1.png Graphic file (type png)
 <use ./capitulo_04/imagen/diagrama1.png>
 Package pdftex.def Info: ./capitulo_04/imagen/diagrama1.png  used on input line
@@ -1642,7 +1605,7 @@ has been already used, duplicate ignored
 l.49     \item \textbf
                       {M贸dulo \textit{\acrshort{rfid-acronym}}:} Detecta y ...
  <./capitulo_04/imagen/diagrama1.png>]
-<./capitulo_04/imagen/diagrama2.png, id=1018, 709.65125pt x 266.9975pt>
+<./capitulo_04/imagen/diagrama2.png, id=808, 709.65125pt x 266.9975pt>
 File: ./capitulo_04/imagen/diagrama2.png Graphic file (type png)
 <use ./capitulo_04/imagen/diagrama2.png>
 Package pdftex.def Info: ./capitulo_04/imagen/diagrama2.png  used on input line
@@ -1657,8 +1620,8 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.73 \end{itemize}
                    <./capitulo_04/imagen/diagrama2.png>]
-<./capitulo_04/imagen/diagramadeflujoRFID-Page-1.drawio.png, id=1030, 622.325pt
- x 241.90375pt>
+<./capitulo_04/imagen/diagramadeflujoRFID-Page-1.drawio.png, id=820, 622.325pt 
+x 241.90375pt>
 File: ./capitulo_04/imagen/diagramadeflujoRFID-Page-1.drawio.png Graphic file (
 type png)
 <use ./capitulo_04/imagen/diagramadeflujoRFID-Page-1.drawio.png>
@@ -1675,7 +1638,7 @@ has been already used, duplicate ignored
 l.101 \begin{itemize}
                       <./capitulo_04/imagen/diagramadeflujoRFID-Page-1.drawio.p
 ng>]
-<./capitulo_04/imagen/diagramaRFID.png, id=1037, 250.26833pt x 239.02634pt>
+<./capitulo_04/imagen/diagramaRFID.png, id=828, 250.26833pt x 239.02634pt>
 File: ./capitulo_04/imagen/diagramaRFID.png Graphic file (type png)
 <use ./capitulo_04/imagen/diagramaRFID.png>
 Package pdftex.def Info: ./capitulo_04/imagen/diagramaRFID.png  used on input l
@@ -1720,7 +1683,7 @@ Overfull \hbox (11.69003pt too wide) in paragraph at lines 161--162
 
 
 [42]
-<./capitulo_04/imagen/diagramaGNSS.png, id=1070, 233.40533pt x 182.81633pt>
+<./capitulo_04/imagen/diagramaGNSS.png, id=861, 233.40533pt x 182.81633pt>
 File: ./capitulo_04/imagen/diagramaGNSS.png Graphic file (type png)
 <use ./capitulo_04/imagen/diagramaGNSS.png>
 Package pdftex.def Info: ./capitulo_04/imagen/diagramaGNSS.png  used on input l
@@ -1747,7 +1710,7 @@ OT1/cmtt/m/n/12 gps.time.isValid()\OT1/cmr/m/n/12 ).
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\acrshort' on input line 242.
 
-<./capitulo_04/imagen/helium.png, id=1092, 698.00775pt x 392.667pt>
+<./capitulo_04/imagen/helium.png, id=882, 698.00775pt x 392.667pt>
 File: ./capitulo_04/imagen/helium.png Graphic file (type png)
 <use ./capitulo_04/imagen/helium.png>
 Package pdftex.def Info: ./capitulo_04/imagen/helium.png  used on input line 25
@@ -1756,7 +1719,7 @@ Package pdftex.def Info: ./capitulo_04/imagen/helium.png  used on input line 25
 
 
 [45]
-<./capitulo_04/imagen/otta.png, id=1107, 751.00575pt x 146.949pt>
+<./capitulo_04/imagen/otta.png, id=898, 751.00575pt x 146.949pt>
 File: ./capitulo_04/imagen/otta.png Graphic file (type png)
 <use ./capitulo_04/imagen/otta.png>
 Package pdftex.def Info: ./capitulo_04/imagen/otta.png  used on input line 271.
@@ -1784,8 +1747,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\acrshort' on input line 278.
 
-<./capitulo_04/imagen/diagramadeflujognss.png, id=1126, 765.86125pt x 188.705pt
->
+<./capitulo_04/imagen/diagramadeflujognss.png, id=917, 765.86125pt x 188.705pt>
+
 File: ./capitulo_04/imagen/diagramadeflujognss.png Graphic file (type png)
 <use ./capitulo_04/imagen/diagramadeflujognss.png>
 Package pdftex.def Info: ./capitulo_04/imagen/diagramadeflujognss.png  used on 
@@ -1823,14 +1786,14 @@ has-ta la pr^^Soxi-ma trans-
 [48]
 
 [49]
-<./capitulo_04/imagen/tb/dispositivo.png, id=1169, 496.10344pt x 499.11469pt>
+<./capitulo_04/imagen/tb/dispositivo.png, id=959, 496.10344pt x 499.11469pt>
 File: ./capitulo_04/imagen/tb/dispositivo.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb/dispositivo.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb/dispositivo.png  used on input
  line 347.
 (pdftex.def)             Requested size: 262.93356pt x 264.52951pt.
-<./capitulo_04/imagen/tb/perfil_transport.png, id=1170, 489.32813pt x 479.54156
-pt>
+<./capitulo_04/imagen/tb/perfil_transport.png, id=960, 489.32813pt x 479.54156p
+t>
 File: ./capitulo_04/imagen/tb/perfil_transport.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb/perfil_transport.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb/perfil_transport.png  used on 
@@ -1845,14 +1808,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
                                                   \__shipout_drop_firstpage_...
 l.362 
        <./capitulo_04/imagen/tb/dispositivo.png>]
-<./capitulo_04/imagen/tb/us_cleint.png, id=1178, 755.07094pt x 193.47281pt>
+<./capitulo_04/imagen/tb/us_cleint.png, id=968, 755.07094pt x 193.47281pt>
 File: ./capitulo_04/imagen/tb/us_cleint.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb/us_cleint.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb/us_cleint.png  used on input l
 ine 373.
 (pdftex.def)             Requested size: 390.0pt x 99.93039pt.
-<./capitulo_04/imagen/tb/dispos_client.png, id=1179, 684.30656pt x 465.99094pt>
-
+<./capitulo_04/imagen/tb/dispos_client.png, id=969, 684.30656pt x 465.99094pt>
 File: ./capitulo_04/imagen/tb/dispos_client.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb/dispos_client.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb/dispos_client.png  used on inp
@@ -1879,8 +1841,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12})
 l.388 
        <./capitulo_04/imagen/tb/perfil_transport.png> <./capitulo_04/imagen/tb/
 us_cleint.png>]
-<./capitulo_04/imagen/tb/eleccionpanel.png, id=1188, 639.89063pt x 641.39626pt>
-
+<./capitulo_04/imagen/tb/eleccionpanel.png, id=979, 639.89063pt x 641.39626pt>
 File: ./capitulo_04/imagen/tb/eleccionpanel.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb/eleccionpanel.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb/eleccionpanel.png  used on inp
@@ -1895,7 +1856,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
                                                   \__shipout_drop_firstpage_...
 l.404 
        <./capitulo_04/imagen/tb/dispos_client.png>]
-<./capitulo_04/imagen/tb/dahboard.png, id=1196, 767.86874pt x 593.96906pt>
+<./capitulo_04/imagen/tb/dahboard.png, id=987, 767.86874pt x 593.96906pt>
 File: ./capitulo_04/imagen/tb/dahboard.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb/dahboard.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb/dahboard.png  used on input li
@@ -1910,8 +1871,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14})
                                                   \__shipout_drop_firstpage_...
 l.416 
        <./capitulo_04/imagen/tb/eleccionpanel.png>]
-<./capitulo_04/imagen/tb/configuracion depanel.png, id=1203, 639.13782pt x 605.
-26125pt>
+<./capitulo_04/imagen/tb/configuracion depanel.png, id=994, 639.13782pt x 605.2
+6125pt>
 File: ./capitulo_04/imagen/tb/configuracion depanel.png Graphic file (type png)
 
 <use ./capitulo_04/imagen/tb/configuracion depanel.png>
@@ -1927,7 +1888,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
                                                   \__shipout_drop_firstpage_...
 l.428 
        <./capitulo_04/imagen/tb/dahboard.png>]
-<./capitulo_04/imagen/tb/ruleengin.png, id=1210, 960.58875pt x 316.93407pt>
+<./capitulo_04/imagen/tb/ruleengin.png, id=1001, 960.58875pt x 316.93407pt>
 File: ./capitulo_04/imagen/tb/ruleengin.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb/ruleengin.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb/ruleengin.png  used on input l
@@ -1942,7 +1903,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
                                                   \__shipout_drop_firstpage_...
 l.442 
        <./capitulo_04/imagen/tb/configuracion depanel.png>]
-<./capitulo_04/imagen/tb2/hel_integr.png, id=1221, 444.91219pt x 291.33844pt>
+<./capitulo_04/imagen/tb2/hel_integr.png, id=1011, 444.91219pt x 291.33844pt>
 File: ./capitulo_04/imagen/tb2/hel_integr.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb2/hel_integr.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb2/hel_integr.png  used on input
@@ -1957,7 +1918,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
                                                   \__shipout_drop_firstpage_...
 l.467 
        <./capitulo_04/imagen/tb/ruleengin.png>]
-<./capitulo_04/imagen/tb2/detalisconect.png, id=1233, 627.84563pt x 255.20343pt
+<./capitulo_04/imagen/tb2/detalisconect.png, id=1023, 627.84563pt x 255.20343pt
 >
 File: ./capitulo_04/imagen/tb2/detalisconect.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb2/detalisconect.png>
@@ -1973,7 +1934,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
                                                   \__shipout_drop_firstpage_...
 l.488 
        <./capitulo_04/imagen/tb2/hel_integr.png>]
-<./capitulo_04/imagen/tb2/flowconf.png, id=1241, 873.2625pt x 283.0575pt>
+<./capitulo_04/imagen/tb2/flowconf.png, id=1032, 873.2625pt x 283.0575pt>
 File: ./capitulo_04/imagen/tb2/flowconf.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb2/flowconf.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb2/flowconf.png  used on input l
@@ -1995,7 +1956,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.20})
 l.509 
        <./capitulo_04/imagen/tb2/detalisconect.png> <./capitulo_04/imagen/tb2/f
 lowconf.png>]
-<./capitulo_04/imagen/tb2/rout_conf.png, id=1252, 694.84593pt x 465.23813pt>
+<./capitulo_04/imagen/tb2/rout_conf.png, id=1043, 694.84593pt x 465.23813pt>
 File: ./capitulo_04/imagen/tb2/rout_conf.png Graphic file (type png)
 <use ./capitulo_04/imagen/tb2/rout_conf.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tb2/rout_conf.png  used on input 
@@ -2021,7 +1982,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 [60]
-<./capitulo_04/imagen/integracioncompleta.png, id=1278, 458.78067pt x 325.48267
+<./capitulo_04/imagen/integracioncompleta.png, id=1069, 458.78067pt x 325.48267
 pt>
 File: ./capitulo_04/imagen/integracioncompleta.png Graphic file (type png)
 <use ./capitulo_04/imagen/integracioncompleta.png>
@@ -2039,7 +2000,7 @@ l.567
        <./capitulo_04/imagen/integracioncompleta.png>]
 
 [62]
-<./capitulo_04/imagen/diagramacompleto.png, id=1314, 412.47433pt x 314.776pt>
+<./capitulo_04/imagen/diagramacompleto.png, id=1104, 412.47433pt x 314.776pt>
 File: ./capitulo_04/imagen/diagramacompleto.png Graphic file (type png)
 <use ./capitulo_04/imagen/diagramacompleto.png>
 Package pdftex.def Info: ./capitulo_04/imagen/diagramacompleto.png  used on inp
@@ -2056,13 +2017,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.23})
                                                   \__shipout_drop_firstpage_...
 l.616 
        <./capitulo_04/imagen/diagramacompleto.png>]
-<./capitulo_04/imagen/disposicion.png, id=1328, 419.166pt x 349.305pt>
+<./capitulo_04/imagen/disposicion.png, id=1119, 419.166pt x 349.305pt>
 File: ./capitulo_04/imagen/disposicion.png Graphic file (type png)
 <use ./capitulo_04/imagen/disposicion.png>
 Package pdftex.def Info: ./capitulo_04/imagen/disposicion.png  used on input li
 ne 624.
 (pdftex.def)             Requested size: 234.00238pt x 195.00185pt.
-<./capitulo_04/imagen/casebase.png, id=1330, 526.3665pt x 467.346pt>
+<./capitulo_04/imagen/casebase.png, id=1121, 526.3665pt x 467.346pt>
 File: ./capitulo_04/imagen/casebase.png Graphic file (type png)
 <use ./capitulo_04/imagen/casebase.png>
 Package pdftex.def Info: ./capitulo_04/imagen/casebase.png  used on input line 
@@ -2077,7 +2038,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.24})
                                                   \__shipout_drop_firstpage_...
 l.645 
        <./capitulo_04/imagen/disposicion.png>]
-<./capitulo_04/imagen/tapa.png, id=1337, 504.6855pt x 450.483pt>
+<./capitulo_04/imagen/tapa.png, id=1128, 504.6855pt x 450.483pt>
 File: ./capitulo_04/imagen/tapa.png Graphic file (type png)
 <use ./capitulo_04/imagen/tapa.png>
 Package pdftex.def Info: ./capitulo_04/imagen/tapa.png  used on input line 653.
@@ -2098,7 +2059,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.26})
                                                   \__shipout_drop_firstpage_...
 l.661 
        <./capitulo_04/imagen/casebase.png> <./capitulo_04/imagen/tapa.png>]
-<./capitulo_04/imagen/rfidcaseblender.png, id=1346, 490.2315pt x 372.1905pt>
+<./capitulo_04/imagen/rfidcaseblender.png, id=1137, 490.2315pt x 372.1905pt>
 File: ./capitulo_04/imagen/rfidcaseblender.png Graphic file (type png)
 <use ./capitulo_04/imagen/rfidcaseblender.png>
 Package pdftex.def Info: ./capitulo_04/imagen/rfidcaseblender.png  used on inpu
@@ -2126,580 +2087,168 @@ Cap\'{\i }tulo 5.
 
 
 ]
-<./capitulo_05/imagen/rfidprueba.png, id=1359, 551.81157pt x 242.40562pt>
-File: ./capitulo_05/imagen/rfidprueba.png Graphic file (type png)
-<use ./capitulo_05/imagen/rfidprueba.png>
-Package pdftex.def Info: ./capitulo_05/imagen/rfidprueba.png  used on input lin
-e 49.
-(pdftex.def)             Requested size: 390.0pt x 171.32874pt.
-
 
 [69]
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\OT1/cmr/bx/sc/12 Versi^^Son del
+
+LaTeX Warning: File `./capitulo_05/imagen/resnet50_training_curves.png' not fou
+nd on input line 72.
+
+
+! Package pdftex.def Error: File `./capitulo_05/imagen/resnet50_training_curves
+.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 ...lo_05/imagen/resnet50_training_curves.png}
+                                                  
+? 
+
+
+[70]
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\OT1/cmr/m/n/12 Velocidad Pro-me-dio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\OT1/cmr/bx/sc/12 Total de
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\OT1/cmr/bx/sc/12 Pruebas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\OT1/cmr/bx/sc/12 Pruebas
- []
-
-
-
-[70
+[71
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.79 
+l.99 
      
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.79 
-      <./capitulo_05/imagen/rfidprueba.png>]
-<./capitulo_05/imagen/gnss.png, id=1374, 431.211pt x 187.902pt>
-File: ./capitulo_05/imagen/gnss.png Graphic file (type png)
-<use ./capitulo_05/imagen/gnss.png>
-Package pdftex.def Info: ./capitulo_05/imagen/gnss.png  used on input line 94.
-(pdftex.def)             Requested size: 390.0pt x 169.9503pt.
+l.99 
+     ]
 
+LaTeX Warning: Reference `tab:efficientnet_metrics' on page 72 undefined on inp
+ut line 114.
 
-[71
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.103 
-       <./capitulo_05/imagen/gnss.png>]
-<./capitulo_05/imagen/googlemaps.png, id=1384, 534.798pt x 360.1455pt>
-File: ./capitulo_05/imagen/googlemaps.png Graphic file (type png)
-<use ./capitulo_05/imagen/googlemaps.png>
-Package pdftex.def Info: ./capitulo_05/imagen/googlemaps.png  used on input lin
-e 109.
-(pdftex.def)             Requested size: 312.00119pt x 210.10999pt.
-<./capitulo_05/imagen/telefono.jpg, id=1385, 650.43pt x 1209.318pt>
-File: ./capitulo_05/imagen/telefono.jpg Graphic file (type jpg)
-<use ./capitulo_05/imagen/telefono.jpg>
-Package pdftex.def Info: ./capitulo_05/imagen/telefono.jpg  used on input line 
-120.
-(pdftex.def)             Requested size: 155.99762pt x 290.03926pt.
 
 
 [72
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.125 
-       <./capitulo_05/imagen/googlemaps.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-<./capitulo_05/imagen/googleearth.png, id=1394, 556.32843pt x 352.31625pt>
-File: ./capitulo_05/imagen/googleearth.png Graphic file (type png)
-<use ./capitulo_05/imagen/googleearth.png>
-Package pdftex.def Info: ./capitulo_05/imagen/googleearth.png  used on input li
-ne 133.
-(pdftex.def)             Requested size: 312.00119pt x 197.59142pt.
-
-
-[73
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.137 
-       <./capitulo_05/imagen/telefono.jpg>]
-<./capitulo_05/imagen/calculad.png, id=1403, 191.9672pt x 402.00188pt>
-File: ./capitulo_05/imagen/calculad.png Graphic file (type png)
-<use ./capitulo_05/imagen/calculad.png>
-Package pdftex.def Info: ./capitulo_05/imagen/calculad.png  used on input line 
-145.
-(pdftex.def)             Requested size: 117.00119pt x 245.01836pt.
-
-
-[74
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.151 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.151 
-       <./capitulo_05/imagen/googleearth.png> <./capitulo_05/imagen/calculad.pn
-g>]
-<./capitulo_05/imagen/variascoord.png, id=1412, 776.9025pt x 355.3275pt>
-File: ./capitulo_05/imagen/variascoord.png Graphic file (type png)
-<use ./capitulo_05/imagen/variascoord.png>
-Package pdftex.def Info: ./capitulo_05/imagen/variascoord.png  used on input li
-ne 156.
-(pdftex.def)             Requested size: 350.99762pt x 160.53566pt.
-<./capitulo_05/imagen/uplink.png, id=1415, 911.20425pt x 130.086pt>
-File: ./capitulo_05/imagen/uplink.png Graphic file (type png)
-<use ./capitulo_05/imagen/uplink.png>
-Package pdftex.def Info: ./capitulo_05/imagen/uplink.png  used on input line 16
-9.
-(pdftex.def)             Requested size: 390.0pt x 55.67783pt.
-
-
-[75
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.176 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.176 
-       <./capitulo_05/imagen/variascoord.png> <./capitulo_05/imagen/uplink.png>
-]
-<./capitulo_05/imagen/hostpot.png, id=1424, 901.56825pt x 119.2455pt>
-File: ./capitulo_05/imagen/hostpot.png Graphic file (type png)
-<use ./capitulo_05/imagen/hostpot.png>
-Package pdftex.def Info: ./capitulo_05/imagen/hostpot.png  used on input line 1
-81.
-(pdftex.def)             Requested size: 390.0pt x 51.58205pt.
-<./capitulo_05/imagen/Coverage.png, id=1428, 555.87675pt x 210.18526pt>
-File: ./capitulo_05/imagen/Coverage.png Graphic file (type png)
-<use ./capitulo_05/imagen/Coverage.png>
-Package pdftex.def Info: ./capitulo_05/imagen/Coverage.png  used on input line 
-193.
-(pdftex.def)             Requested size: 390.0pt x 147.46222pt.
-<./capitulo_04/imagen/maps.png, id=1429, 1441.63594pt x 680.5425pt>
-File: ./capitulo_04/imagen/maps.png Graphic file (type png)
-<use ./capitulo_04/imagen/maps.png>
-Package pdftex.def Info: ./capitulo_04/imagen/maps.png  used on input line 203.
-
-(pdftex.def)             Requested size: 390.0pt x 184.10199pt.
-
-
-[76
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.208 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.10})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.208 
-       <./capitulo_05/imagen/hostpot.png> <./capitulo_05/imagen/Coverage.png>]
-<./capitulo_05/imagen/payload.png, id=1438, 378.81525pt x 272.81924pt>
-File: ./capitulo_05/imagen/payload.png Graphic file (type png)
-<use ./capitulo_05/imagen/payload.png>
-Package pdftex.def Info: ./capitulo_05/imagen/payload.png  used on input line 2
-18.
-(pdftex.def)             Requested size: 390.0pt x 280.87373pt.
-
-
-[77
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.11})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.224 
-       <./capitulo_04/imagen/maps.png>]
-<./capitulo_05/imagen/base64a.png, id=1449, 893.58844pt x 243.15843pt>
-File: ./capitulo_05/imagen/base64a.png Graphic file (type png)
-<use ./capitulo_05/imagen/base64a.png>
-Package pdftex.def Info: ./capitulo_05/imagen/base64a.png  used on input line 2
-38.
-(pdftex.def)             Requested size: 390.0pt x 106.12553pt.
-
-
-[78
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.12})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.243 
-       <./capitulo_05/imagen/payload.png>]
-<./capitulo_05/imagen/base64b.png, id=1457, 902.6222pt x 234.1247pt>
-File: ./capitulo_05/imagen/base64b.png Graphic file (type png)
-<use ./capitulo_05/imagen/base64b.png>
-Package pdftex.def Info: ./capitulo_05/imagen/base64b.png  used on input line 2
-48.
-(pdftex.def)             Requested size: 390.0pt x 101.16107pt.
-<./capitulo_05/imagen/resmon/mapa2.png, id=1459, 484.05844pt x 508.90125pt>
-File: ./capitulo_05/imagen/resmon/mapa2.png Graphic file (type png)
-<use ./capitulo_05/imagen/resmon/mapa2.png>
-Package pdftex.def Info: ./capitulo_05/imagen/resmon/mapa2.png  used on input l
-ine 264.
-(pdftex.def)             Requested size: 272.99881pt x 287.02501pt.
-
-
-[79
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.13})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.269 \subsubsection
-                    {Almacenamiento en tablas de series temporales}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.14})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.269 \subsubsection
-                    {Almacenamiento en tablas de series temporales} <./capitulo
-_05/imagen/base64a.png> <./capitulo_05/imagen/base64b.png>]
-<./capitulo_05/imagen/resmon/timeserie.png, id=1469, 514.17094pt x 469.00218pt>
-
-File: ./capitulo_05/imagen/resmon/timeserie.png Graphic file (type png)
-<use ./capitulo_05/imagen/resmon/timeserie.png>
-Package pdftex.def Info: ./capitulo_05/imagen/resmon/timeserie.png  used on inp
-ut line 277.
-(pdftex.def)             Requested size: 292.5pt x 266.80444pt.
-
-
-[80
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.15})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.282 \subsubsection
-                    {Pruebas de decodificaci贸n y transformaci贸n de datos} <./
-capitulo_05/imagen/resmon/mapa2.png>]
-
-[81
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.16})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.293     \item M
-                 ensajes de 8 \textit{bytes} correspond铆an a telemetr铆as d...
- <./capitulo_05/imagen/resmon/timeserie.png>]
-<./capitulo_05/imagen/resmon/64to (1).png, id=1484, 788.19469pt x 329.73187pt>
-File: ./capitulo_05/imagen/resmon/64to (1).png Graphic file (type png)
-<use ./capitulo_05/imagen/resmon/64to (1).png>
-Package pdftex.def Info: ./capitulo_05/imagen/resmon/64to (1).png  used on inpu
-t line 305.
-(pdftex.def)             Requested size: 394.09637pt x 164.86552pt.
-
-Overfull \hbox (4.09637pt too wide) in paragraph at lines 305--306
- [] 
- []
-
-<./capitulo_05/imagen/resmon/hextto (1).png, id=1485, 819.06pt x 395.97937pt>
-File: ./capitulo_05/imagen/resmon/hextto (1).png Graphic file (type png)
-<use ./capitulo_05/imagen/resmon/hextto (1).png>
-Package pdftex.def Info: ./capitulo_05/imagen/resmon/hextto (1).png  used on in
-put line 317.
-(pdftex.def)             Requested size: 409.52899pt x 197.9892pt.
-
-Overfull \hbox (19.52899pt too wide) in paragraph at lines 317--318
- [] 
- []
-
-
-
-[82
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.17})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.322 
-       <./capitulo_05/imagen/resmon/64to (1).png>]
-<./capitulo_05/imagen/resmon/mosquitt.png, id=1492, 663.6795pt x 254.1495pt>
-File: ./capitulo_05/imagen/resmon/mosquitt.png Graphic file (type png)
-<use ./capitulo_05/imagen/resmon/mosquitt.png>
-Package pdftex.def Info: ./capitulo_05/imagen/resmon/mosquitt.png  used on inpu
-t line 332.
-(pdftex.def)             Requested size: 390.0pt x 149.34969pt.
-
-
-[83
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.18})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.341 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.19})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.341 
-       <./capitulo_05/imagen/resmon/hextto (1).png> <./capitulo_05/imagen/resmo
-n/mosquitt.png>]
-<./capitulo_05/imagen/resmon/integra2c.png, id=1500, 678.1335pt x 381.22424pt>
-File: ./capitulo_05/imagen/resmon/integra2c.png Graphic file (type png)
-<use ./capitulo_05/imagen/resmon/integra2c.png>
-Package pdftex.def Info: ./capitulo_05/imagen/resmon/integra2c.png  used on inp
-ut line 346.
-(pdftex.def)             Requested size: 350.99762pt x 197.31865pt.
-
-
-[84
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.20})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.362 \subsubsection
-                     {Primera Prueba: Comunicaci贸n entre las placas de desa...
- <./capitulo_05/imagen/resmon/integra2c.png>]
-
-[85]
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\OT1/cmr/bx/sc/12 Versi^^Son del
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\OT1/cmr/bx/sc/12 Total de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\OT1/cmr/bx/sc/12 Pruebas
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
-[]|\OT1/cmr/bx/sc/12 Pruebas
- []
-
-<./capitulo_05/imagen/uid.png, id=1518, 984.0765pt x 257.763pt>
-File: ./capitulo_05/imagen/uid.png Graphic file (type png)
-<use ./capitulo_05/imagen/uid.png>
-Package pdftex.def Info: ./capitulo_05/imagen/uid.png  used on input line 407.
-(pdftex.def)             Requested size: 390.0pt x 102.15155pt.
-<./capitulo_05/imagen/coord.png, id=1519, 1020.2115pt x 211.38976pt>
-File: ./capitulo_05/imagen/coord.png Graphic file (type png)
-<use ./capitulo_05/imagen/coord.png>
-Package pdftex.def Info: ./capitulo_05/imagen/coord.png  used on input line 417
-.
-(pdftex.def)             Requested size: 390.0pt x 80.80954pt.
-
-
-[86
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.422 
+l.140 \item L
+             earning rate: 0.0001 con warm-up de 10 茅pocas]
+
+LaTeX Warning: Reference `tab:vit_metrics' on page 73 undefined on input line 1
+51.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\OT1/cmr/m/n/12 Velocidad Pro-me-dio
+ []
+
+Runaway argument?
+{table> 
+! Paragraph ended before \end  was complete.
+<to be read again> 
+                   \par 
+l.168 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.21})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.422 
-       <./capitulo_05/imagen/uid.png>]
-<./capitulo_05/imagen/diagramaesquematico.png, id=1526, 806.01125pt x 516.93124
-pt>
-File: ./capitulo_05/imagen/diagramaesquematico.png Graphic file (type png)
-<use ./capitulo_05/imagen/diagramaesquematico.png>
-Package pdftex.def Info: ./capitulo_05/imagen/diagramaesquematico.png  used on 
-input line 439.
-(pdftex.def)             Requested size: 272.99881pt x 175.08383pt.
+? 
+
+LaTeX Warning: Reference `tab:comparative_metrics' on page 73 undefined on inpu
+t line 175.
 
 
-[87
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.22})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.444 
-       <./capitulo_05/imagen/coord.png>]
-
-[88
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.23})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.457 
-       <./capitulo_05/imagen/diagramaesquematico.png>]
-<./capitulo_05/imagen/mapa1.png, id=1538, 1017.8025pt x 511.9125pt>
-File: ./capitulo_05/imagen/mapa1.png Graphic file (type png)
-<use ./capitulo_05/imagen/mapa1.png>
-Package pdftex.def Info: ./capitulo_05/imagen/mapa1.png  used on input line 462
-.
-(pdftex.def)             Requested size: 390.0pt x 196.15349pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
-\OT1/cmr/bx/sc/12 Prue-
+Overfull \hbox (7.04054pt too wide) in paragraph at lines 184--184
+[]|\OT1/cmr/bx/sc/12 EfficientNetB3| 
  []
 
 
-Overfull \hbox (6.39203pt too wide) in paragraph at lines 479--479
-[]|\OT1/cmr/bx/sc/12 Autenticaci^^Son
- []
+LaTeX Warning: Reference `fig:efficiency_comparison' on page 73 undefined on in
+put line 196.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
-[]|\OT1/cmr/bx/sc/12 Conexi^^Son
- []
+LaTeX Warning: File `./capitulo_05/imagen/efficiency_accuracy_plot.png' not fou
+nd on input line 202.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
-\OT1/cmr/bx/sc/12 a Lo-Ra-
- []
+! Package pdftex.def Error: File `./capitulo_05/imagen/efficiency_accuracy_plot
+.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.202 ...o_05/imagen/efficiency_accuracy_plot.png}
+                                                  
+? 
+
+LaTeX Warning: Reference `fig:conf_matrix_resnet' on page 73 undefined on input
+ line 210.
 
 
-Overfull \hbox (3.20386pt too wide) in paragraph at lines 479--479
-[]|\OT1/cmr/bx/sc/12 Transmisi^^Son
- []
+LaTeX Warning: Reference `fig:conf_matrix_efficient' on page 73 undefined on in
+put line 210.
 
 
-Overfull \hbox (13.42891pt too wide) in paragraph at lines 477--490
- [][] 
- []
+LaTeX Warning: Reference `fig:conf_matrix_vit' on page 73 undefined on input li
+ne 210.
 
 
-
-[89
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.24})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.491 
-       <./capitulo_05/imagen/mapa1.png>]
-
-[90
-pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.500     \item \textbf
-                       {Corte de energ铆a al alejar la tarjeta:} En el 100\%...
-]
-
-[91]
-<./capitulo_05/imagen/montajecompleto.jpg, id=1556, 1445.4pt x 1084.05pt>
-File: ./capitulo_05/imagen/montajecompleto.jpg Graphic file (type jpg)
-<use ./capitulo_05/imagen/montajecompleto.jpg>
-Package pdftex.def Info: ./capitulo_05/imagen/montajecompleto.jpg  used on inpu
-t line 530.
-(pdftex.def)             Requested size: 272.99881pt x 204.74759pt.
-<./capitulo_05/imagen/montajecompleto1.jpg, id=1559, 1445.4pt x 1084.05pt>
-File: ./capitulo_05/imagen/montajecompleto1.jpg Graphic file (type jpg)
-<use ./capitulo_05/imagen/montajecompleto1.jpg>
-Package pdftex.def Info: ./capitulo_05/imagen/montajecompleto1.jpg  used on inp
-ut line 542.
-(pdftex.def)             Requested size: 272.99881pt x 204.74759pt.
+LaTeX Warning: File `./capitulo_05/imagen/confusion_matrix_resnet50.png' not fo
+und on input line 216.
 
 
-[92
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.25})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.547 
-       <./capitulo_05/imagen/montajecompleto.jpg>]
-<./capitulo_05/imagen/caserfid.jpg, id=1565, 1445.4pt x 1084.05pt>
-File: ./capitulo_05/imagen/caserfid.jpg Graphic file (type jpg)
-<use ./capitulo_05/imagen/caserfid.jpg>
-Package pdftex.def Info: ./capitulo_05/imagen/caserfid.jpg  used on input line 
-552.
-(pdftex.def)             Requested size: 234.00238pt x 175.48611pt.
-<./capitulo_05/imagen/prototipofinalmontado.jpg, id=1568, 650.43pt x 867.24pt>
-File: ./capitulo_05/imagen/prototipofinalmontado.jpg Graphic file (type jpg)
-<use ./capitulo_05/imagen/prototipofinalmontado.jpg>
-Package pdftex.def Info: ./capitulo_05/imagen/prototipofinalmontado.jpg  used o
-n input line 564.
-(pdftex.def)             Requested size: 195.0pt x 260.00198pt.
+! Package pdftex.def Error: File `./capitulo_05/imagen/confusion_matrix_resnet5
+0.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.216 ..._05/imagen/confusion_matrix_resnet50.png}
+                                                  
+? 
+
+LaTeX Warning: File `./capitulo_05/imagen/confusion_matrix_efficientnet.png' no
+t found on input line 226.
 
 
-[93
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.26})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.569 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.27})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.569 
-       <./capitulo_05/imagen/montajecompleto1.jpg> <./capitulo_05/imagen/caserf
-id.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 574--575
+! Package pdftex.def Error: File `./capitulo_05/imagen/confusion_matrix_efficie
+ntnet.png' not found: using draft setting.
 
- []
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ...imagen/confusion_matrix_efficientnet.png}
+                                                  
+? 
+
+LaTeX Warning: File `./capitulo_05/imagen/confusion_matrix_vit.png' not found o
+n input line 236.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
+! Package pdftex.def Error: File `./capitulo_05/imagen/confusion_matrix_vit.png
+' not found: using draft setting.
 
- []
-
-
-
-[94
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.28})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.579 
-       <./capitulo_05/imagen/prototipofinalmontado.jpg>]
-<./capitulo_05/imagen/resulfin.png, id=1579, 1006.51031pt x 504.38437pt>
-File: ./capitulo_05/imagen/resulfin.png Graphic file (type png)
-<use ./capitulo_05/imagen/resulfin.png>
-Package pdftex.def Info: ./capitulo_05/imagen/resulfin.png  used on input line 
-586.
-(pdftex.def)             Requested size: 390.0pt x 195.43152pt.
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.236 ...itulo_05/imagen/confusion_matrix_vit.png}
+                                                  
+? 
 )
-
-[95
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.29})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.144 \include{./capitulo_05/resultados}
-                                         <./capitulo_05/imagen/resulfin.png>]
 \openout2 = `./capitulo_06/discusion.aux'.
 
-
-(capitulo_06/discusion.tex
+ (capitulo_06/discusion.tex
 Cap\'{\i }tulo 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-
-[96
-
-
-
-
-]
-
-[97])
-
-[98]
+)
 No file tfg.gls.
-
-
-[99
-
-
-
-]
 \openout2 = `./anexos/anexo.aux'.
-
 
 No file ./anexos/anexo.tex.
 (tfg.bbl
@@ -2720,17 +2269,6 @@ Underfull \hbox (badness 1210) in paragraph at lines 68--72
  []
 
 
-
-[100
-
-
-
-
-
-
-]
-
-[101]
 Underfull \hbox (badness 10000) in paragraph at lines 152--155
 []\OT1/cmr/m/n/12 T. T. Net-work, ``Fre-quency plans | the things net-
  []
@@ -2746,8 +2284,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
  []
 
 
-
-[102]
 Underfull \hbox (badness 2626) in paragraph at lines 217--222
 []\OT1/cmr/m/n/12 Mohammad, Gou-se, Shitharth, S. Syed, Dug-ya-la, Ra-man, Rao,
 
@@ -2760,8 +2296,6 @@ Overfull \hbox (25.76657pt too wide) in paragraph at lines 239--243
  []
 
 
-
-[103]
 Underfull \hbox (badness 1137) in paragraph at lines 314--316
 []\OT1/cmr/m/n/12 E. Sys-tems, ``Esp32-wroom-32, da-tasheet,'' 2019, [On-li-ne]
 . Avai-la-
@@ -2774,10 +2308,6 @@ Underfull \hbox (badness 4108) in paragraph at lines 314--316
  []
 
 
-
-[104]
-
-[105]
 Underfull \hbox (badness 2126) in paragraph at lines 437--442
 []\OT1/cmr/m/n/12 O. Cal-cu-la-tor, ``Cal-cu-la-do-ra de dis-tan-cia en-tre coo
 r-de-na-das (la-
@@ -2803,11 +2333,20 @@ ing-[]calculators /
 
 )
 
-[106] (tfg.aux
+! LaTeX Error: \begin{table} on input line 153 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 \end{document}
+                    
+? 
+(tfg.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
- (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux) (epigrafe/ep
-igrafe.aux) (capitulo_01/introduccion.aux)
+ (portada_y_ficha_catalografica/portada_y_ficha_catalografica.aux)
+(epigrafe/epigrafe.aux) (capitulo_01/introduccion.aux)
 (capitulo_02/marco_teorico.aux) (capitulo_03/tecnologias_utilizadas.aux)
 (capitulo_04/metodologia_y_desarrollo.aux) (capitulo_05/resultados.aux)
 (capitulo_06/discusion.aux) (anexos/anexo.aux))
@@ -2831,21 +2370,68 @@ Package rerunfilecheck Warning: File `tfg.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `tfg.out':
-(rerunfilecheck)             Before: 983461DEFB00F0875CC9C72AA5D7A66C;22973
-(rerunfilecheck)             After:  005AFFA042C8BE1565353D4BF3B364D3;22054.
- )
-(\end occurred inside a group at level 1)
+(rerunfilecheck)             Before: C812B63C493DDDED02BE4B72DDDDF793;18947
+(rerunfilecheck)             After:  23A46466D4A6383F3C50C863D810C691;19466.
+! You can't use `\end' in internal vertical mode.
+\enddocument ...cument/end}\deadcycles \z@ \@@end 
+                                                  
+l.187 \end{document}
+                    
+? 
 
-### simple group (level 1) entered at line 47 ({)
-### bottom level 
+! LaTeX Error: \begin{table} on input line 153 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 \end{document}
+                    
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.187 \end{document}
+                    
+? 
+)
+*
+(Please type a command or say `\end')
+*
+(Please type a command or say `\end')
+*\end
+
+*
+Runaway argument?
+! Paragraph ended before \end  was complete.
+<to be read again> 
+                   \par 
+<*> 
+    
+? \end
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, 
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? X
+ 
 Here is how much of TeX's memory you used:
- 25401 strings out of 473523
- 508613 string characters out of 5714146
- 939907 words of memory out of 5000000
- 47830 multiletter control sequences out of 15000+600000
+ 25133 strings out of 473523
+ 506154 string characters out of 5714146
+ 1004815 words of memory out of 5000000
+ 47734 multiletter control sequences out of 15000+600000
  569205 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,2473b,1023s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,2473b,1075s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{cite.ThingsBoard_docs2} has been referenced but doe
+s not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.ThingsBoard_docs} has been referenced but does
+ not exist, replaced by a fixed one
+
 
 pdfTeX warning (dest): name{glo:appskey-acronym} has been referenced but does n
 ot exist, replaced by a fixed one
@@ -2867,60 +2453,20 @@ pdfTeX warning (dest): name{glo:otaa-acronym} has been referenced but does not
 exist, replaced by a fixed one
 
 
+pdfTeX warning (dest): name{cite.heliumDocs1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.heltec} has been referenced but does not exist
+, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{cite.Helium_Console} has been referenced but does n
+ot exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{glo:rtos} has been referenced but does not exist, r
 eplaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.3.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.11} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.3.6} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.3.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.10} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.3.4} has been referenced but does not exist, 
-replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.9} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.8} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.7} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.6} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.5} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.4} has been referenced but does not exist,
- replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.3.3} has been referenced but does not exist,
- replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:rfid-acronym} has been referenced but does not 
@@ -2933,30 +2479,6 @@ exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{glo:loraw} has been referenced but does not exist, 
 replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.2.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.2.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.2.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.1.4} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.1.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.1.2} has been referenced but does not 
-exist, replaced by a fixed one
 
  <C:\Users\Matias\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1
 200.pk> <C:\Users\Matias\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
@@ -2972,9 +2494,9 @@ Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users
 cmr12.pfb><C:/Users/Matias/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmti12.pfb><C:/Users/Matias/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb>
-Output written on tfg.pdf (118 pages, 8964245 bytes).
+Output written on tfg.pdf (82 pages, 2877686 bytes).
 PDF statistics:
- 1921 PDF objects out of 2073 (max. 8388607)
- 440 named destinations out of 1000 (max. 500000)
- 1159 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1336 PDF objects out of 1440 (max. 8388607)
+ 266 named destinations out of 1000 (max. 500000)
+ 846 words of extra memory for PDF output out of 10000 (max. 10000000)
 
