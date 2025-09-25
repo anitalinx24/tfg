@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.23)  23 SEP 2025 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.23)  23 SEP 2025 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,11 +711,11 @@ Writing index file tfg.idx
 \glo@main@file=\write6
 \openout6 = `tfg.glo'.
 
-Package glossaries Info: Writing glossary file tfg.glo on input line 34.
+Package glossaries Info: Writing glossary file tfg.glo on input line 35.
 \glo@acronym@file=\write7
 \openout7 = `tfg.acn'.
 
-Package glossaries Info: Writing glossary file tfg.acn on input line 34.
+Package glossaries Info: Writing glossary file tfg.acn on input line 35.
 
 ! LaTeX Error: File `./glosario/glosario.tex' not found.
 
@@ -723,11 +723,11 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
 
 Enter file name: 
-c:/Users/59598/Downloads/LIBROos/.latex-preview-cache/tfg/tfg.tex:36: Emergency
+c:/Users/59598/Downloads/LIBROos/.latex-preview-cache/tfg/tfg.tex:37: Emergency
  stop.
 <read *> 
          
-l.36 \input{./glosario/glosario}
+l.37 \input{./glosario/glosario}
                                 ^^M 
 Here is how much of TeX's memory you used:
  20201 strings out of 474485
@@ -738,5 +738,5 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,0n,79p,2529b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-c:/Users/59598/Downloads/LIBROos/.latex-preview-cache/tfg/tfg.tex:36:  ==> Fata
+c:/Users/59598/Downloads/LIBROos/.latex-preview-cache/tfg/tfg.tex:37:  ==> Fata
 l error occurred, no output PDF file produced!

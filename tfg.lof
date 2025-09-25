@@ -1,14 +1,11 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Internet de las Cosas} (crédito: Imagen por macrovector en \textit {Freepik}). }}{9}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Estructura de capas de \textit {\acrshort {lora-acronym}} y \textit {\acrshort {loraw}} \cite {doc_aboutlorawan}. }}{11}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Una arquitectura típica de red \textit {\acrshort {loraw}} \cite {Lora3}. }}{12}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Clases de Dispositivos en \textit {\acrshort {loraw}} \cite {morales2021lorawan}. }}{13}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagrama de Seguridad en \textit {\acrshort {loraw}} \cite {lorawan_security_whitepaper}. }}{14}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Modelo de Sistema \textit {\acrshort {rfid-acronym}} \cite {proyectoRFID}. }}{16}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Modelo de comunicación entre el lector y los tags en un sistema \textit {\acrshort {rfid-acronym}} \cite {RFidtech}. }}{17}{figure.2.7}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Flujo de datos en un sistema \textit {\acrshort {rfid-acronym}} basado en el modelo maestro-esclavo \cite {Mechanismiot}. }}{18}{figure.2.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textit {Diagrama de flujo del modelo YOLO}. }}{11}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \textit {Diagrama de flujo del modelo YOLO – versión completa}. }}{13}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textit {Tipos de huesos en extremidades caninas}. }}{17}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \textit {Tipos de fracturas óseas caninas según clasificación morfológica}. }}{19}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \textit {Ubicación de la fractura en el esqueleto canino según regiones anatómicas}. }}{20}{figure.2.5}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Placa de desarrollo Heltec}}{29}{figure.3.1}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Lector \textit {\acrshort {rfid-acronym}} }}{31}{figure.3.2}%
@@ -78,7 +75,3 @@
 \contentsline {figure}{\numberline {5.28}{\ignorespaces Prototipo Final.}}{102}{figure.5.28}%
 \contentsline {figure}{\numberline {5.29}{\ignorespaces Visualización de datos en tiempo real.}}{103}{figure.5.29}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Validación del Sistema Integrado en la Motocicleta.}}{108}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Proceso de impresión del encapsulado.}}{109}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Proceso de medición de continuidad en el sistema eléctrico de una motocicleta.}}{109}{figure.6.3}%

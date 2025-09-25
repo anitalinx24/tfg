@@ -11,365 +11,347 @@
 
 En este capítulo se desarrolla el marco teórico conceptual y referencial de este trabajo de investigación. En primer lugar, se presentan las definiciones básicas asociadas al estudio, como las relacionadas con la tecnología de geolocalización y radiofrecuencia. Por último, se presentan los antecedentes de trabajos anteriormente realizados en el área sobre el cual está basado este trabajo final de grado.
 
-\section{Internet de las cosas}
 
-Diversos autores han definido el Internet de las Cosas \textit{(\acrshort{iot-acronym})} de maneras que resaltan distintos aspectos de su funcionamiento e impacto. Un artículo publicado por Alejandro Cama y colaboradores describe el \textit{\acrshort{iot-acronym}} como un sistema que utiliza (\textit{\gls{wsn-acronym}}) para integrar dispositivos de bajo costo en una red conectada a internet. Desde esta perspectiva, el \textit{\acrshort{iot-acronym}} permite la comunicación y el control de dispositivos a través de internet, creando una red de objetos que pueden interactuar con su entorno y responder a cambios en tiempo real \cite{cama2012}. Por su parte, en el libro titulado \textit{Internet de las Cosas}, los autores Rivera Berrío y Lopera Sánchez describen el \textit{\acrshort{iot-acronym}} como una red de dispositivos cotidianos que abarca desde electrodomésticos hasta sistemas industriales, los cuales se conectan a internet para recopilar, analizar y compartir datos de manera continua. Para estos autores, el \textit{\acrshort{iot-acronym}} facilita la interacción autónoma entre objetos, optimizando el control remoto y la automatización de procesos en múltiples contextos \cite{rivera2024}.
+\section{Inteligencia Artificial}
+\subsection{Evolución histórica}
+La inteligencia artificial (IA) tiene sus orígenes en los trabajos pioneros de Alan Turing, quien en 1950 publicó su artículo ``\textit{Computing Machinery and Intelligence}'' donde propuso el ahora famoso \textit{Test} de Turing como método para evaluar la capacidad de una máquina para exhibir un comportamiento inteligente. El término ``Inteligencia Artificial'' fue acuñado formalmente en 1956 durante la conferencia de Dartmouth, organizada por John McCarthy, Marvin Minsky, Nathaniel Rochester y Claude Shannon, estableciendo así el nacimiento de este campo como disciplina académica \cite{turing1950}.
 
-Kevin Ashton, quien acuñó el término “\textit{Internet of Things}” en los años 90, planteó que si los objetos de la vida diaria estuvieran conectados a internet y contaran con identificadores únicos, como etiquetas, podrían intercambiar información entre sí y ser gestionados eficazmente por computadoras, transformando la cadena de suministro. Ashton describió el \textit{\acrshort{iot-acronym}} como una “red de cosas” que fusiona el mundo físico con el digital, permitiendo que la tecnología de sensores convierta los objetos físicos en una extensión del mundo de la información. En otro trabajo, Mora González define el \textit{\acrshort{iot-acronym}} como un ecosistema digital que interconecta objetos inteligentes, permitiendo aplicaciones en sectores como la salud, la seguridad y las ciudades inteligentes. Según esta autora, el \textit{\acrshort{iot-acronym}} tiene el potencial de transformar el entorno humano al conectar dispositivos que facilitan la toma de decisiones informadas y automatizadas en tiempo real, impulsando así el desarrollo de entornos inteligentes \cite{mora2015}.
+Las décadas de 1960 y 1970 vieron el desarrollo de los primeros sistemas expertos como \textit{DENDRAL} y \textit{MYCIN}, que demostraron la capacidad de las computadoras para simular el razonamiento humano en dominios específicos. Sin embargo, las limitaciones técnicas y teóricas condujeron a lo que se conoce como el ``invierno de la IA'' en los años 80, un período de reducción de financiación e interés en la investigación \cite{feigenbaum1988}.
 
-A partir de estas definiciones, el \textit{\acrshort{iot-acronym}} puede sintetizarse como una red de objetos interconectados que, mediante sensores y dispositivos de comunicación, recopila, transmite y analiza datos en tiempo real. Este sistema facilita la comunicación y la automatización de procesos entre objetos físicos y digitales, permitiendo optimizar el control y la eficiencia en diversas áreas, desde el hogar hasta la industria. Aunque el \textit{\acrshort{iot-acronym}} ofrece numerosas ventajas en términos de eficiencia, automatización y seguridad, también plantea desafíos significativos en cuanto a la privacidad y la protección de datos, factores esenciales para su implementación responsable y segura en la sociedad actual \cite{alonso2016}.
+El resurgimiento de la IA comenzó en los años 90 con avances en \textit{machine learning}, particularmente con el desarrollo de métodos estadísticos y probabilísticos. El verdadero punto de inflexión llegó en 2012, cuando una red neuronal profunda desarrollada por Krizhevsky et al. redujo drásticamente la tasa de error en el desafío de reconocimiento visual \textit{ImageNet}, inaugurando la era moderna del \textit{deep learning} \cite{krizhevsky2012}.
 
-En este contexto, los objetos adquieren un papel activo en el mundo real, respondiendo a eventos específicos y desencadenando acciones. La aparición del \textit{\acrshort{iot-acronym}} está impulsando una transformación que genera nuevos modelos de negocio, productos y compañías. Se espera que esta tecnología aporte numerosos beneficios, como la optimización de la cadena de abastecimiento, reducción de costos, mejoras en la experiencia del consumidor y beneficios en seguridad y servicios de emergencia \cite{martinez2019red}.
+\subsection{Concepto de inteligencia artificial}
+La IA puede ser definida desde cuatro perspectivas diferentes: sistemas que piensan como humanos, sistemas que actúan como humanos, sistemas que piensan racionalmente y sistemas que actúan racionalmente. Esta multidimensionalidad refleja la complejidad inherente al campo \cite{russell2020}.
 
-Una representación gráfica del concepto de \textit{\acrshort{iot-acronym}} se muestra en la Figura \ref{fig:IoTc}, donde se ilustra la interconexión de dispositivos y la transmisión de datos en una red de objetos inteligentes.
+La IA es la capacidad de un sistema para interpretar correctamente datos externos, aprender de dichos datos y utilizar esos aprendizajes para lograr objetivos y tareas específicas mediante adaptación flexible. Esta definición enfatiza las capacidades de aprendizaje y adaptación que caracterizan a los sistemas de IA modernos \cite{kaplan2019}.
 
-\begin{figure}[H]
-\leavevmode
-\begin{minipage}{\textwidth}
-\begin{center}
-\includegraphics[width=0.45\textwidth]{./capitulo_02/figures/IoT_concept}
-\caption{\textit{Internet de las Cosas} (crédito: Imagen por macrovector en \textit{Freepik}). \label{fig:IoTc}}
-\end{center}
-\end{minipage}
-\end{figure}
+La inteligencia artificial representa la convergencia de diversos campos como la computación, la estadística, la neurociencia y la psicología cognitiva, con el objetivo de crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, incluyendo el aprendizaje, la resolución de problemas, el reconocimiento de patrones y la toma de decisiones en entornos complejos y dinámicos.
 
+\subsection{Modelos de Inteligencia Artificial}
+La IA puede clasificarse en IA estrecha o débil (diseñada para tareas específicas), IA general (capaz de realizar cualquier tarea intelectual humana) e IA superinteligente (hipotética, superaría la inteligencia humana). Actualmente, todos los sistemas desplegados son ejemplos de IA estrecha, aunque la investigación avanza hacia desarrollos más generales \cite{bostrom2014}.
 
+\section{\textit{YOLO} (\textit{You Only Look Once})}
 
-\section{LoRA \textit{(Long Range)}}
+\subsection{Concepto}
+\textit{YOLO} es un sistema de detección de objetos en tiempo real que procesa imágenes completas en una sola evaluación de red neuronal, dividiendo la imagen en regiones y prediciendo simultáneamente cuadros delimitadores y probabilidades de clase para cada región \cite{yolo_site}.
 
-\textit{\acrshort{lora-acronym}} es una tecnología de modulación de radiofrecuencia (\textit{\acrshort{rf}}) diseñada para redes de área amplia de baja potencia (\textit{\acrshort{lpwan-acronym}}). Derivada de la técnica \textit{\glspl{css} (\acrshort{css-acronym})}, codifica información en ondas de radio mediante chirridos, similar a la comunicación de delfines y murciélagos. Esta técnica permite comunicaciones de largo alcance, hasta tres millas (cinco kilómetros) en áreas urbanas y hasta 10 millas (15 kilómetros) o más en áreas rurales con línea de visión. \textit{\acrshort{lora-acronym}} proporciona comunicaciones de largo alcance con requisitos de energía ultrabajos, lo que permite que los dispositivos funcionen con baterías durante hasta 10 años \cite{Lora, doc_whatislorawan, doc_overviewsemtech}. Según Bertoleti \cite{bertoleti2019proyectos}, esta tecnología es ideal para aplicaciones (\textit{\acrshort{iot-acronym}}), dado que opera en bandas de frecuencia sin licencia y es resistente a interferencias.
+\textit{YOLO} es un enfoque unificado para la detección de objetos que trata la detección como un problema de regresión espacial, donde una única red neuronal predice directamente cuadros delimitadores y probabilidades de clase simultáneamente. Este diseño posibilita una optimización directa de extremo a extremo y posibilita la detección en tiempo real mientras mantiene alta precisión \cite{yolo_paper}.
 
-\paragraph{Bandas de Frecuencia y Configuración Regional\\}
-\textit{\acrshort{lora-acronym}} opera en bandas de frecuencia sub-gigahertz específicas para cada región para evitar interferencias. En América, \textit{\acrshort{lora-acronym}} utiliza la banda de 902-928 MHz; en Europa, 863-870 MHz; y en China, 779-787 MHz. Los planes de frecuencia específicos y parámetros de cada región están detallados en los documentos \cite{doc_frequencyplans, doc_regionalparameters}.
+\subsection{Características}
+\textit{YOLO} destaca por su velocidad de procesamiento, alcanzando 45 fotogramas por segundo en su configuración base y hasta 155 fotogramas por segundo en su versión más rápida, lo que posibilita aplicaciones en tiempo real. Su arquitectura unificada optimiza directamente el rendimiento de detección al tratar la detección como un problema de regresión único \cite{bochkovskiy2020}.
 
-\paragraph{Ventajas y Limitaciones de \acrshort{lora-acronym}\\}
-\textit{\acrshort{lora-acronym}} ofrece varias ventajas clave \cite{doc_overviewsemtech, doc_loraphysemtech}:
-\begin{itemize}
-    \item Alcance Extenso y Eficiencia Energética: \textit{\acrshort{lora-acronym}} permite la comunicación de datos a grandes distancias con bajo consumo de energía.
-    \item Inmunidad a Interferencias: Al operar en bandas de baja frecuencia y utilizar \textit{\acrshort{css-acronym}}, \textit{\acrshort{lora-acronym}} minimiza la interferencia de otros dispositivos.
-    \item Costo-Efectividad: Comparado con otras tecnologías, \textit{\acrshort{lora-acronym}} reduce los costos de infraestructura y mantenimiento.
-\end{itemize}
+La arquitectura de \textit{YOLO} divide la imagen de entrada en una cuadrícula S×S y, para cada celda de la cuadrícula, predice B cuadros delimitadores junto con sus puntuaciones de confianza y probabilidades de clase. Esta formulación posibilita al modelo considerar simultáneamente características visuales globales y contexto espacial, contribuyendo a su capacidad para generalizar bien a nuevas situaciones y dominios \cite{yolo_docs}.
 
-Sin embargo, \textit{\acrshort{lora-acronym}} tiene limitaciones en la tasa de transmisión de datos, con un máximo de alrededor de 37.5 kbps, lo que la hace inadecuada para aplicaciones que requieren transmisión de grandes volúmenes de datos, como video. Además, \textit{\acrshort{lora-acronym}} no incorpora encriptación de datos en su capa física, por lo que los desarrolladores deben implementar medidas de seguridad en capas superiores \cite{doc_overviewsemtech}.
+\subsection{Arquitectura de YOLOv11}
 
+La arquitectura de {YOLOv11 sigue el paradigma modular \textit{backbone}--\textit{neck}--\textit{head}, optimizado para lograr un alto rendimiento en tareas de detección de objetos en tiempo real. Desarrollado por Ultralytics, este modelo introduce mejoras en la extracción de características, mecanismos de atención y predicción multi-escala que permiten mantener una elevada precisión (\textit{mAP}) sin comprometer la velocidad de inferencia, incluso en entornos con recursos computacionales limitados \cite{analyticsvidhya2025}.
 
-\section{\textit{LoRaWAN (Long Range Wide Area Network)}}
+\textbf{Backbone – Extracción de características}
 
-\textit{\acrshort{loraw}} es el protocolo de red que permite organizar y gestionar redes de dispositivos que utilizan \textit{\acrshort{lora-acronym}} como capa física. Este protocolo, administrado por la \textit{\acrshort{lora-acronym} Alliance}, es de código abierto y permite una estructura de red en la cual miles de dispositivos pueden conectarse y enviar datos a un servidor de red a través de \textit{gateways} (puntos de acceso). \textit{\acrshort{loraw}} facilita una comunicación bidireccional segura, escalable y de bajo consumo energético, adaptándose a los requerimientos de aplicaciones \textit{\acrshort{iot-acronym}} a gran escala \cite{doc_aboutlorawan, doc_lorawanstandardsemtech}. La Figura ~\ref{fig:loracapas} muestra la estructura de capas de \textit{\acrshort{lora-acronym}} y \textit{\acrshort{loraw}}, detallando las opciones \textit{\acrshort{mac-acronym}, \gls{mac} } y su integración con la capa física de \textit{\acrshort{lora-acronym}}.
+El \textit{backbone} de YOLOv11 emplea una arquitectura tipo \textit{DarkNet/DarkFPN} para extraer tres niveles de características (P3, P4 y P5), representando patrones visuales desde detalles finos hasta información semántica de alto nivel. Incorpora bloques optimizados para eficiencia computacional y culmina con el módulo \textit{SPPF (Spatial Pyramid Pooling Fast)}, que fusiona información de contexto a múltiples escalas mediante \textit{max-pooling}, mejorando la detección de objetos pequeños sin degradar el rendimiento en tiempo real.
 
-\begin{figure}[H]
-\leavevmode
-\begin{minipage}{\textwidth}
-\begin{center}
-\includegraphics[scale=0.15]{./capitulo_02/figures/LoraLoraWAN.png}
-\caption{Estructura de capas de \textit{\acrshort{lora-acronym}} y \textit{\acrshort{loraw}} \cite{doc_aboutlorawan}. \label{fig:loracapas}}
-\end{center}
-\end{minipage}
-\end{figure}
+\textbf{Neck – Fusión y atención espacial}
 
-\textit{\acrshort{lora-acronym}} se puede comparar con los cables físicos que interconectan los dispositivos en una red \textit{Ethernet}, mientras que \textit{\acrshort{loraw}} representa el protocolo de comunicación que gestiona el intercambio de datos entre los dispositivos, similar a cómo una red \textit{Ethernet} utiliza direcciones \textit{\acrshort{mac-acronym}} e \textit{IP} para coordinar la comunicación entre sus componentes.
+El \textit{neck} está diseñado para combinar y refinar las características extraídas en el \textit{backbone}. YOLOv11 introduce el bloque \textit{C2PSA (Cross Stage Partial con Spatial Attention)}, que aplica atención espacial en sub-rutas parciales del flujo de datos, destacando regiones relevantes y atenuando el ruido. Posteriormente, se emplea un esquema tipo FPN con \textit{upsampling} y concatenación para mantener la coherencia entre distintas resoluciones, optimizando así la detección en múltiples escalas con un coste computacional controlado.
 
-\paragraph{Arquitectura de \acrshort{loraw}\\}
-La arquitectura de \textit{\acrshort{loraw}} presenta una topología conocida como ``Estrella de Estrellas'' \textit{(Star of Stars)}, compuesta por cuatro elementos principales: dispositivos finales (nodos), \textit{gateways} (puertas de enlace), servidor de red y servidor de aplicación. Los dispositivos finales, generalmente constituidos por sensores o actuadores, utilizan la capa física \textit{\acrshort{lora-acronym}} para compartir información adquirida con el \textit{gateway}. El \textit{gateway}, a su vez, recibe esta información y la transmite al servidor de red mediante una comunicación \textit{\gls{backhaul-glossary}} (una red de retorno), que puede ser a través de redes \textit{Wi-Fi}, \textit{Ethernet} o redes móviles celulares \cite{sierra2023geolocalizacion}.\\
+\textbf{Head – Predicción multi-escala}
 
-El servidor de red se encarga de recibir los paquetes de datos enviados por los nodos, decodificarlos y aplicar protocolos de seguridad, permitiendo que cada aplicación reciba los datos necesarios del servidor de red. Este protocolo facilita la recopilación de datos en un solo \textit{gateway} desde varios nodos ubicados a diferentes distancias, incluso kilómetros, a través de una comunicación unidireccional, aunque en algunos casos se utiliza la comunicación bidireccional entre nodo y \textit{gateway}. Finalmente, los datos se envían al servidor de aplicaciones, encargado de procesar la carga útil. Esta arquitectura permite administrar miles de dispositivos en una sola red, optimizando la escalabilidad y reduciendo los costos de infraestructura \cite{doc_whatislorawan, bertoleti2019proyectos}. En la Figura ~\ref{fig:arquitectura} se muestra la arquitectura de red previamente descrita.
+El \textit{head} opera sobre los tres mapas de características (P3, P4, P5) generados tras el \textit{neck}, permitiendo detectar objetos pequeños, medianos y grandes de forma simultánea. Cada salida genera predicciones de cajas delimitadoras y categorías, ajustadas según el \textit{stride} correspondiente. En la etapa final de inferencia se aplican algoritmos de \textit{Non-Maximum Suppression (NMS)} para eliminar detecciones redundantes y conservar las más probables.
 
-\begin{figure}[H]
-\leavevmode
-\begin{minipage}{\textwidth}
-\begin{center}
-\includegraphics[scale=0.22]{./capitulo_02/figures/architecture.png}
-\caption{Una arquitectura típica de red \textit{\acrshort{loraw}} \cite{Lora3}. \label{fig:arquitectura}}
-\end{center}
-\end{minipage}
-\end{figure}
-
-\paragraph{Clases de Dispositivos en \acrshort{loraw}\\}
-
-\textit{\acrshort{loraw}} define tres clases de dispositivos, cada una optimizada para diferentes perfiles de uso y consumo energético \cite{doc_aboutlorawan, doc_lorawanstandardsemtech}:
-\begin{itemize}
-    \item \textbf{Clase A}: Dispositivos que solo reciben datos después de transmitir, ideal para sensores de bajo consumo.
-    \item \textbf{Clase B}: Dispositivos con ventanas de recepción adicionales sincronizadas mediante balizas.
-    \item \textbf{Clase C}: Dispositivos en escucha continua, adecuado para dispositivos conectados a una fuente de energía constante.
-\end{itemize}
-
-La Figura ~\ref{fig:loraclass} ilustra las características de cada clase de dispositivo en \textit{\acrshort{loraw}}, mostrando el momento de transmisión y las ventanas de recepción para cada clase. En la clase A, los dispositivos abren dos ventanas de recepción después de la transmisión, con retardo entre ellas, lo cual permite eficiencia energética. En la clase B, se añaden balizas de sincronización, lo que permite ventanas de recepción programadas en momentos específicos. La clase C, por otro lado, está en escucha continua, lo que minimiza la latencia de recepción de datos, pero aumenta el consumo de energía. Esta figura ayuda a visualizar las diferencias en el comportamiento de las tres clases y su adecuación para distintos tipos de aplicaciones.
-
-\begin{figure}[H]
-\leavevmode
-\begin{minipage}{\textwidth}
-\begin{center}
-\includegraphics[scale=0.5]{./capitulo_02/figures/claseslora.png}
-\caption{Clases de Dispositivos en \textit{\acrshort{loraw}} \cite{morales2021lorawan}. \label{fig:loraclass}}
-\end{center}
-\end{minipage}
-\end{figure}
-
-\paragraph{Seguridad en \acrshort{loraw}\\}
-La seguridad es un componente esencial en \textit{\acrshort{loraw}}, diseñado para garantizar la autenticación, integridad y confidencialidad en las comunicaciones \textit{\acrshort{iot-acronym}}. \textit{\acrshort{loraw}} implementa una doble capa de protección con tres claves principales:
-\begin{enumerate}
-    \item \textbf{Autenticación en la Capa de Red}: La \gls{nwkskey-glossary} (\textit{nwkskey-acronym}) autentica cada dispositivo, asegurando que solo nodos autorizados puedan acceder a la red. También valida la integridad de cada mensaje mediante un código de integridad (\textit{MIC}) para prevenir alteraciones en los datos.
-    \item \textbf{Encriptación en la Capa de Aplicación}: La \gls{appskey-glossary}, (\textit{\gls{appskey-acronym}}) cifra y descifra los datos transmitidos, asegurando que solo el dispositivo y el servidor de aplicación puedan acceder al contenido, lo cual protege la privacidad del usuario \cite{doc_overviewsemtech, doc_loraphysemtech, ttn_security}.
-    \item \textbf{Clave de Aplicación (\textit{\acrshort{appkey-acronym}})}: En el proceso de activación, los dispositivos que utilizan activación por aire (\textit{\acrshort{otaa-acronym}}) generan las claves de sesión (\textit{\acrshort{nwkskey-acronym}} y \textit{\acrshort{appskey-acronym}}) a partir de una clave de aplicación única (\textit{\acrshort{appkey-acronym}}). Esto permite que las claves de sesión se regeneren en cada activación, añadiendo una capa adicional de seguridad dinámica \cite{ttn_security, lorawan_security_whitepaper}.
-\end{enumerate}
-
-Para prevenir ataques de repetición, \textit{\acrshort{loraw}} emplea contadores de tramas (\textit{frame counters}), evitando que los mensajes antiguos se retransmitan. Además, utiliza cifrado \textit{\gls{aes-acronym}},  (\textit{\gls{aes}}) en modo \textit{CTR} (\textit{Counter Mode}) para proteger los datos y \textit{\acrshort{cmac-acronym}} (\textit{\gls{cmac}}) para verificar la integridad, ambos métodos aprobados por el \textit{NIST} (\textit{National Institute of Standards and Technology}).
-
-La Figura ~\ref{fig:seclora} ilustra este flujo de seguridad en \textit{\acrshort{loraw}}. En ella, cada dispositivo obtiene las claves de sesión \textit{\acrshort{nwkskey-acronym}} y \textit{\acrshort{appskey-acronym}} del \textit{Join Server} durante el proceso de activación. La \textit{\acrshort{nwkskey-acronym}} asegura la comunicación con el \textit{\acrshort{loraw} Network Server}, mientras que la \textit{\acrshort{appskey-acronym}} protege los datos entre el dispositivo y el \textit{Application Server}. Los \textit{gateways} actúan como intermediarios en este proceso, transmitiendo datos entre los dispositivos y el servidor de red, lo cual fortalece la seguridad de extremo a extremo en la red \textit{\acrshort{loraw}}.
-
-\begin{figure}[H]
-\leavevmode
-\begin{minipage}{\textwidth}
-\begin{center}
-\includegraphics[scale=0.6]{./capitulo_02/figures/Lorasec.png}
-\caption{Diagrama de Seguridad en \textit{\acrshort{loraw}} \cite{lorawan_security_whitepaper}. \label{fig:seclora}}
-\end{center}
-\end{minipage}
-\end{figure}
-
-
-
-\paragraph{Tasa de Datos Adaptativa (\gls{adr-glossary}) en \acrshort{loraw}\\}
-\textit{\acrshort{loraw}} incorpora el mecanismo de (\gls{adr-acronym} que ajusta automáticamente el factor de dispersión, el ancho de banda y la potencia de transmisión según la distancia al \textit{gateway} y la calidad de la señal. Esto permite que dispositivos cercanos al \textit{gateway} usen menos potencia y una mayor tasa de datos, mientras que los dispositivos más alejados incrementan el factor de dispersión para mejorar la sensibilidad.
-
-
-\paragraph{Parámetros Regionales y Configuración\\}
-El protocolo \textit{\acrshort{loraw}} también permite adaptarse a normativas regionales específicas, detalladas en \cite{doc_regionalparameters}. Estas regulaciones incluyen los límites de potencia de transmisión y las bandas de frecuencia permitidas. \cite{doc_frequencyplans} es una referencia para comprender las configuraciones regionales. \\
-
-\textit{\acrshort{lora-acronym}} y \textit{\acrshort{loraw}} constituyen una combinación robusta para aplicaciones de \textit{\acrshort{iot-acronym}} que requieren comunicación de largo alcance y bajo consumo. \textit{\acrshort{lora-acronym}} permite comunicación de largo alcance y eficiente en consumo, mientras que \textit{\acrshort{loraw}} estructura la red con seguridad, escalabilidad y gestión de dispositivos.
-
-
-\section{\textit{Helium Networks}}
-
-\textit{Helium} es una red global distribuida de puntos de acceso que crean cobertura inalámbrica pública de largo alcance para dispositivos \textit{\acrshort{iot-acronym}} y celulares habilitados para \textit{\acrshort{loraw}}. Los \textit{Hotspots \acrshort{loraw}™} (puntos calientes) producen y se compensan en \textit{\acrshort{iot-acronym}}, la criptomoneda nativa de la cadena de bloques \textit{Helium}. La cadena de bloques \textit{Helium} es una nueva cadena de bloques pública de código abierto creada enteramente para incentivar la creación de redes inalámbricas físicas y descentralizadas. Hoy en día, \textit{Helium IoT Network} y sus cientos de miles de \textit{Hotspots} brindan acceso a la red \textit{\acrshort{loraw}} más grande del mundo \cite{heliumDocs}.
-
-\section{\textit{RFID}}
-
-La identificación por radiofrecuencia, o \textit{\acrshort{rfid-acronym}}, es un término genérico para denominar a las tecnologías que utilizan ondas de radio. \textit{\acrshort{rfid-acronym}} es un método simple y automático de recolección de datos sobre un activo o producto (identificación, ubicación, estado, fecha y hora, etc.) de forma más rápida y fácil, sin requerir intervención humana y evitando errores.
-
-Existen diversos métodos para realizar la identificación de objetos utilizando tecnología \textit{\acrshort{rfid-acronym}}, pero el más común consiste en almacenar un número de serie que identifica un producto (y posiblemente otro tipo de información adicional) en un microchip adjunto a una antena. El chip y la antena juntos conforman un \textit{Tag \acrshort{rfid-acronym}}. La antena permite al chip transmitir la información almacenada a un lector. Este lector convierte las ondas de radio de las etiquetas \textit{\acrshort{rfid-acronym}} en datos que pueden ser transmitidos a un sistema informático \cite{rfid}. En la Figura \ref{fig:RFID}, se ilustra la Interfaz Lector-Etiqueta y la Interfaz Lector-Sistema de un sistema \textit{\acrshort{rfid-acronym}}.
-
-\begin{figure}[H]
-\leavevmode
-\begin{minipage}{\textwidth}
-\begin{center}
-\includegraphics[scale=0.6]{./capitulo_02/figures/RFIDD}
-\caption{Modelo de Sistema \textit{\acrshort{rfid-acronym}} \cite{proyectoRFID}. \label{fig:RFID}}
-\end{center}
-\end{minipage}
-\end{figure}
-
-\paragraph{Componentes Principales de un Sistema \textit{\acrshort{rfid-acronym}}\\}
-
-Un sistema \textit{\acrshort{rfid-acronym}} consta de tres componentes esenciales:
-
-\begin{enumerate}
-    \item \textbf{Etiquetas \textit{\acrshort{rfid-acronym} (Tags):}}
-    \begin{itemize}
-        \item Contienen un microchip y una antena que permiten la transmisión de datos.
-        \item Clasificación:
-        \begin{itemize}
-            \item \textit{Activas:} Equipadas con batería interna, permiten comunicación a distancias mayores.
-            \item \textit{Pasivas:} Sin fuente de energía interna, se activan por el campo electromagnético del lector.
-        \end{itemize}
-        \item Almacenan información única que identifica el objeto al que están asociadas \cite{RFidtech}.
-    \end{itemize}
-    \item \textbf{Lector \textit{\acrshort{rfid-acronym} (Reader):}}
-    \begin{itemize}
-        \item Dispositivo que emite señales de radio para activar las etiquetas y leer los datos almacenados.
-        \item Está compuesto por una antena y un procesador que interpreta la información transmitida por las etiquetas.
-    \end{itemize}
-    \item \textbf{Middleware y Sistema de Gestión:}
-    \begin{itemize}
-        \item Gestiona y procesa los datos recopilados por los lectores para integrarlos en sistemas de administración y monitoreo en tiempo real \cite{Mechanismiot}.
-    \end{itemize}
-\end{enumerate}
-
-La Figura \ref{fig:RFIDCommunication} muestra el flujo interno de comunicación entre un lector \acrshort{rfid-acronym} y una etiqueta. Incluye los componentes claves.
+\vspace*{-0.5 cm}
 
 
 \begin{figure}[H]
 \leavevmode
 \begin{minipage}{\textwidth}
 \begin{center}
-\includegraphics[scale=0.3]{./capitulo_02/figures/RFIDmodelsf.png}
-\caption{Modelo de comunicación entre el lector y los tags en un sistema \textit{\acrshort{rfid-acronym}} \cite{RFidtech}. \label{fig:RFIDCommunication}}
+\includegraphics[width=0.8\textwidth]{./capitulo_02/figures/yolo11}
+\caption{\textit{Diagrama de flujo del modelo YOLO}. \label{fig:yolo11}}
 \end{center}
 \end{minipage}
 \end{figure}
 
+\subsection{Arquitectura de YOLOv12}
 
-\paragraph{Funcionamiento de \textit{\acrshort{rfid-acronym}}\\}
+\textit{YOLOv12} es una evolución de la familia \textit{YOLO} que integra mecanismos de atención en un modelo que mantiene la rapidez característica de los detectores basados en \emph{CNN} (redes convolucionales). Su diseño busca balancear precisión y velocidad, superando las limitaciones tradicionales de los mecanismos de atención, que suelen ser lentos y consumir mucha memoria. \cite{learnopencv2025}.
 
-El lector genera un campo electromagnético que activa las etiquetas pasivas, permitiendo la transferencia de datos a través de la modulación de ondas de radio. Los datos recibidos por el lector son procesados y enviados a un sistema de gestión. En el caso de etiquetas activas, estas utilizan su batería para transmitir información de forma autónoma, logrando mayores alcances \cite{8550722}.
 
-En algunos sistemas \acrshort{rfid-acronym}, la comunicación entre los componentes se organiza siguiendo un modelo maestro-esclavo. En este modelo, los principales actores tienen roles claramente definidos:
-\begin{itemize}
-    \item Aplicación (maestro): Envía comandos al lector para iniciar la comunicación y recibe los datos procesados desde las etiquetas.
-    \item Lector: Actúa como intermediario entre la aplicación y las etiquetas. Recibe los comandos de la aplicación, los traduce a señales de radio para las etiquetas, y devuelve las respuestas de las etiquetas a la aplicación.
-    \item Tags (esclavas): Responden a las señales del lector, enviando la información almacenada en su memoria interna.
-\end{itemize}
-
-La Figura \ref{fig:MasterSlaveFlow} ilustra este flujo de datos, mostrando cómo las etiquetas y el lector interactúan bajo la dirección de la aplicación. Este modelo es común en aplicaciones que requieren un control jerárquico, como sistemas de control de acceso o gestión logística centralizada.
-
-\begin{figure}[H]
-\leavevmode
-\begin{minipage}{\textwidth}
-\begin{center}
-\includegraphics[scale=0.3]{./capitulo_02/figures/RFID_MSf.png}
-\caption{Flujo de datos en un sistema \textit{\acrshort{rfid-acronym}} basado en el modelo maestro-esclavo \cite{Mechanismiot}. \label{fig:MasterSlaveFlow}}
-\end{center}
-\end{minipage}
-\end{figure}
-
-Sin embargo, no todos los sistemas \acrshort{rfid-acronym} utilizan este modelo. Algunos sistemas optan por arquitecturas diferentes, dependiendo de sus necesidades y del tipo de etiquetas empleadas:
-\begin{itemize}
-    \item Sistemas Autónomos (Peer-to-Peer): El lector opera de manera autónoma, identificando etiquetas dentro de su alcance sin necesidad de comandos desde una aplicación maestra. Este enfoque es común en sistemas de inventarios masivos.
-    \item Tags Activas con Comunicación Directa: En redes \acrshort{rfid-acronym} activas, las etiquetas con batería interna pueden comunicarse directamente con un servidor o receptor, eliminando la necesidad de un lector intermediario. Este modelo es ideal para rastreo de activos o vehículos en grandes áreas.
-    \item Sistemas Distribuidos o en Red: Varios lectores pueden operar como nodos independientes en una red, reportando datos directamente a un servidor central sin jerarquías estrictas.
-\end{itemize}
-
-Cada modelo tiene sus ventajas y limitaciones. Mientras que el modelo maestro-esclavo es efectivo para aplicaciones que requieren control centralizado, los sistemas autónomos o distribuidos son más adecuados para entornos flexibles y escalables. La elección del modelo dependerá del caso de uso específico, el tipo de etiquetas y la infraestructura disponible.
-
-\paragraph{Características Clave de \textit{\acrshort{rfid-acronym}}\\}
+\textbf{Módulo de Atención por Áreas (\emph{Area Attention Module} - A2)}
 
 \begin{itemize}
-    \item \textbf{Identificación sin contacto:} No requiere línea de vista directa, a diferencia de los códigos de barras.
-    \item \textbf{Capacidad de lectura simultánea:} Puede identificar múltiples etiquetas en una sola operación.
-    \item \textbf{Variedad de frecuencias:}
-    \begin{itemize}
-        \item \textit{LF (Low Frequency):} 125-134 kHz, corto alcance (10 cm), ideal para control de acceso.
-        \item \textit{HF (High Frequency):} 13.56 MHz, alcance de hasta 1 metro, común en tarjetas inteligentes.
-        \item \textit{UHF (Ultra High Frequency):} 860-960 MHz, para logística e inventarios, con alcance de varios metros.
-    \end{itemize}
-    \item \textbf{Durabilidad:} Las etiquetas pasivas tienen una vida útil prolongada, ya que no requieren baterías.
-    \item \textbf{Seguridad:} Implementa medidas de autenticación y encriptación para proteger los datos transmitidos \cite{RFidtech, Mechanismiot}.
+    \item Divide el mapa de características en segmentos locales, en lugar de aplicar atención global costosa.
+    \item Este método conserva un campo receptivo grande (aunque menor que la atención global) pero con una complejidad computacional mucho menor.
+    \item Gracias a esta división sencilla (reorganización del tensor) se reduce el costo computacional a la mitad, acelerando el proceso sin perder precisión significativa.
 \end{itemize}
 
-\paragraph{Aplicaciones de \textit{\acrshort{rfid-acronym}}\\}
+\textbf{Redes de Agregación Residual Eficiente (\emph{Residual Efficient Layer Aggregation Networks} - R-ELAN)}
 
-\begin{enumerate}
-    \item \textbf{Logística y Gestión de Inventarios:}
-    \begin{itemize}
-        \item Seguimiento automatizado de productos y monitoreo en tiempo real en cadenas de suministro.
-    \end{itemize}
-    \item \textbf{Control de Acceso:}
-    \begin{itemize}
-        \item Uso en sistemas de seguridad para edificios y eventos.
-    \end{itemize}
-    \item \textbf{Salud y Farmacéutica:}
-    \begin{itemize}
-        \item Monitoreo de equipos médicos y rastreo de medicamentos para prevenir falsificaciones.
-    \end{itemize}
-    \item \textbf{\textit{\acrshort{iot-acronym}} y Ciudades Inteligentes:}
-    \begin{itemize}
-        \item Integración en soluciones inteligentes para rastreo y gestión en tiempo real \cite{Mechanismiot, 8550722}.
-    \end{itemize}
-\end{enumerate}
+\begin{itemize}
+    \item Evolución del módulo \emph{ELAN} usado en YOLO anteriores, que mejora la agregación de características.
+    \item Introduce conexiones residuales a nivel de bloque con un factor de escala para estabilizar el entrenamiento y evitar problemas de convergencia, especialmente con atención.
+    \item Cambia la forma de agregar características, usando un solo mapa de características procesado mediante bloques tipo \emph{cuello de botella} para mejorar eficiencia y rendimiento.
+\end{itemize}
 
-\textit{\acrshort{rfid-acronym}} es una tecnología versátil y eficiente, especialmente en combinación con \textit{\acrshort{iot-acronym}}. Su capacidad para identificar objetos de forma inalámbrica y sin contacto la convierte en una solución clave en sectores como logística, seguridad y salud. Al operar en diversas frecuencias y con opciones de configuración activa y pasiva, \textit{\acrshort{rfid-acronym}} se adapta a una amplia variedad de aplicaciones \cite{8550722, RFidtech}.
+\textbf{Mejoras Arquitectónicas}
 
-  
+\begin{itemize}
+    \item \textbf{\emph{Flash Attention}:} Optimiza el acceso a memoria para acelerar la atención, cerrando la brecha de velocidad entre atención y convoluciones.
+    \item \textbf{Eliminación del \emph{Codificado Posicional}:} Se suprime el uso de codificaciones posicionales explícitas en la atención para simplificar y acelerar el modelo sin perder precisión.
+    \item \textbf{Ajuste en la Expansión del \emph{MLP}:} Reduce la relación de expansión del perceptrón multicapa de 4 a 1.2 para equilibrar la carga computacional entre atención y redes \emph{feed-forward}.
+    \item \textbf{Reducción de la Profundidad de Bloques:} Disminuye la cantidad de bloques apilados en la última etapa para facilitar la optimización y mejorar la velocidad de inferencia.
+    \item \textbf{Uso Extensivo de Operadores Convolucionales:} Prefiere convoluciones con normalización por lotes en lugar de capas lineales con normalización de capas, aprovechando su eficiencia computacional.
+\end{itemize}
 
-\section{Sistema de Geolocalización}
+\textbf{Resultados}
 
-La geolocalización es el reconocimiento de la posición de un dispositivo en el espacio real. El  (\textit{\gls{gps-acronym}}, por sus siglas en inglés) es la forma más conocida para obtener la localización geográfica, ubicando el dispositivo con una precisión de unos pocos metros. Los datos obtenidos de la posición del \textit{\acrshort{gps-acronym}} no dependen exclusivamente de la conexión a la red de Internet, sino también de la geolocalización del dispositivo cuando no se encuentra fuera de la cobertura de los satélites geoestacionarios. Esta tecnología no es recomendable para uso en interiores como edificios, casas o lugares cerrados, ya que la cobertura de los satélites \textit{\acrshort{gps-acronym}} es nula \cite{fombona2017posibilidades, benavides2021implementacion}.
-
-\section{Servicios de Entrega y Logística}
-
-La Gestión de la Entrega de Servicios, también conocida como gestión de la prestación de servicios, es un área clave en las empresas orientadas a los servicios. Consiste en un conjunto de procesos y prácticas destinados a garantizar la entrega eficaz y de alta calidad de servicios a los clientes. El Gerente de Entrega de Servicios es el responsable encargado de supervisar y coordinar estas actividades. El papel principal de la Gestión de la Entrega de Servicios es asegurarse de que los servicios proporcionados cumplan con las expectativas de los clientes en cuanto a calidad, plazos y rendimiento. Esto implica una gestión proactiva de proyectos, recursos y relaciones con los clientes \cite{gestion}.
+\begin{itemize}
+    \item YOLOv12 mejora la precisión (\emph{mAP}) respecto a versiones anteriores (YOLOv10, YOLOv11) y supera a otros modelos recientes, manteniendo o mejorando la velocidad de inferencia.
+    \item Estas mejoras son escalables para distintos tamaños de modelo (desde versiones pequeñas a grandes).
+    \item Sin embargo, para obtener la máxima velocidad, YOLOv12 requiere GPUs modernas que soporten \emph{Flash Attention} (arquitecturas NVIDIA Turing en adelante).
+\end{itemize}
 
 
 
 
+\begin{figure}[H]
+\leavevmode
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=1.2\textwidth]{./capitulo_02/figures/yolo12}
+\caption{\textit{Diagrama de flujo del modelo YOLO – versión completa}. \label{fig:yolo12}}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\section{Visión por Computadora}
+\subsection{Evolución histórica}
+La visión por computadora como disciplina formal comenzó a desarrollarse en los años 60, cuando investigadores como Larry Roberts exploraron la posibilidad de reconstruir objetos 3D a partir de imágenes 2D en su tesis doctoral del \textit{MIT}. Durante la década siguiente, David Marr estableció un marco teórico influyente que conceptualizaba la visión como un proceso de información multinivel \cite{szeliski2022}.
+
+\subsection{Concepto}
+La visión por computadora es la construcción de descripciones explícitas y significativas de objetos físicos a partir de imágenes. Esta disciplina busca dotar a las máquinas de la capacidad de interpretar y comprender información visual de manera similar a la visión humana \cite{forsyth2021}.
+
+\subsection{Fases de un Sistema de Visión por Computadora}
+
+Un sistema de visión por computadora se estructura desde la adquisición de datos visuales hasta la interpretación de los resultados. Estas fases conforman un flujo modular, donde cada una contribuye de manera específica al procesamiento automatizado de imágenes. La correcta definición e implementación de estas fases es esencial para garantizar la eficiencia, precisión y trazabilidad del sistema \cite{szeliski2022}.
+
+\textbf{Adquisición de Imágenes:} La primera fase consiste en la obtención de imágenes digitales a través de sensores o dispositivos de captura. Esto puede incluir cámaras digitales, dispositivos móviles, escáneres, sensores térmicos, tomografías computarizadas o equipos de rayos X. El resultado es una imagen digital en formato estándar (por ejemplo, \textit{PNG}, \textit{JPEG} o \textit{DICOM}), que servirá como entrada para las fases posteriores del sistema \cite{wang2020}.
+
+La calidad de la imagen capturada incide directamente en la efectividad del análisis visual. Por ello, durante esta fase también pueden realizarse tareas de conversión de formato, validación de resolución y verificación de parámetros como la nitidez, exposición y escala, garantizando así una base adecuada para los procesos siguientes \cite{gonzalez2018}.
+
+\textbf{Preprocesamiento:} El preprocesamiento de imágenes tiene como finalidad mejorar la calidad visual y estandarizar las características técnicas de las imágenes antes de su análisis. Esta fase no altera el contenido semántico, pero sí lo optimiza, eliminando interferencias que podrían afectar negativamente la precisión del sistema \cite{jain2021}. Entre las técnicas más comunes se incluyen:
+
+\begin{itemize}
+  \item \textit{Redimensionamiento:} ajustar todas las imágenes a dimensiones uniformes compatibles con el modelo.
+  \item \textit{Normalización:} escalar los valores de los píxeles a un rango determinado (por ejemplo, de 0 a 1).
+  \item \textit{Reducción de ruido:} aplicación de filtros como el gaussiano o de mediana.
+  \item \textit{Mejoramiento de contraste:} mediante técnicas como la ecualización del histograma.
+  \item \textit{Alineación o rotación:} estandarizar la orientación de las imágenes.
+\end{itemize}
+
+Estas operaciones preparan las imágenes para su procesamiento eficiente, posibilitando que los algoritmos se enfoquen en patrones estructurales relevantes.
+
+\textbf{Segmentación y Extracción de Características:} La tercera fase implica dos procesos complementarios:
+
+\begin{itemize}
+  \item \textit{Segmentación:} consiste en dividir la imagen en regiones homogéneas o de interés, separando estructuras relevantes del fondo \cite{shapiro2021}.
+  \item \textit{Extracción de características:} convierte dichas regiones en representaciones numéricas o vectores de atributos que puedan ser utilizados por algoritmos de clasificación \cite{nixon2020}.
+\end{itemize}
+
+Las características extraídas pueden ser geométricas (forma, contorno, área), texturales (rugosidad, patrones repetitivos), colorimétricas (intensidad, distribución tonal) o espaciales (posición y relación con otras regiones). El éxito de esta fase depende de la pertinencia de los atributos seleccionados, ya que determinan el rendimiento del modelo en la siguiente etapa.
+
+\textbf{Clasificación o Detección:} En esta fase se aplican modelos de inteligencia artificial para identificar, clasificar o detectar automáticamente patrones presentes en las imágenes \cite{lecun2015}. La elección del modelo depende del objetivo del sistema: si se desea clasificar una imagen completa o localizar múltiples objetos específicos dentro de ella \cite{krizhevsky2017}.
+
+\textbf{Interpretación y Salida del Sistema:} En la última fase, los resultados obtenidos por el modelo son traducidos a un formato comprensible y útil para el usuario o sistema final. Esta fase implica la visualización de resultados, generación de informes y la toma de decisiones basada en la interpretación de los datos procesados \cite{forsyth2021}.
+
+\section{Radiografías}
+Las radiografías son una técnica de imagen médica que utiliza rayos X para visualizar las estructuras internas del cuerpo. Funcionan mediante la emisión de radiación electromagnética de alta energía que atraviesa el cuerpo y es absorbida en diferentes grados según la densidad de los tejidos \cite{bushberg2021essential}. Estas diferencias de absorción crean un patrón de sombras que se registra en un detector, generando una imagen bidimensional donde las estructuras densas como los huesos aparecen más claras (radiopacas) y las menos densas como el aire aparecen más oscuras (radiolúcidas) \cite{carlton2020principles}.
+
+Las radiografías siguen siendo una herramienta diagnóstica fundamental en medicina debido a su accesibilidad, rapidez, bajo costo relativo y capacidad para proporcionar información anatómica esencial. Son ampliamente utilizadas para examinar fracturas óseas, evaluar alteraciones estructurales en órganos internos, detectar cuerpos extraños y diagnosticar diversas condiciones patológicas.
+
+La tecnología radiográfica ha evolucionado desde las placas fotográficas tradicionales hasta los sistemas digitales modernos, que posibilitan el procesamiento, almacenamiento y transmisión electrónica de imágenes, facilitando el análisis asistido por computadora y la aplicación de técnicas de inteligencia artificial para mejorar la precisión diagnóstica.
 
 
+\section{Fracturas óseas}
+Las fracturas óseas representan interrupciones en la continuidad estructural de un hueso, producidas cuando las fuerzas aplicadas superan la resistencia del tejido óseo \cite{nauth2020fracture}. Radiográficamente, se manifiestan como líneas radiolúcidas (oscuras) que atraviesan la estructura ósea, a menudo acompañadas de desplazamiento de fragmentos, cambios en la alineación anatómica y, en casos agudos, edema de tejidos blandos circundantes \cite{browner2019skeletal}.
+
+El diagnóstico radiográfico de fracturas requiere la identificación de signos directos (línea de fractura, desplazamiento) e indirectos (reacción perióstica, edema). Las radiografías convencionales siguen siendo la modalidad de imagen de primera línea para la evaluación inicial de fracturas, aunque en casos complejos pueden requerir técnicas avanzadas como tomografía computarizada o resonancia magnética.
+
+Las fracturas pueden clasificarse según múltiples criterios: por su comunicación con el exterior (cerradas o abiertas), por su patrón (transversales, oblicuas, espirales, conminutas), por su localización anatómica o por el mecanismo de lesión subyacente. El diagnóstico preciso y la correcta clasificación son esenciales para determinar el tratamiento adecuado y predecir el pronóstico.
+
+\section{Diagnóstico por imágenes en veterinaria}
+El diagnóstico por imágenes en medicina veterinaria comprende un conjunto de técnicas no invasivas que posibilitan visualizar las estructuras anatómicas internas de los animales con fines diagnósticos y terapéuticos. La radiografía convencional constituye el pilar fundamental de esta disciplina, particularmente en la evaluación del sistema musculoesquelético canino, donde posibilita la detección de fracturas, luxaciones, neoplasias óseas y alteraciones articulares degenerativas \cite{thrall2018textbook}.
+
+En el contexto veterinario, la interpretación radiográfica presenta desafíos específicos relacionados con la variabilidad anatómica entre razas caninas, las limitaciones en el posicionamiento del paciente y la necesidad frecuente de sedación. La radiología digital ha transformado significativamente esta práctica al mejorar la calidad de imagen, reducir la exposición a radiación y facilitar el almacenamiento y transmisión de estudios \cite{mattoon2021digital}.
 
 
+\section{Anatomía Ósea Canina}
 
+El sistema esquelético canino presenta características anatómicas específicas que difieren del esquelético humano, tanto en proporciones como en funcionalidad. Los perros poseen aproximadamente 319 huesos, variando según la raza y el tamaño \cite{dyce2012anatomia}. En esta investigación se analizaron cuatro tipos principales de huesos que representan las estructuras óseas más comúnmente afectadas por fracturas traumáticas en la práctica veterinaria.
 
+\begin{figure}[H]
+\leavevmode
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=1\textwidth]{./capitulo_02/figures/Tipos_de_Huesos}
+\caption{\textit{Tipos de huesos en extremidades caninas}. \label{fig:tipos_huesos}}
+\end{center}
+\end{minipage}
+\end{figure}
 
+\subsection{Húmero}
 
+El húmero constituye el hueso principal de la extremidad anterior canina, ubicado entre la escápula y el antebrazo \cite{hermanson2019millers}. Incluye cabeza humeral, tuberosidades mayor y menor, y región distal con cóndilos humerales como características anatómicas relevantes. Las fracturas humerales son frecuentes en perros jóvenes y activos, representando aproximadamente el 8-12\% de todas las fracturas de huesos largos \cite{fossum2021small}.
 
+\subsection{Radio y Cúbito}
+
+El radio y cúbito forman el esqueleto del antebrazo canino, estando más fusionados funcionalmente que en otros mamíferos \cite{dyce2012anatomia}. El radio es el hueso principal de carga mientras el cúbito proporciona estabilidad articular y puntos de inserción muscular. Las fracturas de radio-cúbito son comunes en razas pequeñas y representan el 8-18\% de todas las fracturas en perros \cite{johnson2018fundamentals}.
+
+\subsection{Fémur}
+
+El fémur es el hueso más largo y fuerte de la extremidad posterior del perro, extendiéndose desde la cadera hasta la rodilla \cite{hermanson2019millers}. Presenta cabeza femoral, cuello femoral, trocánteres mayor y menor, y diáfisis como estructuras principales. Las fracturas femorales representan aproximadamente el 20-25\% de todas las fracturas óseas en la práctica veterinaria \cite{piermattei2016handbook}.
+
+\subsection{Tibia y Peroné}
+
+La tibia y peroné constituyen el esqueleto de la pierna canina, siendo la tibia el hueso principal de soporte del peso corporal \cite{hermanson2019millers}. La tibia presenta una cresta tibial prominente para inserción del ligamento rotuliano y los músculos extensores. El peroné, más delgado, proporciona estabilidad articular y puntos de inserción muscular específicos \cite{tobias2017veterinary}.
+
+\section{Clasificación de Fracturas}
+
+El sistema de diagnóstico desarrollado identifica cinco tipos principales de fracturas basándose en las características morfológicas observables en imágenes radiográficas caninas, siguiendo los principios de clasificación AO modificados para medicina veterinaria \cite{unger2024ao}.
+
+\begin{figure}[H]
+\leavevmode
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=1\textwidth]{./capitulo_02/figures/Tipos_de_Fracturas}
+\caption{\textit{Tipos de fracturas óseas caninas según clasificación morfológica}. \label{fig:tipos_fracturas}}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\subsection{Sin Desplazamiento}
+
+Fracturas en las que los fragmentos óseos mantienen su alineación anatómica normal con separación mínima (menos de 2mm) \cite{piermattei2016handbook}. La línea de fractura es visible radiográficamente pero no existe separación significativa entre los fragmentos. Este tipo de fractura generalmente presenta mejor pronóstico y menor tiempo de consolidación.
+
+\subsection{Desplazada}
+
+Fracturas caracterizadas por la pérdida de alineación entre los fragmentos óseos principales con separación superior a 2mm o angulación visible \cite{fossum2021small}. Los segmentos fracturados muestran separación, angulación o cabalgamiento visible en las proyecciones radiográficas estándar.
+
+\subsection{Desplazada sin Punta}
+
+Fracturas desplazadas donde los fragmentos principales presentan bordes relativamente lisos sin formación de fragmentos triangulares o puntiagudos \cite{johnson2018fundamentals}. Este patrón facilita la reducción quirúrgica y presenta menor riesgo de complicaciones de tejidos blandos.
+
+\subsection{Desplazada con Punta}
+
+Fracturas que combinan desplazamiento con la presencia de fragmentos óseos de morfología triangular o puntiaguda \cite{tobias2017veterinary}. Estos fragmentos puntiagudos son fácilmente identificables en las imágenes radiográficas y pueden causar lesiones de tejidos blandos adyacentes.
+
+\subsection{Desplazada con Fragmento}
+
+Fracturas caracterizadas por desplazamiento de los fragmentos principales acompañado de fragmentos óseos adicionales de diversos tamaños \cite{piermattei2016handbook}. Representa el patrón más complejo de fractura en términos de número de fragmentos y requiere técnicas de fijación más sofisticadas.
+
+\section{Localización Anatómica}
+
+La ubicación de la fractura dentro del hueso se clasifica en tres regiones principales que determinan las características biomecánicas, el pronóstico de la lesión y el método de tratamiento más apropiado \cite{markel2019biomechanics}.
+
+\begin{figure}[H]
+\leavevmode
+\begin{minipage}{\textwidth}
+\begin{center}
+\includegraphics[width=1\textwidth]{./capitulo_02/figures/Ubicacion_de_la_Fractura}
+\caption{\textit{Ubicación de la fractura en el esqueleto canino según regiones anatómicas}. \label{fig:ubicacion_fractura}}
+\end{center}
+\end{minipage}
+\end{figure}
+
+\subsection{Tercio Proximal}
+
+Región que comprende el extremo del hueso más cercano al tronco del animal \cite{dyce2012anatomia}. Incluye las estructuras articulares proximales, áreas de inserción de los principales grupos musculares y zonas de alta vascularización. Las fracturas en esta región frecuentemente involucran componentes articulares.
+
+\subsection{Tercio Medio}
+
+Corresponde a la diáfisis o cuerpo central del hueso largo \cite{hermanson2019millers}. Esta región se caracteriza por su cortical gruesa y representa la principal área de soporte estructural del hueso. Las fracturas diafisarias tienen generalmente buen pronóstico de consolidación debido a la rica vascularización perióstica.
+
+\subsection{Tercio Distal}
+
+Región que abarca el extremo del hueso más alejado del tronco \cite{hermanson2019millers}. Frecuentemente incluye componentes articulares distales y estructuras importantes para la biomecánica articular. Requiere reducción anatómica precisa para mantener la función articular normal \cite{thrall2018textbook}.
+
+\section{Aplicación web}
+Una aplicación web constituye un \textit{software} alojado en un servidor y accesible a través de internet mediante un navegador, sin requerir instalación local en el dispositivo del usuario. A diferencia de los sitios web estáticos, las aplicaciones web posibilitan la interactividad usuario-sistema y el procesamiento dinámico de datos, características esenciales para herramientas de diagnóstico asistido \cite{shklar2021web}.
+
+La arquitectura típica de una aplicación web moderna comprende tres componentes principales: el \textit{frontend} (interfaz con la que interactúa el usuario), el \textit{backend} (lógica de procesamiento y acceso a datos) y la base de datos (almacenamiento persistente). Este paradigma de desarrollo conocido como arquitectura de tres capas facilita el mantenimiento, escalabilidad y seguridad del sistema \cite{fowler2019patterns}.
+
+Las aplicaciones web médicas presentan requisitos específicos relacionados con la privacidad de datos, alta disponibilidad, interfaces intuitivas adaptadas al contexto clínico y capacidad para gestionar archivos de imagen de gran tamaño. En el ámbito veterinario, estas aplicaciones están experimentando una rápida adopción, particularmente aquellas que implementan algoritmos de inteligencia artificial para asistir en tareas diagnósticas complejas.
+
+\section{Herramientas utilizadas}
+El desarrollo de sistemas de diagnóstico asistido por computadora para radiología veterinaria integra diversas tecnologías y herramientas especializadas. En el ámbito del \textit{machine learning}, las redes neuronales convolucionales (\textit{CNN}) han demostrado eficacia superior en tareas de procesimiento de imágenes médicas, siendo \textit{YOLO}.  las arquitecturas seleccionadas para este trabajo debido a su capacidad para detectar y clasificar anomalías en imágenes radiográficas caninas \cite{jocher2023yolo}.
+
+Para la implementación del \textit{backend}, \textit{frameworks} como \textit{TensorFlow}, \textit{PyTorch} y \textit{Keras} facilitan el desarrollo y despliegue de modelos de inteligencia artificial, mientras que tecnologías como \textit{Flask}, \textit{Django} o \textit{Node.js} proporcionan la infraestructura para la creación de \textit{APIs} y servicios web \cite{howard2020deep}.
+
+\textbf{\textit{Python}:} Lenguaje de programación interpretado de alto nivel utilizado ampliamente en el desarrollo de aplicaciones de inteligencia artificial, procesamiento de imágenes y \textit{backend} de aplicaciones web.
+
+\textbf{\textit{HTML}:} Lenguaje de marcado utilizado para estructurar el contenido de las páginas web, definiendo elementos como encabezados, párrafos, imágenes y enlaces que conforman la interfaz visual de la aplicación.
+
+\textbf{\textit{CSS}:} Lenguaje de estilos que determina la presentación visual de los elementos \textit{HTML}, posibilitando definir colores, tipografías, espaciados y diseños responsivos que se adaptan a diferentes dispositivos y tamaños de pantalla.
+
+\textbf{\textit{JavaScript}:} Lenguaje de programación que añade interactividad a las interfaces web, posibilitando manipular el contenido dinámicamente, procesar eventos del usuario, realizar validaciones y comunicarse con el servidor a través de peticiones asincrónicas.
+
+\textbf{\textit{MySQL}:} Sistema de gestión de bases de datos relacional de código abierto que posibilita almacenar, organizar y recuperar datos de manera eficiente. En aplicaciones de diagnóstico médico, facilita el almacenamiento de información de pacientes, resultados de análisis e historial clínico con alta integridad y seguridad.
 
 \section{Antecedentes}
 
-\subsection{Lokalisering av sensorer med LoRaWAN på Kalmar Länssjukhus (Año 2021)}
-\textbf{Desarrollado por:} Nathalie Wetterskog, Jeanette Marie Victoria Skeppeland Hole.
+\subsection{Detección de fracturas en radiografías de cadera mediante el uso de inteligencia artificial (Año 2024)}
 
-En \cite{SkepplandHole2021} se evaluó un sistema de posicionamiento basado en sensores conectados a \textit{\acrshort{loraw}} para localizar sillas de ruedas en el hospital de Kalmar. Este sistema ayudaría al personal del hospital a encontrar sillas de ruedas perdidas, mejorando la eficiencia operativa. La metodología empleada consistía en la instalación de sensores en las sillas de ruedas, que estaban conectados al sistema de rastreo \textit{Traxmate}, una plataforma \textit{\acrshort{iot-acronym}} diseñada para rastrear dispositivos mediante la recolección de datos de ubicación y la visualización en tiempo real \cite{SkepplandHole2021}. 
+\textbf{Desarrollado por:} Ramón Martínez Oliva, bajo la tutoría de Germán González Serrano, Universidad de Alicante - Escuela Politécnica Superior.
 
-Los principales parámetros evaluados fueron: la precisión de la ubicación geográfica, la fuerza de la señal recibida (\textit{\acrshort{rssi-acronym}}) y la latencia de transmisión. La precisión de la ubicación se determinó mediante trilateración usando las direcciones \textit{\acrshort{mac-acronym}} de los puntos de acceso \textit{Wi-Fi} cercanos, lo que subraya la metodología empleada en \cite{SkepplandHole2021}. La latencia de transmisión se calculó como el tiempo de retraso entre la señal emitida por el sensor y su recepción por el sistema.
+En \cite{llorens2023} se desarrolló un sistema de inteligencia artificial capaz de analizar radiografías de cadera para detectar fracturas de fémur, identificar su tipo y localización específica. Este sistema fue diseñado para mejorar la precisión y eficiencia del diagnóstico médico en el contexto de fracturas de cadera, las cuales representan una patología frecuente con alta morbimortalidad, especialmente en población de edad avanzada. La metodología empleada consistió en la comparación de seis arquitecturas de redes neuronales convolucionales (DenseNet121, Xception, InceptionV3, EfficientNetB4, ResNet50 y VGG16) aplicando \textit{Transfer Learning} con pesos preentrenados de ImageNet. Se utilizó un conjunto de datos de 1,454 imágenes de fémures obtenidas de 986 estudios radiográficos del Hospital Universitario San Juan de Alicante, clasificadas en seis categorías: sin fractura, fracturas de cuello femoral tipos I-II y III-IV según Garden, fracturas trocantéricas tipos I-II y III-V según Evans, y fracturas subtrocantéricas.
 
-Los resultados mostraron que \textit{\acrshort{loraw}} es adecuado para su uso en el entorno hospitalario debido a su capacidad para operar tanto en interiores como en exteriores, aunque se encontraron deficiencias en la exactitud del sistema de posicionamiento \cite{SkepplandHole2021}. 
+Los principales parámetros evaluados fueron la exactitud (\textit{accuracy}) y el área bajo la curva ROC (AUC) para la clasificación multiclase. Para la detección y segmentación de fémures se empleó un modelo YOLO preentrenado, seguido de técnicas de preprocesamiento como inversión cromática y extracción de región de interés. Se implementó \textit{Grid Search} para la optimización de hiperparámetros (\textit{learning rate}, \textit{dropout}, \textit{batch size}) y técnicas de aumento de datos (\textit{Data Augmentation}) para mejorar la generalización del modelo.
 
-Es importante destacar que ambos trabajos utilizan la tecnología de \textit{\acrshort{loraw}} para la geolocalización, pero presentan diferencias significativas en su enfoque: este utiliza trilateración con puntos de acceso \textit{Wi-Fi} para determinar la ubicación, mientras que la propuesta actual se apoya en una combinación de \textit{\acrshort{rfid-acronym}} y \textit{\gls{gnss-acronym}} para mejorar la seguridad y la validación del propietario \cite{SkepplandHole2021}. Estas diferencias subrayan la versatilidad de las tecnologías de geolocalización en distintos contextos.
+Los resultados mostraron que DenseNet121 alcanzó el mejor rendimiento con una exactitud del 78.6\% en el conjunto de prueba y un AUC de 0.985 para la detección binaria de fracturas, superando significativamente el rendimiento de otras arquitecturas evaluadas. El sistema demostró particular eficacia en la clasificación de fémures sanos (98.5\% de precisión) y fracturas de cuello femoral tipo III-IV (95.1\%), aunque presentó limitaciones en fracturas de cuello femoral tipo I-II (6.25\%) y subtrocantéricas (41.7\%).
 
-\subsection{LoRaWAN for tracking inland routes of plastic waste: Introducing the smart TRACKPLAST bottle (Año 2023)}
-\textbf{Desarrollado por:} Stavros Ponis, George Plakas, Eleni Aretoulaki, Dimitra Tzanetou, Theodoros Nikolaos Maroutas.
+Ambos proyectos utilizan inteligencia artificial para el diagnóstico automatizado de fracturas en imágenes radiológicas, empleando arquitecturas de \textit{deep learning} para la clasificación de diferentes tipos de fracturas. Ambos sistemas buscan asistir a profesionales médicos en el diagnóstico, especialmente en contextos donde existe escasez de especialistas en radiología. Asimismo, ambos proyectos implementan YOLO para la detección y localización de estructuras óseas de interés en las radiografías.
 
-En \cite{Ponis2023}, se desarrolló un sistema para rastrear el flujo de residuos plásticos desde tierra hasta el mar, utilizando la tecnología \textit{\acrshort{loraw}}. A través del desarrollo de una botella inteligente \textit{TRACKPLAST}, se buscó emular y seguir el comportamiento de los residuos plásticos en el medio ambiente.
+El antecedente se enfoca exclusivamente en fracturas de cadera humana utilizando múltiples arquitecturas CNN (principalmente DenseNet121), mientras que el proyecto actual se especializa en diagnóstico veterinario de fracturas caninas empleando la arquitectura ViT para clasificación. El proyecto de referencia clasifica fracturas según sistemas médicos establecidos (Garden, Evans), mientras que el actual se centra en la ubicación anatómica de fracturas en diferentes tipos de huesos caninos. Además, el trabajo actual incluye la generación automática de reportes diagnósticos, funcionalidad no presente en el antecedente analizado.
 
-El diseño y la fabricación de la botella inteligente implicó la integración de sensores \textit{\acrshort{iot-acronym}} en una botella de plástico comercial. Los sensores fueron integrados de manera que no afectaran la apariencia o el comportamiento de la botella en el ambiente. Para la comunicación de las botellas inteligentes, se desarrolló una red \textit{\acrshort{lora-acronym}} específica. Esta red incluyó la instalación de tres \textit{gateways} en la región de \textit{Attiki}, cerca de Atenas, que eran utilizados para la trilateración y el seguimiento preciso de las botellas \cite{Ponis2023}. Se realizaron pruebas de conectividad para asegurar el funcionamiento correcto de la red.
+\subsection{Detection of Hand Bone Fractures in X-ray Images using Hybrid YOLO NAS (Año 2024)}
 
-El proyecto destacó el uso de servicios de geolocalización de la plataforma \textit{\acrshort{lora-acronym} Cloud Geolocation}, una \textit{\acrshort{api-acronym}} que trabaja con un servidor de red, que recibe metadatos como \textit{\acrshort{rssi-acronym}}, \textit{SNR} (\textit{Signal-to-Noise Ratio}) y \textit{\acrshort{toa-acronym}} (\textit{\gls{toa-glossary}}) de los \textit{gateways} para calcular las posiciones de los dispositivos. La geolocalización se logró específicamente mediante la técnica \textit{TDOA, \gls{tdoa}}. Además, se creó una plataforma en la nube para procesar y visualizar los datos recolectados por los sensores. La plataforma recibía las señales a través de los \textit{gateways}, analizaba los datos geoespaciales y los mostraba en un mapa, permitiendo a las autoridades locales rastrear las rutas de las botellas. Esta plataforma fue probada por expertos y usuarios finales para garantizar su funcionalidad y facilidad de uso \cite{Ponis2023}.
+\textbf{Desarrollado por:} Sai Charan Medaramatla, Chennupati Veda Samhitha, Sagar Dhanraj Pande, Surendar Reddy Vinta.
 
-La validación del sistema se realizó en condiciones reales mediante una implementación piloto en la isla de \textit{Syros}, Grecia. Se desplegaron 69 botellas inteligentes y se siguieron sus movimientos en tiempo real desde abril hasta junio de 2022. Esta fase permitió obtener datos valiosos sobre el comportamiento y destino de los residuos plásticos.
+En \cite{abdelrahman2024} se desarrolló un modelo híbrido para la detección automática de fracturas en huesos de la mano utilizando imágenes de rayos X. El sistema fue diseñado para asistir a profesionales médicos y radiólogos en el diagnóstico temprano y preciso de fracturas, abordando la problemática de la escasez de especialistas en radiología y los posibles errores humanos en la interpretación de imágenes médicas. La metodología empleada consistió en el desarrollo de un modelo híbrido que combina los algoritmos YOLO NAS, EfficientDet y DETR3 para aprovechar las fortalezas de cada uno en la detección de objetos. El dataset utilizado fue una colección híbrida de 4,736 imágenes de rayos X de huesos de mano, clasificadas en 6 categorías: fracturas de dedos, muñeca, antebrazo, codo, húmero y hombro. Los principales parámetros evaluados fueron: precisión, sensibilidad (recall), puntuación F1 y precisión media promedio (mAP). El modelo propuesto logró una precisión del 99.20\% en entrenamiento y 98.10\% en pruebas, con un mAP de 97.85\%, superando significativamente a algoritmos individuales como InceptionV3 (72.50\%), VGG19 (74.30\%) y ResNet50 (71.21\%).
 
-Los resultados del proyecto fueron positivos. Las botellas \textit{TRACKPLAST} se rastrearon con éxito durante toda su vida útil de batería, proporcionando información crucial para la gestión de residuos plásticos. Los datos obtenidos ayudaron a las autoridades locales a comprender mejor los flujos de residuos plásticos y a implementar medidas preventivas para reducir la contaminación marina \cite{Ponis2023}.
+Ambos proyectos utilizan técnicas de inteligencia artificial para asistir en el diagnóstico médico mediante análisis de imágenes, específicamente para la detección de fracturas óseas. Sin embargo, presentan diferencias fundamentales en su enfoque: el trabajo de referencia se centra exclusivamente en fracturas de huesos humanos de la mano utilizando un modelo híbrido que combina múltiples algoritmos (YOLO NAS, EfficientDet, DETR3), mientras que el proyecto actual se especializa en fracturas óseas caninas empleando YOLO para detección de objetos (tipo de hueso y fractura) y ViT para clasificación de ubicación de la fractura. Además, el trabajo de referencia utiliza un dataset de imágenes estáticas para entrenamiento, mientras que el proyecto actual incluye la generación automática de reportes diagnósticos, lo que representa una funcionalidad adicional orientada a la práctica veterinaria. Estas diferencias subrayan la adaptabilidad de las tecnologías de visión por computadora en distintos contextos médicos, tanto humanos como veterinarios.
 
-Aunque ambos trabajos utilizan la tecnología de \textit{\acrshort{loraw}}, se enfocan en aplicaciones diferentes: el sistema de \textit{TRACKPLAST} se centra en el rastreo y análisis del comportamiento de los residuos plásticos, mientras que el presente trabajo busca fortalecer la seguridad del propietario a través de una integración de \textit{\acrshort{rfid-acronym}} y \textit{\acrshort{gnss-acronym}}. Esto demuestra la adaptabilidad de la tecnología de geolocalización para abordar problemáticas variadas y resaltar su potencial en distintos ámbitos.
+\subsection{DW-YOLO: Improved YOLO for Bone Fracture Detection (Año 2024)}
 
+\textbf{Desarrollado por:} Bo Liu.
+ 
+ Se desarrolló DW-YOLO, una adaptación mejorada del modelo de detección de objetos YOLO, fortificada con capas convolucionales depthwise (DWConv) para mejorar la identificación de fracturas en imágenes médicas. \cite{liu2024}. El sistema fue diseñado para abordar la necesidad de detección rápida y precisa de fracturas óseas, especialmente en instalaciones con pocos diagnósticos experimentados. La metodología empleada consistió en la integración de convoluciones depthwise en la arquitectura YOLOv5 para reducir el número de parámetros y mejorar la velocidad de inferencia, manteniendo alta precisión. El dataset utilizado comprendió 4,148 imágenes craneales categorizadas en seis tipos distintos de fracturas, distribuidas metodológicamente en 70\% para entrenamiento, 20\% para validación y 10\% para pruebas. Los principales parámetros evaluados fueron: precisión media promedio (mAP), precisión, sensibilidad (recall) y puntuación F1. El modelo DW-YOLO logró un mAP de 0.889 en el conjunto de prueba con un tamaño de modelo de solo 7.5MB, demostrando capacidades de procesamiento rápido de imágenes mientras mantiene alta precisión. La arquitectura incorpora técnicas de aumento de datos Mosaic, cajas de anclaje adaptativas y utiliza una función de pérdida compuesta que combina pérdida de clasificación, pérdida de objetividad y pérdida de regresión de cajas (utilizando CIoU loss).
 
-\subsection{Smart Security System for Two-Wheelers (Año 2020)}
-\textbf{Desarrollado por:} Niyati Rana, Pravesh Khatta, Antim Dev Mishra.
+Ambos proyectos utilizan arquitecturas YOLO para la detección automática de fracturas óseas en imágenes médicas, abordando la problemática de la escasez de especialistas en diagnóstico por imágenes. Sin embargo, presentan diferencias significativas en su enfoque técnico y aplicación: el trabajo de referencia se especializa en fracturas craneales humanas utilizando DW-YOLO con convoluciones depthwise para optimizar velocidad y eficiencia computacional, mientras que el proyecto actual se enfoca en fracturas óseas caninas empleando una combinación de YOLO para detección de objetos y ViT para clasificación de ubicación de fracturas. Además, el trabajo de referencia se centra únicamente en la detección y localización de fracturas con un dataset de 4,148 imágenes craneales, mientras que el proyecto actual incluye funcionalidades adicionales como la generación automática de reportes diagnósticos orientados a la práctica veterinaria. El trabajo de referencia logra un modelo compacto de 7.5MB optimizado para aplicaciones clínicas de tiempo real, mientras que el proyecto actual realiza una aplicación web  asistida por inteligencia artificial para proporcionar una solución más completa para veterinarios generales. Estas diferencias subrayan la versatilidad de las arquitecturas YOLO en diferentes contextos médicos y la importancia de la optimización específica según las necesidades clínicas particulares.
 
-En \cite{Rana}, se desarrolló un sistema de seguridad para motocicletas y \textit{scooters} utilizando la tecnología \textit{\acrshort{iot-acronym}}. Este sistema incluye la creación de un prototipo que integra \textit{hardware} y \textit{software} para ofrecer protección contra robos. El sistema se construyó alrededor de la plataforma \textit{Arduino Mega} y emplea varios componentes clave: un sensor de huellas dactilares, un módulo \textit{GPS Neo-6M}, un módulo \textit{\acrshort{gsm-acronym}} y una alarma sonora.
+\subsection{Inteligencia Artificial en Radiología (Año 2021)}
 
-El sensor de huellas dactilares se utiliza para autenticar al usuario antes de permitir el arranque del vehículo. Solo se puede arrancar el vehículo si la huella coincide con la registrada en el sistema. El módulo \textit{\acrshort{gsm-acronym}} se encarga de la comunicación entre el vehículo y el propietario, enviando mensajes \textit{\acrshort{sms-acronym}} en caso de detección de actividad sospechosa. El módulo \textit{\acrshort{gsm-acronym}} está conectado a la red móvil y vinculado al sistema de \textit{Arduino}. Si el sistema detecta un intento de manipulación no autorizado, el módulo \textit{\acrshort{gsm-acronym}} envía un mensaje de alerta al teléfono del propietario, quien recibe la notificación indicando el posible intento de robo. 
+\textbf{Desarrollado por:} José Antonio Marín Rodríguez y Germán Lucini Pelayo.
 
-El sistema permite al propietario controlar ciertas funciones de forma remota mediante comandos \textit{\acrshort{sms-acronym}}. El propietario puede enviar un comando \textit{\acrshort{sms-acronym}} específico al módulo \textit{\acrshort{gsm-acronym}}, que lo transmite a la placa \textit{Arduino}, y esta ejecuta los comandos. Además, el sistema activa la alarma sonora para disuadir a los ladrones. Si el sensor de huellas detecta un intento de arranque no autorizado, se activa una alarma sonora, alertando a las personas cercanas y posiblemente ahuyentando al ladrón. Adicionalmente, se acciona el módulo \textit{\acrshort{gps-acronym}}, lo cual proporciona la ubicación del vehículo en tiempo real. Esto permite al propietario y a las autoridades localizar y recuperar el vehículo de manera más eficiente \cite{Rana}.
+En \cite{marin2021} se realizó una revisión exhaustiva sobre la aplicación de la inteligencia artificial en el campo de la radiología, explorando tanto sus aplicaciones prácticas como sus implicaciones ético-legales. El sistema fue concebido para analizar el impacto transformador de las tecnologías de IA en el flujo de trabajo radiológico y su potencial para mejorar la atención médica. La metodología empleada consistió en una revisión bibliográfica sistemática utilizando motores de búsqueda científicos como PubMed, Scopus, Google Scholar y ResearchGate, complementada con formación especializada en cursos de inteligencia artificial y entrevistas con profesionales del sector. El estudio abarcó tres áreas principales: utilidades de la IA en radiología (adquisición de imagen, procesamiento e informe), radiómica como nueva especialidad médica, y aspectos ético-legales del desarrollo de tecnologías de IA. Los principales hallazgos incluyeron aplicaciones exitosas como la detección automática de neumotórax con sensibilidad del 93.15\% y especificidad del 92.99\%, detección de fracturas de muñeca que mejora la sensibilidad diagnóstica del 80.8\% al 91.5\%, y el desarrollo de la radiómica para análisis cuantitativo de imágenes médicas. El trabajo también identificó desafíos críticos como el problema de la "caja negra" del deep learning, sesgos en datasets de entrenamiento, y la necesidad de marcos regulatorios robustos como el propuesto por la Unión Europea para IA de alto riesgo en aplicaciones médicas.
 
-El proyecto logró desarrollar un prototipo funcional que proporciona una solución de seguridad eficaz y económica para vehículos de dos ruedas. Se logró un monitoreo en tiempo real, alertas inmediatas de intentos de robo, control remoto de funciones y disuasión mediante una alarma sonora, demostrando cómo la integración de tecnologías \textit{\acrshort{iot-acronym}} puede mejorar significativamente la seguridad de motocicletas y \textit{scooters} \cite{Rana}.
-
-Es importante resaltar que, aunque este sistema de seguridad se centra en la protección de motocicletas y utiliza tecnologías como huellas dactilares y \textit{\acrshort{gsm-acronym}}, la propuesta actual se distingue al incorporar diferentes tecnologías, como \textit{\acrshort{rfid-acronym}} y geolocalización mediante \textit{\acrshort{loraw}}. Estas tecnologías adicionales buscan ofrecer un enfoque complementario en la validación de la identidad del usuario y el rastreo de la ubicación del vehículo, destacando la diversidad de soluciones tecnológicas aplicables en el ámbito de la seguridad vehicular.
-
-\subsection{Smart Security System for Vehicles using Internet of Things (IoT) (Año 2018)}
-\textbf{Desarrollado por:} Mithileysh Sathiyanarayanan, Santosh Mahendra, Rajesh Babu Vasu.
-
-En \cite{Sathiyanarayanan2018}, se describe el desarrollo de un sistema de seguridad inteligente para vehículos utilizando la tecnología \textit{\acrshort{iot-acronym}}. El objetivo principal es transformar los sistemas de seguridad vehicular convencionales (\textit{CVSS}) en sistemas de seguridad vehicular inteligentes (\textit{SVSS}) que permitan el acceso y control remoto de los vehículos mediante un teléfono inteligente.
-
-El sistema se construyó alrededor de varios componentes clave. Primero, un subsistema de identificación que emplea etiquetas \textit{\acrshort{rfid-acronym}} y un lector conectado a un microcontrolador \textit{Arduino Uno R3}. Cuando se intenta encender el vehículo, el sistema debe validar la etiqueta para permitir el arranque del motor. Otro subsistema de detección utiliza un receptor \textit{\acrshort{gps-acronym}} para obtener la ubicación en tiempo real del vehículo. Estos datos se envían al microcontrolador y se pueden ver en la aplicación móvil del propietario.
-
-Para la salida y alerta, el sistema cuenta con indicadores \textit{LED}, un \textit{buzzer} y una pantalla \textit{LCD}. Si se detecta un intento de robo, el \textit{buzzer} emite una alarma sonora y los relés controlan el encendido del motor, bloqueando el arranque si no se autentica correctamente. Por último, el subsistema de control es manejado por el microcontrolador, que ejecuta comandos y procesa datos. Un módulo \textit{\acrshort{gsm-acronym}} conectado envía y recibe mensajes \textit{\acrshort{sms-acronym}}. Ante actividades sospechosas, el módulo envía alertas al propietario, quien puede bloquear el motor, activar la alarma o solicitar la ubicación del vehículo mediante comandos \textit{\acrshort{sms-acronym}}.
-
-Además, cuenta con una aplicación móvil que permite al propietario ver la ubicación del vehículo, bloquear o desbloquear el motor y activar la alarma. También recibe alertas en tiempo real sobre intentos de robo y otras actividades de seguridad \cite{Sathiyanarayanan2018}.
-
-Las pruebas del sistema se realizaron en varias etapas para asegurar su funcionalidad y efectividad. Estas pruebas demostraron que el sistema puede identificar al propietario de manera precisa mediante \textit{\acrshort{rfid-acronym}}, proporcionar la ubicación exacta del vehículo en tiempo real y enviar alertas instantáneas en caso de intento de robo. Además, la capacidad de control remoto a través de la aplicación móvil y comandos \textit{\acrshort{sms-acronym}} añadió una capa adicional de seguridad y conveniencia.
-
-El proyecto logró desarrollar un sistema de seguridad vehicular inteligente que utiliza tecnologías \textit{\acrshort{iot-acronym}} para mejorar la protección y el control de vehículos. Este sistema ofrece una solución efectiva y económica para prevenir robos, con la ventaja adicional de proporcionar control remoto y monitoreo en tiempo real a través de teléfonos inteligentes \cite{Sathiyanarayanan2018}.
-
-Este enfoque de seguridad vehicular, que combina tecnologías de \textit{\acrshort{iot-acronym}}, presenta características específicas que mejoran la protección de vehículos. Por otro lado, el trabajo actual utiliza tecnologías distintas, como una combinación de \textit{\acrshort{rfid-acronym}} y \textit{\acrshort{gnss-acronym}}, lo que permite un enfoque diferente en la validación y el rastreo, mostrando así la diversidad de aplicaciones en la seguridad de vehículos y la versatilidad de las tecnologías disponibles.
+Ambos proyectos abordan la aplicación de inteligencia artificial en el diagnóstico médico por imágenes, reconociendo la problemática de la escasez de especialistas en radiología y el potencial de la IA para mejorar la precisión diagnóstica. Sin embargo, presentan diferencias significativas en su alcance y enfoque: el trabajo de referencia constituye una revisión teórica amplia que abarca todo el espectro de aplicaciones de IA en radiología humana, incluyendo aspectos técnicos, éticos y regulatorios, mientras que el proyecto actual se enfoca específicamente en el desarrollo práctico de una aplicación de IA para diagnóstico de fracturas en radiología veterinaria canina. El trabajo de referencia analiza múltiples algoritmos y aplicaciones existentes sin implementar una solución específica, mientras que el proyecto actual desarrolla una herramienta funcional que combina YOLO para detección de objetos y ViT para clasificación, incluyendo generación automática de reportes diagnósticos. Además, el trabajo de referencia se centra en el impacto de la IA en la práctica radiológica humana y sus implicaciones para el futuro de la profesión, mientras que el proyecto actual aborda una necesidad específica en medicina veterinaria donde los profesionales generales requieren asistencia de IA para tomar decisiones diagnósticas en ausencia de especialistas. Estas diferencias subrayan la evolución de la IA médica desde análisis teóricos hacia implementaciones prácticas específicas por especialidad.
 
 
-\subsection{Development of an IoT-Based (LoRaWAN) Tractor Tracking System (2022)}
-\textbf{Desarrollado por:} Çağdaş Civelek.
+\subsection{Implementation of Personal Protective Equipment Detection Using Django and Yolo Web at Paiton Steam Power Plant (PLTU) (A\~no 2023)}
 
-En \cite{Civelek}, se describe el desarrollo de un sistema \textit{\acrshort{iot-acronym}} de rastreo para tractores utilizando \textit{\acrshort{loraw}}, con el objetivo de apoyar la agricultura de precisión en Turquía. Este proyecto surge ante la dificultad de implementar tecnologías avanzadas de monitoreo en áreas rurales, donde la infraestructura y los altos costos de soluciones comerciales basadas en \textit{\acrshort{lte-acronym}} limitan su adopción, especialmente para agricultores de pequeñas explotaciones. La solución busca proporcionar una herramienta asequible y de bajo consumo energético que permita monitorear en tiempo real la ubicación y el rendimiento de los tractores, optimizando así las operaciones agrícolas y el uso de recursos.
+\textbf{Desarrollado por:} Khoirun Nisa, Fathorazi Nur Fajri, Zainal Arifin.
 
-El sistema está construido en torno a un microcontrolador \textit{PIC18F46K22}, al cual se le acopla un módulo \textit{\acrshort{lora-acronym} RN2483} para la transmisión de datos en la banda de frecuencia \textit{\acrshort{ism-acronym}, \gls{ism-glossary}}. Esto permite la transmisión de datos a largas distancias sin necesidad de infraestructura de comunicación convencional. Además, el sistema integra un módulo \textit{GPS SE868K7-A}, que proporciona coordenadas precisas de la ubicación del tractor, y diversos sensores, incluidos un medidor de flujo de combustible y un sensor de torque en la toma de fuerza (\textit{PTO}), para obtener información detallada sobre el consumo de combustible y la eficiencia operativa del vehículo. La transmisión de los datos recolectados se realiza mediante un \textit{gateway \acrshort{loraw} Kerlink Wirnet}, que envía la información a un servidor en la nube. Allí, los datos se almacenan en una base de datos \textit{MySQL} y se muestran en tiempo real a través de una interfaz web, accesible desde dispositivos móviles o computadoras, permitiendo a los usuarios visualizar la posición del tractor y otras métricas de rendimiento relevantes para la gestión agrícola.
+En \cite{nisa2023} se desarroll\'o un sistema de detecci\'on de Equipos de Protecci\'on Personal (EPP) en tiempo real utilizando YOLOv8 y Django Web en la Planta de Energ\'ia a Vapor Paiton (PLTU). El sistema fue dise\~nado para mejorar la seguridad laboral y prevenir accidentes mediante el monitoreo del cumplimiento de los requisitos de EPP. La metodolog\'ia empleada consist\'ia en la recolecci\'on de datos de im\'agenes, preprocesamiento, entrenamiento del modelo y despliegue del sistema usando el framework Django. Los principales par\'ametros evaluados fueron: la precisi\'on de detecci\'on (90.3\%), el valor de recall (75.1\%) y el mAP50 (81.6\%). El sistema logr\'o detectar cuatro clases de EPP (casco, chaleco, no-casco, no-chaleco) con una precisi\'on promedio del 82.3\% en 230 datos de prueba. Los resultados mostraron que YOLOv8 es efectivo para la detecci\'on de EPP en entornos industriales, aunque se encontraron factores de error relacionados con la iluminaci\'on y especificaciones de la c\'amara.
 
-Durante las pruebas de campo realizadas en áreas rurales cercanas a la Universidad de Çukurova, el sistema mostró un rendimiento satisfactorio, logrando transmitir datos de forma confiable hasta 15 km en zonas con baja interferencia. La precisión del \textit{\acrshort{gps-acronym}}, con un margen de error de aproximadamente 3 metros, resultó adecuada para el monitoreo en entornos de cultivo, proporcionando una visión precisa de la ubicación y movimientos del tractor en el campo. Además, se destacó que el costo de producción del sistema ronda los \$55, significativamente menor que los \$795 que suelen costar las soluciones comerciales basadas en \textit{\acrshort{lte-acronym}}. Este bajo costo convierte al sistema en una alternativa viable y accesible para los agricultores que desean implementar tecnologías de monitoreo sin incurrir en elevados gastos.
+Ambos trabajos utilizan la tecnolog\'ia YOLO para detecci\'on de objetos en tiempo real y se enfocan en aplicaciones de seguridad y salud. Adem\'as, ambos emplean frameworks web para la interfaz de usuario y utilizan Roboflow para el manejo de datasets y preprocesamiento de datos.
 
-Este trabajo demuestra cómo \textit{\acrshort{loraw}} puede adaptarse a las necesidades de la agricultura de precisión, permitiendo el rastreo y la gestión de maquinaria agrícola de manera rentable. Comparado con el enfoque de seguridad vehicular del presente trabajo, que emplea \textit{\acrshort{loraw}} en combinación con \textit{\acrshort{rfid-acronym}} y \textit{\acrshort{gnss-acronym}} para la autenticación y monitoreo, este sistema agrícola se enfoca en mejorar la eficiencia y sostenibilidad de la producción agrícola. Sin embargo, ambos estudios destacan la flexibilidad y efectividad de \textit{\acrshort{loraw}} en aplicaciones de \textit{\acrshort{iot-acronym}} para distintos contextos, mostrando su potencial para transformar tanto la agricultura como otros sectores que requieren soluciones de monitoreo remoto.
+Este trabajo se centra en la detecci\'on de EPP para seguridad laboral usando YOLOv8 con cuatro clases espec\'ificas (casco/chaleco), mientras que la propuesta actual utiliza YOLO para detectar tipos de huesos y fracturas en im\'agenes radiol\'ogicas caninas, complementado con un algoritmo de clasificaci\'on ViT para localizar fracturas. El enfoque del trabajo referenciado es preventivo en seguridad industrial, mientras que el proyecto actual tiene un enfoque diagn\'ostico en medicina veterinaria para asistir a profesionales en la toma de decisiones cl\'inicas.
 
-\subsection{Use of RFID Technology as a Reporting Mechanism in Vehicle Tracking System (2016)}
-\textbf{Desarrollado por:} Mamudu Hamidu.
 
-En \cite{Hamidu}, se describe un sistema de seguridad vehicular denominado \textit{Transport Highway Integrated Security System} (\textit{THISS}), diseñado para facilitar el rastreo en tiempo real y la notificación de incidentes en autopistas mediante tecnología \textit{\acrshort{rfid-acronym}}, \textit{\acrshort{gps-acronym}} y \textit{\acrshort{gsm-acronym}}. La motivación para este desarrollo surge de la necesidad de contar con una herramienta rápida y precisa que permita a los conductores reportar eventos críticos, como robos, accidentes o fallos mecánicos, y mejorar la seguridad en las carreteras, especialmente en situaciones donde la asistencia inmediata puede ser crucial.
 
-El sistema utiliza un módulo \textit{\acrshort{rfid-acronym}} para activar la señal de emergencia de manera sencilla y rápida, junto con un \textit{\acrshort{gps-acronym}} que obtiene la ubicación exacta del vehículo. Una vez que el conductor activa el sistema mediante el escaneo de una tarjeta \textit{\acrshort{rfid-acronym}}, el \textit{\acrshort{gps-acronym}} comienza a recopilar las coordenadas, y el módulo \textit{\acrshort{gsm-acronym}} envía esta información a una base de datos central en tiempo real. Este proceso permite registrar y monitorear la ubicación del vehículo y clasificar el tipo de emergencia según el incidente reportado. Para su implementación, el sistema cuenta con una estructura de comunicación en la cual los datos de ubicación y emergencia se gestionan a través de la red \textit{\acrshort{gsm-acronym}/GPRS}, garantizando una cobertura amplia y una transmisión de datos confiable.
 
-Los resultados obtenidos en las pruebas iniciales del sistema revelaron una alta efectividad en la notificación de incidentes y en el envío de la ubicación en tiempo real. Las alertas generadas contenían coordenadas precisas y se transmitieron de forma consistente, asegurando que los datos llegaran a la base de datos central sin demoras significativas. Este flujo continuo de información permite a las autoridades responder con mayor rapidez y precisión a los eventos reportados, reduciendo el tiempo de reacción en caso de emergencias. La infraestructura de comunicación mediante \textit{\acrshort{gsm-acronym}} también facilitó la recolección de datos de ubicación, consolidándolos en una base de datos para su análisis y monitoreo a largo plazo.
 
-Este proyecto demuestra cómo el uso de \textit{\acrshort{rfid-acronym}}, \textit{\acrshort{gps-acronym}} y \textit{\acrshort{gsm-acronym}} en conjunto puede crear una solución de seguridad vehicular robusta y accesible, que ofrece una alternativa práctica para la gestión de emergencias en autopistas. A diferencia del presente trabajo, que emplea \textit{\acrshort{loraw}} y \textit{\acrshort{rfid-acronym}} en combinación con \textit{\acrshort{gnss-acronym}} para la autenticación y rastreo vehicular, el sistema \textit{THISS} se enfoca en la notificación rápida de eventos y la asistencia en carretera. Ambos sistemas destacan el valor de integrar diferentes tecnologías de comunicación y localización para mejorar la seguridad y la capacidad de respuesta en distintos escenarios de uso.
+
+
+
+

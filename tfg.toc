@@ -1,45 +1,56 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Resumen}{\es@scroman {xi}}{chapter*.1}%
-\contentsline {chapter}{Abstract}{\es@scroman {xii}}{chapter*.1}%
-\contentsline {chapter}{Índice de Figuras}{\es@scroman {xvii}}{chapter*.3}%
-\contentsline {chapter}{Índice de Tablas}{\es@scroman {xviii}}{chapter*.4}%
-\contentsline {chapter}{Acrónimos y símbolos}{\es@scroman {xviii}}{chapter*.4}%
+\contentsline {chapter}{Índice de Figuras}{\es@scroman {xi}}{chapter*.2}%
+\contentsline {chapter}{Índice de Tablas}{\es@scroman {xii}}{chapter*.3}%
+\contentsline {chapter}{Acrónimos y símbolos}{\es@scroman {xii}}{chapter*.3}%
 \contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivación}{2}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Definición del problema}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Objetivos}{3}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Objetivo General}{3}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Objetivos Específico}{3}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.2}Objetivos Específicos}{4}{subsection.1.3.2}%
 \contentsline {section}{\numberline {1.4}Hipótesis}{4}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Justificación}{4}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Delimitación del alcance del trabajo}{5}{section.1.6}%
-\contentsline {section}{\numberline {1.7}\mbox {Descripción de los contenidos por capítulo.}}{5}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Conceptos fundamentales, teoría y antecedentes}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Internet de las cosas}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}LoRA \textit {(Long Range)}}{9}{section.2.2}%
-\contentsline {paragraph}{Bandas de Frecuencia y Configuración Regional\\}{9}{section*.7}%
-\contentsline {paragraph}{Ventajas y Limitaciones de \acrshort {lora-acronym}\\}{9}{section*.8}%
-\contentsline {section}{\numberline {2.3}\textit {LoRaWAN (Long Range Wide Area Network)}}{10}{section.2.3}%
-\contentsline {paragraph}{Arquitectura de \acrshort {loraw}\\}{11}{section*.9}%
-\contentsline {paragraph}{Clases de Dispositivos en \acrshort {loraw}\\}{12}{section*.10}%
-\contentsline {paragraph}{Seguridad en \acrshort {loraw}\\}{13}{section*.11}%
-\contentsline {paragraph}{Tasa de Datos Adaptativa (\gls {adr-glossary}) en \acrshort {loraw}\\}{15}{section*.12}%
-\contentsline {paragraph}{Parámetros Regionales y Configuración\\}{15}{section*.13}%
-\contentsline {section}{\numberline {2.4}\textit {Helium Networks}}{15}{section.2.4}%
-\contentsline {section}{\numberline {2.5}\textit {RFID}}{15}{section.2.5}%
-\contentsline {paragraph}{Componentes Principales de un Sistema \textit {\acrshort {rfid-acronym}}\\}{16}{section*.14}%
-\contentsline {paragraph}{Funcionamiento de \textit {\acrshort {rfid-acronym}}\\}{17}{section*.15}%
-\contentsline {paragraph}{Características Clave de \textit {\acrshort {rfid-acronym}}\\}{19}{section*.16}%
-\contentsline {paragraph}{Aplicaciones de \textit {\acrshort {rfid-acronym}}\\}{19}{section*.17}%
-\contentsline {section}{\numberline {2.6}Sistema de Geolocalización}{20}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Servicios de Entrega y Logística}{20}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Antecedentes}{21}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}Lokalisering av sensorer med LoRaWAN på Kalmar Länssjukhus (Año 2021)}{21}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}LoRaWAN for tracking inland routes of plastic waste: Introducing the smart TRACKPLAST bottle (Año 2023)}{22}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}Smart Security System for Two-Wheelers (Año 2020)}{23}{subsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.8.4}Smart Security System for Vehicles using Internet of Things (IoT) (Año 2018)}{24}{subsection.2.8.4}%
-\contentsline {subsection}{\numberline {2.8.5}Development of an IoT-Based (LoRaWAN) Tractor Tracking System (2022)}{25}{subsection.2.8.5}%
-\contentsline {subsection}{\numberline {2.8.6}Use of RFID Technology as a Reporting Mechanism in Vehicle Tracking System (2016)}{26}{subsection.2.8.6}%
+\contentsline {section}{\numberline {1.5}Justificación}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Delimitación del alcance del trabajo}{6}{section.1.6}%
+\contentsline {chapter}{\numberline {2}Conceptos fundamentales, teoría y antecedentes}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Inteligencia Artificial}{8}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Evolución histórica}{8}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Concepto de inteligencia artificial}{9}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Modelos de Inteligencia Artificial}{9}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}\textit {YOLO} (\textit {You Only Look Once})}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Concepto}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Características}{10}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Arquitectura de YOLOv11}{10}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Arquitectura de YOLOv12}{11}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Visión por Computadora}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Evolución histórica}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Concepto}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Fases de un Sistema de Visión por Computadora}{14}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Radiografías}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Fracturas óseas}{16}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Diagnóstico por imágenes en veterinaria}{16}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Anatomía Ósea Canina}{17}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Húmero}{17}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Radio y Cúbito}{18}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Fémur}{18}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Tibia y Peroné}{18}{subsection.2.7.4}%
+\contentsline {section}{\numberline {2.8}Clasificación de Fracturas}{18}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}Sin Desplazamiento}{19}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}Desplazada}{19}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}Desplazada sin Punta}{19}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Desplazada con Punta}{19}{subsection.2.8.4}%
+\contentsline {subsection}{\numberline {2.8.5}Desplazada con Fragmento}{20}{subsection.2.8.5}%
+\contentsline {section}{\numberline {2.9}Localización Anatómica}{20}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}Tercio Proximal}{20}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Tercio Medio}{20}{subsection.2.9.2}%
+\contentsline {subsection}{\numberline {2.9.3}Tercio Distal}{21}{subsection.2.9.3}%
+\contentsline {section}{\numberline {2.10}Aplicación web}{21}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Herramientas utilizadas}{21}{section.2.11}%
+\contentsline {section}{\numberline {2.12}Antecedentes}{22}{section.2.12}%
+\contentsline {subsection}{\numberline {2.12.1}Detección de fracturas en radiografías de cadera mediante el uso de inteligencia artificial (Año 2024)}{22}{subsection.2.12.1}%
+\contentsline {subsection}{\numberline {2.12.2}Detection of Hand Bone Fractures in X-ray Images using Hybrid YOLO NAS (Año 2024)}{23}{subsection.2.12.2}%
+\contentsline {subsection}{\numberline {2.12.3}DW-YOLO: Improved YOLO for Bone Fracture Detection (Año 2024)}{24}{subsection.2.12.3}%
+\contentsline {subsection}{\numberline {2.12.4}Inteligencia Artificial en Radiología (Año 2021)}{25}{subsection.2.12.4}%
+\contentsline {subsection}{\numberline {2.12.5}Implementation of Personal Protective Equipment Detection Using Django and Yolo Web at Paiton Steam Power Plant (PLTU) (A\~no 2023)}{27}{subsection.2.12.5}%
 \contentsline {chapter}{\numberline {3}Tecnologías utilizadas}{28}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Componentes de \textit {Hardware}}{28}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Placa de Desarrollo WiFi LoRa 32 (V3)}{28}{subsection.3.1.1}%
@@ -61,33 +72,33 @@
 \contentsline {subsection}{\numberline {4.2.1}Requisitos del sistema}{47}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Conexión del módulo \textit {RFID}}{48}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Primera versión del código: implementación básica en el bucle principal}{48}{subsection.4.2.3}%
-\contentsline {subsubsection}{Autenticación del \textit {tag}}{49}{section*.18}%
-\contentsline {subsubsection}{Verificación de presencia del \textit {tag}}{49}{section*.19}%
+\contentsline {subsubsection}{Autenticación del \textit {tag}}{49}{section*.6}%
+\contentsline {subsubsection}{Verificación de presencia del \textit {tag}}{49}{section*.7}%
 \contentsline {subsection}{\numberline {4.2.4}Segunda versión del código: integración de FreeRTOS y modularización}{49}{subsection.4.2.4}%
-\contentsline {subsubsection}{Tareas implementadas con FreeRTOS}{50}{section*.20}%
-\contentsline {paragraph}{Tarea 1: \texttt {tareaDeteccionTag}}{50}{section*.21}%
-\contentsline {paragraph}{Tarea 2: \texttt {tareaVerificarTiempo}}{50}{section*.22}%
+\contentsline {subsubsection}{Tareas implementadas con FreeRTOS}{50}{section*.8}%
+\contentsline {paragraph}{Tarea 1: \texttt {tareaDeteccionTag}}{50}{section*.9}%
+\contentsline {paragraph}{Tarea 2: \texttt {tareaVerificarTiempo}}{50}{section*.10}%
 \contentsline {section}{\numberline {4.3}Módulo de captura y transmisión de datos}{50}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Implementación básica para obtención de datos de las coordenadas en tiempo real}{51}{subsection.4.3.1}%
-\contentsline {subsubsection}{Función \texttt {setup()}}{51}{section*.23}%
-\contentsline {subsubsection}{Proceso de captura de datos en la función \texttt {loop()}}{52}{section*.24}%
-\contentsline {paragraph}{Recepción y decodificación de datos:}{52}{section*.25}%
-\contentsline {paragraph}{Verificación de la validez de los datos:}{52}{section*.26}%
-\contentsline {subsubsection}{Función \texttt {displayInfo()}}{52}{section*.27}%
-\contentsline {paragraph}{Visualización de la ubicación (latitud y longitud):}{52}{section*.28}%
-\contentsline {paragraph}{Visualización de la fecha:}{53}{section*.29}%
-\contentsline {paragraph}{Visualización de la hora:}{53}{section*.30}%
+\contentsline {subsubsection}{Función \texttt {setup()}}{51}{section*.11}%
+\contentsline {subsubsection}{Proceso de captura de datos en la función \texttt {loop()}}{52}{section*.12}%
+\contentsline {paragraph}{Recepción y decodificación de datos:}{52}{section*.13}%
+\contentsline {paragraph}{Verificación de la validez de los datos:}{52}{section*.14}%
+\contentsline {subsubsection}{Función \texttt {displayInfo()}}{52}{section*.15}%
+\contentsline {paragraph}{Visualización de la ubicación (latitud y longitud):}{52}{section*.16}%
+\contentsline {paragraph}{Visualización de la fecha:}{53}{section*.17}%
+\contentsline {paragraph}{Visualización de la hora:}{53}{section*.18}%
 \contentsline {subsection}{\numberline {4.3.2}Implementación y configuración del módulo \acrshort {loraw} para la transmisión de datos}{53}{subsection.4.3.2}%
-\contentsline {subsubsection}{Uso de la consola \textit {Helium}}{53}{section*.31}%
-\contentsline {subsubsection}{Configuración del dispositivo Heltec WiFi LoRa 32 V3}{54}{section*.32}%
+\contentsline {subsubsection}{Uso de la consola \textit {Helium}}{53}{section*.19}%
+\contentsline {subsubsection}{Configuración del dispositivo Heltec WiFi LoRa 32 V3}{54}{section*.20}%
 \contentsline {subsection}{\numberline {4.3.3}Implementación de la comunicación entre los módulos\textit {\acrshort {gnss-acronym}} y \textit {\acrshort {loraw}}}{55}{subsection.4.3.3}%
 \contentsline {section}{\numberline {4.4}Módulo de interfaz gráfica y monitoreo}{57}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Configuración de \textit {ThingsBoard}}{57}{subsection.4.4.1}%
-\contentsline {paragraph}{Creación de dispositivos y configuración de conectividad\\}{57}{section*.33}%
-\contentsline {paragraph}{Gestión de Usuarios y Roles de Acceso\\}{59}{section*.34}%
-\contentsline {paragraph}{Diseño del Tablero Interactivo\\}{60}{section*.35}%
-\contentsline {paragraph}{Definición de las \textit {Rule Chains} en el Motor de Reglas\\}{63}{section*.36}%
-\contentsline {paragraph}{Configuración de Alarmas y Notificaciones\\}{64}{section*.37}%
+\contentsline {paragraph}{Creación de dispositivos y configuración de conectividad\\}{57}{section*.21}%
+\contentsline {paragraph}{Gestión de Usuarios y Roles de Acceso\\}{59}{section*.22}%
+\contentsline {paragraph}{Diseño del Tablero Interactivo\\}{60}{section*.23}%
+\contentsline {paragraph}{Definición de las \textit {Rule Chains} en el Motor de Reglas\\}{63}{section*.24}%
+\contentsline {paragraph}{Configuración de Alarmas y Notificaciones\\}{64}{section*.25}%
 \contentsline {subsection}{\numberline {4.4.2}Integración de \textit {ThingsBoard} con \textit {Helium}}{64}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Integración de componentes y encapsulamiento}{68}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Implementación Básica con Integración Inicial de los Módulos \acrshort {rfid-acronym} y \acrshort {loraw}}{68}{subsection.4.5.1}%
@@ -97,37 +108,36 @@
 \contentsline {chapter}{\numberline {5}Pruebas y resultados}{76}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Pruebas en entornos controlado}{76}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Pruebas del Módulo de autentificación y control}{77}{subsection.5.1.1}%
-\contentsline {subsubsection}{Lectura del UID de la tarjeta/llavero}{77}{section*.38}%
-\contentsline {subsubsection}{Comparación de UID y control de acceso}{77}{section*.39}%
-\contentsline {subsubsection}{Combinación de lectura y comparación constante}{77}{section*.40}%
+\contentsline {subsubsection}{Lectura del UID de la tarjeta/llavero}{77}{section*.26}%
+\contentsline {subsubsection}{Comparación de UID y control de acceso}{77}{section*.27}%
+\contentsline {subsubsection}{Combinación de lectura y comparación constante}{77}{section*.28}%
 \contentsline {subsection}{\numberline {5.1.2}Pruebas del Módulo de captura y transmisión de datos}{79}{subsection.5.1.2}%
-\contentsline {subsubsection}{Prueba del módulo GNSS}{79}{section*.41}%
-\contentsline {subsubsection}{Prueba del módulo LoRa}{83}{section*.42}%
-\contentsline {subsubsection}{Prueba de captura y transmisión de datos de localización}{85}{section*.43}%
+\contentsline {subsubsection}{Prueba del módulo GNSS}{79}{section*.29}%
+\contentsline {subsubsection}{Prueba del módulo LoRa}{83}{section*.30}%
+\contentsline {subsubsection}{Prueba de captura y transmisión de datos de localización}{85}{section*.31}%
 \contentsline {subsection}{\numberline {5.1.3}Pruebas del Módulo de Interfaz Gráfica y Monitoreo}{87}{subsection.5.1.3}%
-\contentsline {subsubsection}{Transmisión y visualización de datos}{87}{section*.44}%
-\contentsline {subsubsection}{Almacenamiento en tablas de series temporales}{88}{section*.45}%
-\contentsline {subsubsection}{Pruebas de decodificación y transformación de datos}{89}{section*.46}%
-\contentsline {subsubsection}{Resultados de la integración entre ThingsBoard y Helium }{92}{section*.47}%
+\contentsline {subsubsection}{Transmisión y visualización de datos}{87}{section*.32}%
+\contentsline {subsubsection}{Almacenamiento en tablas de series temporales}{88}{section*.33}%
+\contentsline {subsubsection}{Pruebas de decodificación y transformación de datos}{89}{section*.34}%
+\contentsline {subsubsection}{Resultados de la integración entre ThingsBoard y Helium }{92}{section*.35}%
 \contentsline {subsection}{\numberline {5.1.4}Integración del sistema completo}{92}{subsection.5.1.4}%
-\contentsline {subsubsection}{Primera Prueba: Comunicación entre las placas de desarrollo (ESP-WROOM-32 y Heltec WiFi LoRa 32 V3)}{93}{section*.48}%
-\contentsline {subsubsection}{Segunda Prueba: Integración del Módulo GNSS}{93}{section*.49}%
-\contentsline {subsubsection}{Tercera Prueba: Evaluación de las Funciones de Envío de Datos Completos}{93}{section*.50}%
+\contentsline {subsubsection}{Primera Prueba: Comunicación entre las placas de desarrollo (ESP-WROOM-32 y Heltec WiFi LoRa 32 V3)}{93}{section*.36}%
+\contentsline {subsubsection}{Segunda Prueba: Integración del Módulo GNSS}{93}{section*.37}%
+\contentsline {subsubsection}{Tercera Prueba: Evaluación de las Funciones de Envío de Datos Completos}{93}{section*.38}%
 \contentsline {section}{\numberline {5.2}Pruebas de Campo}{95}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Evaluación Inicial}{95}{subsection.5.2.1}%
 \contentsline {subsection}{\numberline {5.2.2}Pruebas en Movimiento}{96}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}Resultados Cuantitativos}{97}{subsection.5.2.3}%
-\contentsline {subsubsection}{Porcentajes de Éxito y Fallo}{98}{section*.51}%
+\contentsline {subsubsection}{Porcentajes de Éxito y Fallo}{98}{section*.39}%
 \contentsline {subsection}{\numberline {5.2.4}Interpretación de los Resultados}{99}{subsection.5.2.4}%
 \contentsline {section}{\numberline {5.3}Prototipo del sistema desarrollado}{99}{section.5.3}%
 \contentsline {subsection}{\numberline {5.3.1}\textit {Hardware} del prototipo}{99}{subsection.5.3.1}%
-\contentsline {subsubsection}{Modelado y Diseño de Encapsulado 3D}{100}{section*.52}%
-\contentsline {subsubsection}{\textit {Software} del prototipo}{102}{section*.53}%
+\contentsline {subsubsection}{Modelado y Diseño de Encapsulado 3D}{100}{section*.40}%
+\contentsline {subsubsection}{\textit {Software} del prototipo}{102}{section*.41}%
 \contentsline {chapter}{\numberline {6}Conclusión}{104}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Discusión}{104}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Análisis de la hipótesis}{105}{section.6.2}%
 \contentsline {section}{\numberline {6.3}Principales logros alcanzados}{105}{section.6.3}%
 \contentsline {section}{\numberline {6.4}Sugerencias para futuras investigaciones}{106}{section.6.4}%
 \contentsline {chapter}{Glosario}{107}{section.6.4}%
-\contentsline {chapter}{Anexo}{108}{chapter*.54}%
-\contentsline {chapter}{Referencias bibliográficas}{110}{figure.6.3}%
+\contentsline {chapter}{Referencias bibliográficas}{108}{section.6.4}%

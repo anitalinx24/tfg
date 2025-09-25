@@ -3,79 +3,90 @@
 \lhead{Introducción}
 
 \chapter{Introducción}
-En los últimos años, el robo de motocicletas ha aumentado de manera alarmante en Paraguay, afectando especialmente a los trabajadores de entrega que dependen de este medio de transporte para su sustento diario. Este problema no solo representa una pérdida económica significativa, sino también un riesgo para la seguridad personal y la estabilidad laboral de los afectados. Frente a esta situación, surge la necesidad de desarrollar soluciones innovadoras y accesibles que permitan mejorar la seguridad y facilitar la recuperación de motocicletas robadas.
-La presente trabajo se centra en el desarrollo de un sistema de seguridad antirrobo para motocicletas, empleando tecnologías como \gls{rfid-acronym},\gls{loraw} , integradas en el contexto del \gls{iot-acronym}. 
-El \acrshort{iot-acronym} ha revolucionado la manera en que los dispositivos se comunican e interactúan entre sí, permitiendo la creación de redes inteligentes y eficientes. Las redes de \gls{rf} están experimentando un crecimiento significativo en su uso debido a su capacidad para conectar una amplia variedad de dispositivos a largas distancias con bajo consumo de energía \cite{8550722}.
-Dentro del marco del \acrshort{iot-acronym}, la tecnología \acrshort{rfid-acronym} juega un papel crucial en la identificación y autenticación de usuarios. \acrshort{rfid-acronym} es una tecnología de identificación por radiofrecuencia que permite el reconocimiento de objetos y personas mediante el uso de etiquetas y lectores \acrshort{rfid-acronym}. Esta tecnología se caracteriza por su capacidad para almacenar información en un microchip conectado a una antena, que puede ser leído por un dispositivo lector, permitiendo la identificación automática sin intervención humana y minimizando errores \cite{RFidtech}.
-Para la comunicación y transmisión de datos en el sistema, se utiliza la tecnología \acrshort{loraw}. \acrshort{loraw} es una red de área amplia de baja potencia que utiliza la modulación \gls{lora-acronym} para la transmisión de datos a largas distancias con un bajo consumo de energía. Esta tecnología es ideal para aplicaciones \acrshort{iot-acronym} debido a su capacidad para conectar dispositivos en áreas urbanas y rurales con una excelente cobertura y eficiencia energética \cite{doc_whatislorawan}.
-Complementando este sistema, la red Helium proporciona una infraestructura de red global distribuida, diseñada para la conectividad de dispositivos \acrshort{iot-acronym}. Helium utiliza Hotspots \acrshort{loraw} para crear una cobertura inalámbrica pública de largo alcance, incentivando a los usuarios a desplegar y mantener la infraestructura de red mediante la compensación en criptomoneda Helium \cite{heliumDocs}.
-Este trabajo se estructura en varios capítulos que abordan diferentes aspectos del desarrollo y la implementación del sistema de seguridad. Se inicia con una introducción al problema del robo de motocicletas y la necesidad de soluciones innovadoras. Luego, se profundiza en el marco teórico, explicando detalladamente las tecnologías utilizadas: \acrshort{rfid-acronym}, \acrshort{loraw} y otras relevantes. Además, se presentan los antecedentes y la metodología del proyecto, describiendo el diseño y las especificaciones del sistema, así como los resultados y análisis obtenidos durante la implementación. Finalmente, se concluye con una evaluación de los logros del proyecto y las recomendaciones para futuros trabajos en esta área.
+En la medicina veterinaria contemporánea, el diagnóstico preciso de fracturas óseas constituye un elemento fundamental para garantizar la salud y bienestar de los animales de compañía. Sin embargo, la escasez de especialistas en diagnóstico por imágenes en Paraguay obliga a los veterinarios generales, sin formación específica en esta área, a interpretar radiografías, aumentando significativamente el riesgo de errores diagnósticos. Un diagnóstico impreciso o incorrecto puede derivar en tratamientos inadecuados, prolongando el sufrimiento del animal y comprometiendo su recuperación.
 
+La presente investigación se centra en el desarrollo de una aplicación web asistida por inteligencia artificial para diagnosticar fracturas en imágenes radiológicas caninas, empleando tecnologías de inteligencia artificial, visión por computadora y aprendizaje profundo, integradas en sistemas web modernos.
+
+La inteligencia artificial ha demostrado capacidades sobresalientes en el análisis y interpretación de imágenes médicas, permitiendo la detección automática de patologías con niveles de precisión comparables e incluso superiores a los especialistas humanos \cite{krizhevsky2012}. En este contexto, las técnicas de detección de objetos como YOLO permiten la identificación y localización de fracturas óseas en imágenes radiológicas. YOLO es un sistema de detección de objetos en tiempo real que procesa imágenes completas en una sola evaluación de red neuronal, dividiendo la imagen en regiones y prediciendo simultáneamente cuadros delimitadores y probabilidades de clase para cada región \cite{yolo_paper}.
+
+Las aplicaciones web modernas proporcionan una plataforma accesible y escalable para la implementación de soluciones de inteligencia artificial en entornos clínicos, permitiendo a los veterinarios cargar imágenes radiológicas, procesarlas mediante algoritmos de inteligencia artificial y obtener diagnósticos asistidos de manera eficiente.
 
 \section{Motivación}
-La motivación para la realización de este Trabajo Final de Grado no solo tiene un propósito práctico y social, sino también un componente académico y personal significativo.
-En primer lugar, el desarrollo de este sistema de seguridad antirrobo permite explorar y aplicar tecnologías emergentes en el ámbito del (\acrshort{iot-acronym}), como \acrshort{loraw} y \acrshort{rfid-acronym}, que están transformando la forma en que se gestionan y aseguran los recursos en diversas industrias. La implementación de estas tecnologías en un contexto real ofrece la oportunidad de expandir el conocimiento y habilidades técnicas en áreas clave de la ingeniería.
-Además, este proyecto sirve como un medio para alcanzar el objetivo académico de culminar la carrera de ingeniería, demostrando la capacidad para integrar conocimientos teóricos y prácticos adquiridos a lo largo de la formación universitaria. La realización de un proyecto de esta envergadura no solo contribuye al crecimiento profesional, sino que también fortalece la preparación para enfrentar desafíos futuros en el campo de la ingeniería.
-Finalmente, la motivación personal se ve impulsada por el deseo de ayudar a un amigo que enfrenta problemas de seguridad con su motocicleta. Este componente humanitario añade un valor adicional al proyecto, haciendo que el esfuerzo invertido tenga un impacto tangible y positivo en la vida de otros.
+La motivación para la realización de este Trabajo Final de Grado surge de la convergencia de varios factores académicos, tecnológicos y sociales que justifican la importancia de desarrollar herramientas de diagnóstico asistido por inteligencia artificial en el ámbito veterinario paraguayo.
 
+A través de la observación en un centro veterinario local, se pudo constatar la escasez de médicos veterinarios que cuentan con los conocimientos suficientes para realizar diagnósticos precisos basados en imágenes de radiografías caninas. Esta realidad evidencia la necesidad urgente de herramientas que asistan a los profesionales en la interpretación radiológica.
 
+En primer lugar, el desarrollo de esta aplicación web permite aplicar tecnologías emergentes de inteligencia artificial en el ámbito de la medicina veterinaria, utilizando YOLO, un algoritmo de visión por computadora basado en redes neuronales convolucionales, para detectar y diagnosticar patologías en imágenes radiológicas de forma precisa y rápida. La implementación de estas tecnologías en un contexto veterinario real ofrece la oportunidad de expandir el conocimiento y habilidades técnicas en áreas clave de la ingeniería de sistemas.
+
+Además, este proyecto sirve como un medio para alcanzar el objetivo académico de culminar la carrera de Ingeniería de Sistemas, demostrando la capacidad para integrar conocimientos teóricos y prácticos adquiridos a lo largo de la formación universitaria. La realización de un proyecto de esta envergadura no solo contribuye al crecimiento profesional, sino que también fortalece la preparación para enfrentar desafíos futuros en el campo de la inteligencia artificial y el desarrollo de aplicaciones web especializadas.
+
+Desde una perspectiva social, la motivación se ve impulsada por el deseo de contribuir al bienestar animal en Paraguay, donde la falta de especialistas en diagnóstico por imágenes veterinarias representa un desafío significativo para la práctica clínica. Este componente humanitario y social añade un valor adicional al proyecto, haciendo que el esfuerzo invertido tenga un impacto tangible y positivo en la calidad de atención veterinaria disponible en el país.
+
+Finalmente, la oportunidad de aplicar inteligencia artificial en un dominio específico como el diagnóstico radiológico canino representa un campo de investigación prometedor que puede sentar las bases para futuras innovaciones en telemedicina veterinaria y sistemas de apoyo diagnóstico automatizado.
 
 \section{Definición del problema}
-Las motocicletas se han convertido en un componente esencial para la dinámica cotidiana, especialmente entre los trabajadores de entrega a domicilio. Sin embargo, la creciente incidencia de robos de motocicletas en Paraguay representa una amenaza para la seguridad y el sustento de los trabajadores que dependen de estas ágiles máquinas de dos ruedas para sus operaciones diarias. Según datos del Registro de Automotores, el número de motocicletas registradas ha experimentado un aumento constante en los últimos años, pasando de 855,797 en 2019 a 1,090,633 en 2023 \cite{registro-automotores}. Además, estadísticas de delitos registrados en comisarías revelan un incremento en los casos de robo de motocicletas. En 2019, se reportaron 3,270 casos de robo de motocicletas \cite{anuario-estadistico-2019}, mientras que en 2021, los números aumentaron a 3,551 casos \cite{informeAnual2021}. Es importante destacar que, a pesar de estos alarmantes números, la tasa de esclarecimiento de estos delitos ha sido significativamente baja \cite{anuario-estadistico-2019}.
+La medicina veterinaria en Paraguay enfrenta desafíos significativos en el área del diagnóstico por imágenes, particularmente en la interpretación de radiografías para la detección de fracturas óseas en caninos. La escasez de radiólogos veterinarios especializados obliga a los profesionales generales a realizar interpretaciones radiológicas sin la formación específica necesaria, lo que incrementa considerablemente el riesgo de errores diagnósticos.
 
-Estos datos representan un desafío significativo que requiere medidas para salvaguardar la vida y el sustento de quienes dependen de este medio de transporte.
+Según datos de la práctica veterinaria local, la mayoría de las clínicas veterinarias en Paraguay no cuentan con especialistas en radiología animal, lo que obliga a los veterinarios generales a depender de profesionales externos para la interpretación de estudios radiológicos complejos. Esta limitación provoca incertidumbre diagnóstica, retrasos en la atención y, en casos graves, diagnósticos erróneos que pueden comprometer la salud y el bienestar de los animales.
+
+Las fracturas óseas representan una de las patologías más comunes en la práctica veterinaria de pequeños animales, especialmente en caninos, y requieren un diagnóstico preciso y oportuno para determinar el tratamiento adecuado. La interpretación incorrecta de radiografías puede llevar a tratamientos inadecuados, cirugías innecesarias o, por el contrario, a la falta de intervención cuando es requerida.
+
+A pesar de los avances significativos en inteligencia artificial aplicados al diagnóstico médico humano, su adopción en la medicina veterinaria paraguaya aún es limitada. La falta de herramientas tecnológicas accesibles y específicamente diseñadas para el contexto veterinario local representa una oportunidad para el desarrollo de soluciones innovadoras que puedan asistir a los profesionales en la toma de decisiones diagnósticas.
 
 \textit{Definición del problema de investigación}
 
-¿Cómo desarrollar un sistema de seguridad y rastreo de motocicletas, a través de la combinación de tecnologías \textit{\acrshort{rfid-acronym}, \acrshort{loraw}}, como una alternativa a los sistemas de seguridad con rastreo disponibles?
+¿Cómo desarrollar una aplicación web asistida por inteligencia artificial que pueda diagnosticar fracturas en imágenes radiológicas caninas con un nivel de precisión que asista efectivamente a los veterinarios en la toma de decisiones clínicas?
 
 \section{Objetivos}
 \subsection{Objetivo General}
-Desarrollar un prototipo de seguridad destinado a motocicletas utilizadas en servicios de entrega.
+Desarrollar una aplicación web asistida por inteligencia artificial para diagnosticar fracturas en imágenes radiológicas caninas.
 
-\subsection{Objetivos Específico}
+\subsection{Objetivos Específicos}
 \begin{enumerate}
-\item Definir la estructura para el sistema de seguridad, considerando factores como integración entre tecnologías y cobertura.
-\item Desarrollar un firmware para el microcontrolador que facilite la interacción entre los dispositivos de comunicación y control. 
-\item Desarrollar una interfaz para usuario.  
-\item Ensamblar un prototipo hardware incluyendo la integración de sensores, actuadores y sistema de alimentación.
-\item Desarrollar un encapsulado 3D a medida para el prototipo. 
-\item Evaluar el rendimiento del sistema mediante pruebas en entornos controlados y en campo.
+\item Comprender el uso de tecnologías para clasificar imágenes radiológicas mediante el estudio de algoritmos de visión por computadora y aprendizaje profundo.
+\item Seleccionar las herramientas de software más adecuadas para integrar el modelo de inteligencia artificial en una aplicación web funcional.
+\item Diseñar la lógica integral de la aplicación web considerando aspectos de usabilidad, escalabilidad y seguridad de datos médicos.
+\item Obtener imágenes radiológicas caninas que contienen fracturas óseas mediante colaboración con profesionales veterinarios autorizados.
+\item Disponer las imágenes obtenidas para su análisis, a través del preprocesamiento con la colaboración de expertos en diagnóstico veterinario.
+\item Seleccionar el algoritmo de inteligencia artificial más adecuado para el diagnóstico de fracturas mediante evaluación comparativa de diferentes arquitecturas.
+\item Programar la lógica de las funcionalidades para cada módulo de la aplicación incluyendo carga de imágenes, procesamiento y visualización de resultados.
+\item Desarrollar la aplicación completa integrando las funcionalidades programadas en una plataforma web accesible y eficiente.
+\item Evaluar el desempeño de cada funcionalidad del sistema mediante la aplicación de métricas correspondientes y validación con profesionales veterinarios.
 \end{enumerate}
 
 \section{Hipótesis}
-La integración de tecnologías \textit{\acrshort{rfid-acronym}} con la red \textit{\acrshort{loraw}} representa una alternativa ventajosa a los sistemas de seguridad vehicular actuales para combatir el robo de motocicletas en entornos urbanos.
-
+La aplicación web propuesta utilizando técnicas de inteligencia artificial entrenadas con un conjunto de datos diversos de imágenes radiológicas caninas alcanzará una precisión al menos del 80\% en el diagnóstico de fracturas, proporcionando una herramienta de apoyo diagnóstico confiable para veterinarios en Paraguay.
 
 \section{Justificación}
-En el mundo de hoy, donde la movilidad es esencial y las motocicletas desempeñan un papel fundamental en el transporte y la entrega de bienes, la seguridad de estos vehículos se ha vuelto más crítica que nunca \cite{Rana, Sathiyanarayanan2018}. Para abordar eficazmente el diseño de soluciones en un contexto que abarca seguridad vehicular y tecnologías de \acrshort{iot-acronym}, es esencial sumergirse en el estado actual del conocimiento. Esta inmersión implica una exploración de la literatura existente con el fin de identificar las mejores prácticas y enfoques que puedan informar y enriquecer el desarrollo del sistema propuesto.
+En el contexto actual de la medicina veterinaria, donde la precisión diagnóstica es fundamental para el bienestar animal y la eficiencia de los tratamientos, el desarrollo de herramientas asistidas por inteligencia artificial representa una necesidad crítica y una oportunidad significativa para mejorar la calidad de atención veterinaria en Paraguay.
 
-Este trabajo se basa en la necesidad de abordar la problemática de los robos de motocicletas en Paraguay, como lo demuestran los informes de la Agencia Nacional de Tránsito y Seguridad Vial (ANTSV) \cite{informeAnual2020, informeAnual2021}. La propuesta de investigación se centra en la implementación de identificadores \acrshort{rfid-acronym} y su conexión a la red \textit{Helium} mediante la tecnología \textit{\acrshort{loraw}}, dado que esta red ofrece un bajo costo y está en potencial crecimiento, aprovechando el alcance y las capacidades para proporcionar una alternativa efectiva para el rastreo y la vigilancia, como se evidencia en \cite{proyectoRFID}, con el objetivo de evaluar su viabilidad en el contexto paraguayo.
+Este trabajo se basa en la necesidad identificada de abordar la problemática de la interpretación radiológica en medicina veterinaria, como lo evidencia la escasez de especialistas en diagnóstico por imágenes en el país. La propuesta de investigación se centra en la implementación de algoritmos de aprendizaje profundo para el análisis automatizado de imágenes radiológicas, aprovechando los avances recientes en visión por computadora y su aplicación exitosa en el diagnóstico médico humano.
 
-Este enfoque busca no solo generar conocimiento académico relevante, sino también tener un impacto positivo en la sociedad paraguaya. Se espera que la implementación de este sistema contribuya a mejorar la seguridad ciudadana y proteger los medios de subsistencia de trabajadores y empresas que dependen de motocicletas. Además, se anticipa que ayudará a reducir la tasa de robos y aumentar la tasa de recuperación, lo que resultaría en un entorno más seguro y confiable para la movilidad urbana y los servicios de entrega \cite{informeAnual2021}.
+Los avances en inteligencia artificial, particularmente en el procesamiento de imágenes médicas, han demostrado resultados prometedores en la detección y clasificación de patologías. El modelo YOLO ha mostrado capacidades excepcionales en tareas de detección de objetos en tiempo real, características que lo hacen ideal para la identificación de fracturas en imágenes radiológicas \cite{yolo_paper}.
 
-Desde una perspectiva personal, la motivación para llevar a cabo este proyecto surge de la convicción de abordar una problemática significativa en la sociedad paraguaya. La oportunidad de aplicar conocimientos y habilidades para contribuir al bienestar social y mejorar los servicios de entrega representa una motivación intrínseca. En síntesis, este proyecto busca integrar la generación de conocimiento académico con la solución de problemas sociales, con el objetivo de ofrecer soluciones tecnológicas significativas para la comunidad.
+Este enfoque busca no solo generar conocimiento académico relevante en el área de inteligencia artificial aplicada a la medicina veterinaria, sino también tener un impacto positivo en la práctica clínica local. Se espera que la implementación de este sistema contribuya a:
 
+\begin{itemize}
+\item Mejorar la precisión diagnóstica en la detección de fracturas óseas caninas
+\item Reducir el tiempo de interpretación radiológica
+\item Proporcionar una segunda opinión automatizada que asista en la toma de decisiones clínicas
+\item Facilitar la formación y educación continua de veterinarios generales en diagnóstico por imágenes
+\item Establecer una base tecnológica para futuras aplicaciones de inteligencia artificial en medicina veterinaria paraguaya
+\end{itemize}
 
+Desde una perspectiva tecnológica, la motivación para llevar a cabo este proyecto surge de la oportunidad de aplicar tecnologías emergentes en un contexto local específico, demostrando la viabilidad y efectividad de soluciones de inteligencia artificial en entornos con recursos limitados. La integración de estas tecnologías en una aplicación web accesible representa un paso importante hacia la digitalización y modernización de los servicios veterinarios en Paraguay.
+
+En síntesis, este proyecto busca integrar la generación de conocimiento académico con la solución de problemas prácticos en la medicina veterinaria, con el objetivo de ofrecer herramientas tecnológicas innovadoras que mejoren la calidad de atención y el bienestar animal en la comunidad paraguaya.
 
 \section{Delimitación del alcance del trabajo}
-La investigación se centró en el desarrollo de un prototipo de seguridad para motocicletas, con un enfoque particular en la integración de tecnologías de identificación mediante \acrshort{rfid-acronym} y la conectividad a la red \acrshort{lora-acronym} a través de \acrshort{loraw}. El estudio se llevó a cabo en un entorno controlado, lo que permitió una evaluación detallada del funcionamiento del prototipo bajo condiciones específicas.
+La investigación se centró en el desarrollo de una aplicación web para el diagnóstico asistido de fracturas óseas en imágenes radiológicas caninas. El proyecto integra algoritmos de visión por computadora basados en redes neuronales convolucionales, reconocidos por su capacidad de realizar detección de objetos en tiempo real con alta precisión. El estudio se llevó a cabo considerando las siguientes delimitaciones específicas:
 
-El trabajo incluyó la implementación de un sistema que asegura el acceso y uso de las motocicletas únicamente por usuarios autorizados, además de la capacidad de monitorear la ubicación de la motocicleta, facilitando así la recuperación en caso de robo. Esta investigación estableció una base sólida para futuras exploraciones y desarrollos en el ámbito de la seguridad de motocicletas. 
+\textbf{Delimitación temática:} El trabajo se limita al diagnóstico de fracturas óseas en la especie canina, excluyendo otras especies animales y otros tipos de patologías radiológicas. El análisis se enfoca específicamente en imágenes radiológicas convencionales (rayos X) de las extremidades, descartando radiografías de otras regiones del cuerpo.
 
+\textbf{Delimitación tecnológica:} La implementación se basa en algoritmos de detección de objetos para el análisis de imágenes radiológicas. Roboflow se utiliza para la gestión, anotación y preprocesamiento de los datasets, facilitando la preparación de imágenes para el entrenamiento de modelos de visión por computadora. La aplicación web se desarrolla empleando tecnologías estándar como HTML, CSS y JavaScript para el frontend, y Python para el backend.
 
-\section{\mbox{Descripción de los contenidos por capítulo.}}
-A continuación, se muestran los distintos capítulos abarcados:
-\begin{itemize}
-    \item En el capítulo 1 se plantea el inicio de la parte textual del informe del trabajo, como la motivación, la problemática, los objetivos trazados, la hipótesis, la justificación y el alcance del trabajo.
-    
-    \item En el capítulo 2 se presenta el marco teórico con los conceptos más importantes, frecuentemente mencionados y discutidos a lo largo del libro. También se hace mención a los trabajos similares que anteceden a la realización de este, que sirvieron como inspiración y soporte.
-    
-    \item En el capítulo 3 se describen las herramientas, y otros tipos de tecnologías utilizadas para el desarrollo de la aplicación.
-    
-    \item En el capítulo 4 se detalla la metodología que permitió alcanzar los resultados, incluyendo aspectos del funcionamiento de la aplicación, la metodología del desarrollo y las partes más importantes del código.
-    
-    \item En el capítulo 5 se expone el producto del análisis y pruebas llevadas a cabo, de forma a evaluar en resultado la aplicación.
-    
-    \item En el capítulo 6 se interpreta y sintetizan los resultados expuestos previamente, además de evaluar la validez de la hipótesis, el logro de los objetivos y realizar recomendaciones para futuros estudios.
-\end{itemize}
+\textbf{Delimitación geográfica:} El sistema está diseñado para su aplicación en el contexto veterinario paraguayo, considerando las limitaciones de recursos y infraestructura tecnológica locales, aunque su arquitectura permite escalabilidad para otros contextos similares.
+
+\textbf{Delimitación temporal:} El desarrollo del prototipo y las pruebas de validación se realizan en un período definido, con evaluaciones en entornos controlados que permiten la medición del rendimiento del sistema bajo condiciones específicas.
+
+El trabajo incluye la implementación de un sistema que permite la carga de imágenes radiológicas, su procesamiento mediante algoritmos de inteligencia artificial y la visualización de resultados diagnósticos de manera accesible para profesionales veterinarios. Además, el sistema posibilita la generación automática de reportes con los resultados obtenidos. Esta investigación establece una base sólida para futuras exploraciones y desarrollos en el ámbito de la inteligencia artificial aplicada a la medicina veterinaria.
